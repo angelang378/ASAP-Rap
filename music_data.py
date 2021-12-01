@@ -44,12 +44,12 @@ def get_playlist(creator, playlist_id):
 # Get the Beatles and top charting songs
 beatles = get_playlist("andream4273","1Gf0v4DneJjq3adPSiNVe6")
 beatles["track_name"] = beatles["track_name"].str.replace(r'-[^-]+$', "", regex=True)
-vivien = get_playlist("Vivien", "4a6u0ZVG0FWYAJHVggnHAh")
+vivian = get_playlist("Vivian", "4a6u0ZVG0FWYAJHVggnHAh")
 william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
 
 # Save playlists and info to CSVs
 beatles.to_csv("data/beatles.csv")
-vivien.to_csv("data/vivien.csv")
+vivian.to_csv("data/vivian.csv")
 william.to_csv("data/william.csv")
 
 # Get the lyrics for a given song
