@@ -1,0 +1,101 @@
+,artist,album,track_name,track_id,danceability,energy,key,loudness,mode,speechiness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+0,5 Seconds of Summer,5 Seconds Of Summer,She Looks So Perfect,1gugDOSMREb34Xo0c1PlxM,0.494,0.951,9,-4.237,1,0.132,0,0.327,0.441,160.025,202496,4
+1,5 Seconds of Summer,5 Seconds Of Summer,Don't Stop,57MOpbjOIoWMZnstWOtfm6,0.571,0.957,8,-3.468,1,0.0633,1.5e-05,0.0425,0.892,149.946,169936,4
+2,5 Seconds of Summer,5 Seconds Of Summer,Beside You,04iBN2ttkQBfGLj6DYlhKF,0.38,0.822,7,-5.095,1,0.105,1.77e-05,0.109,0.558,153.115,220250,4
+3,5 Seconds of Summer,5 Seconds Of Summer,Long Way Home,7m3IIP2HPEjmtvzREOJILz,0.455,0.88,6,-5.041,1,0.0587,0,0.223,0.791,181.987,199027,4
+4,5 Seconds of Summer,5 Seconds Of Summer,Never Be,1izZReWXhwrXeMjhlv1SnL,0.589,0.83,6,-6.145,1,0.0501,0,0.123,0.513,145.03,188916,4
+5,5 Seconds of Summer,Amnesia,Amnesia,3gQ3oX6c4QY7Gb5nN0gDR1,0.594,0.497,2,-5.26,1,0.0303,0,0.162,0.101,101.671,237248,4
+6,5 Seconds of Summer,Amnesia (B-Sides),Daylight,6fKi1PhxRbvibuQ4fm3RXP,0.515,0.793,2,-3.908,1,0.0471,0,0.313,0.485,155.869,205969,4
+7,5 Seconds of Summer,Lie To Me (feat. Julia Michaels),Lie To Me (feat. Julia Michaels),6GzApXoBQiiAjak3tOQfV3,0.611,0.52,0,-5.445,1,0.0346,0,0.105,0.771,159.927,149878,4
+8,5 Seconds of Summer,Sounds Good Feels Good (Deluxe),She's Kinda Hot,5fsQSDifYpjfbCqvZKPVBj,0.664,0.908,4,-4.806,1,0.0317,0,0.109,0.889,118.031,216454,4
+9,5 Seconds of Summer,Sounds Good Feels Good (Deluxe),Jet Black Heart,6U0D8PIh75fnX6T6TWJLxl,0.507,0.85,11,-4.274,0,0.033,0,0.0812,0.545,153.957,221716,4
+10,5 Seconds of Summer,Youngblood (Deluxe),Youngblood,2iUXsYOEPhVqEBwsqP70rE,0.596,0.854,7,-5.114,0,0.463,0,0.124,0.152,120.274,203418,4
+11,Against The Current,Gravity,Gravity,4SIFa5VB8DQRwRaEoQs8Ra,0.571,0.881,1,-4.9,0,0.0467,0,0.159,0.534,140.039,222000,4
+12,Against The Current,Gravity,Dreaming Alone,3lbtBnZlPTSlcQjgvUGsmu,0.638,0.664,11,-6.58,0,0.0369,0,0.117,0.411,144.955,176000,4
+13,Against The Current,Gravity,Paralyzed,6DPFE45zF8qhcyZWpNLpQz,0.576,0.902,7,-3.341,1,0.0546,0,0.231,0.774,132.0,196000,4
+14,Against The Current,In Our Bones,One More Weekend,3w5ECOVehiYqMvrmqOxkoH,0.595,0.932,9,-2.612,1,0.0464,0,0.0784,0.565,97.501,185000,4
+15,Against The Current,In Our Bones,In Our Bones,7xqWmiqrOXLywkE6aIvB7Y,0.774,0.714,7,-3.53,1,0.0289,0.000312,0.0879,0.535,120.968,178747,4
+16,Against The Current,In Our Bones,Young & Relentless,4fHSwsnar5jcRxqYpRfdpc,0.65,0.896,0,-2.155,1,0.0305,0.000452,0.0323,0.931,134.011,202253,4
+17,Against The Current,In Our Bones,Brighter,7D8KHKHM0XrmZHu1dloM8H,0.462,0.845,6,-3.743,0,0.0401,1.37e-05,0.265,0.306,158.031,207000,4
+18,Against The Current,In Our Bones,Wasteland,5vuIV0PZWrV6cHDvMJd89o,0.614,0.89,11,-4.475,0,0.0454,0.000863,0.214,0.538,99.017,205493,4
+19,Against The Current,Infinity,Infinity,4TJm8X1IrngREA84YHPz5G,0.538,0.926,7,-2.553,1,0.0433,0,0.0876,0.636,124.993,185250,4
+20,Against The Current,Infinity,Another You (Another Way),2rHEKIctPLM0wPlD9TyYeF,0.57,0.896,6,-2.407,1,0.0398,0,0.195,0.897,135.073,203500,4
+21,Allstar Weekend,The American Dream,Life As We Know It,0BVBzLYIJ1VOsOOLWJySJd,0.539,0.955,0,-3.784,1,0.0704,0,0.395,0.799,135.044,194920,4
+22,American Authors,"Oh, What A Life",Best Day Of My Life,5Hroj5K7vLpIG4FNCRIjbP,0.673,0.902,2,-2.392,1,0.0346,0.000262,0.0558,0.538,100.012,194240,4
+23,American Authors,What We Live For,What We Live For,1KgZOCjN3nGRTk3c87oIj6,0.686,0.885,0,-4.754,1,0.0377,0,0.147,0.616,120.066,178560,4
+24,Ariana Grande,Dangerous Woman,Dangerous Woman,7l94dyN2hX9c6wWcZQuOGJ,0.664,0.602,4,-5.369,0,0.0412,0,0.356,0.289,134.049,235947,3
+25,Ariana Grande,Dangerous Woman,Into You,2meEiZKWkiN28gITzFwQo5,0.623,0.734,9,-5.948,1,0.107,1.75e-06,0.145,0.37,107.853,244453,4
+26,Ariana Grande,Dangerous Woman,Side To Side,1pKeFVVUOPjFsOABub0OaV,0.65,0.736,6,-5.84,0,0.229,0,0.235,0.613,159.173,226160,4
+27,Ariana Grande,Focus,Focus,1cdzfFjEbUbgTm5nv3FgXR,0.671,0.876,6,-6.034,1,0.239,0,0.444,0.8,100.016,211360,4
+28,Ariana Grande,My Everything (Deluxe),Problem,7vS3Y0IKjde7Xg85LWIEdP,0.66,0.805,1,-5.352,0,0.153,8.83e-06,0.159,0.625,103.008,193920,4
+29,Ariana Grande,My Everything (Deluxe),One Last Time,7xoUc6faLbCqZO6fQEYprd,0.628,0.593,8,-5.036,1,0.0323,1.65e-06,0.096,0.104,125.026,197267,4
+30,Ariana Grande,My Everything (Deluxe),Break Free,12KUFSHFgT0XCoiSlvdQi4,0.687,0.702,7,-5.324,0,0.0455,4.35e-05,0.204,0.284,129.956,214840,4
+31,Ariana Grande,My Everything (Deluxe),Love Me Harder,5J4ZkQpzMUFojo1CtAZYpn,0.472,0.714,1,-4.389,0,0.0334,0,0.0764,0.24,98.992,236133,4
+32,Ariana Grande,Put Your Hearts Up,Put Your Hearts Up,1Rp8zCRpkHyEDqaUczfMZA,0.597,0.815,9,-4.802,1,0.0457,0,0.112,0.581,162.039,210200,4
+33,Ariana Grande,Santa Tell Me,Santa Tell Me,0lizgQ7Qw35od7CYaoMBZb,0.525,0.621,7,-7.364,1,0.116,0,0.294,0.591,191.9,204093,4
+34,Ariana Grande,Sweetener,breathin,4OafepJy2teCjYJbvFE60J,0.568,0.656,8,-5.413,1,0.0433,1.37e-05,0.213,0.364,100.049,198160,4
+35,Ariana Grande,"thank u, next","thank u, next",3e9HZxeyfWwjeyPAMmWSSQ,0.717,0.653,1,-5.634,1,0.0658,0,0.101,0.412,106.966,207320,4
+36,Ariana Grande,"thank u, next","break up with your girlfriend, i'm bored",4kV4N9D1iKVxx1KLvtTpjS,0.726,0.554,5,-5.29,0,0.0917,0,0.106,0.335,169.999,190440,4
+37,Ariana Grande,Yours Truly,Honeymoon Avenue,5SmXEPnevlRjBPWBG7oKIi,0.692,0.608,8,-5.233,0,0.041,0,0.348,0.448,125.005,339733,4
+38,Ariana Grande,Yours Truly,Baby I,6NmCCgnQcxKHPOAKgd9Nth,0.724,0.796,1,-3.686,1,0.0328,0,0.354,0.542,101.975,197600,4
+39,Ariana Grande,Yours Truly,Piano,1FSfCzJd8aSQ0nqTSbN4PO,0.738,0.804,1,-4.286,0,0.0815,0,0.826,0.725,120.017,234427,4
+40,Ariana Grande,Yours Truly,The Way,0S4RKPbRDA72tvKwVdXQqe,0.645,0.878,5,-3.208,0,0.113,0,0.076,0.862,82.324,227027,4
+41,Ariana Grande,Yours Truly,Almost Is Never Enough,442j8VxaB60dWf9cBFuX5w,0.324,0.327,2,-7.494,1,0.0409,0,0.101,0.334,81.328,327773,4
+42,ATC,Guessing,Guessing,62LPDzVSOSyxVXL4HzDUT1,0.628,0.767,10,-4.384,1,0.0346,0,0.0711,0.657,99.975,175260,4
+43,Audien,Leaving You,Leaving You,22qUyTlEvJf6DAlyQjMADe,0.638,0.74,9,-4.928,0,0.058,1.28e-06,0.142,0.454,128.056,212427,4
+44,Austin Mahone,Say Somethin',Say Somethin',1AaN8oIJlgTUFSZ2tYndWe,0.634,0.879,1,-2.949,0,0.0414,0,0.485,0.918,129.99,167220,4
+45,Austin Mahone,The Secret,Mmm Yeah (feat. Pitbull),4fs51wRnDJo4XrRdk6h0GD,0.712,0.922,6,-3.902,0,0.0411,1.9e-06,0.268,0.976,125.984,231625,4
+46,Avril Lavigne,Avril Lavigne (Expanded Edition),Here's to Never Growing Up,0qwcGscxUHGZTgq0zcaqk1,0.482,0.873,0,-3.145,1,0.0853,0,0.409,0.737,165.084,214320,4
+47,Avril Lavigne,Goodbye Lullaby (Expanded Edition),What the Hell,2z4U9d5OAA4YLNXoCgioxo,0.578,0.926,6,-3.689,0,0.0548,0.0127,0.14,0.877,149.976,220707,4
+48,Avril Lavigne,Goodbye Lullaby (Expanded Edition),Wish You Were Here,5XHf9PBxxHmJFuiDkGNIOA,0.454,0.865,4,-3.841,1,0.0561,0,0.186,0.34,166.018,225760,4
+49,Avril Lavigne,Goodbye Lullaby (Expanded Edition),Smile,4bia7OWZPoswlzXCqESYrR,0.634,0.848,1,-3.843,0,0.047,0,0.0681,0.647,105.055,209520,4
+50,Avril Lavigne,Head Above Water,Head Above Water,7gY3cyGcB2wnk2xDXiA0pe,0.578,0.694,5,-5.351,1,0.0706,0,0.102,0.268,129.921,220850,4
+51,Avril Lavigne,Let Go,Complicated,5xEM5hIgJ1jjgcEBfpkt2F,0.585,0.776,5,-5.898,1,0.0459,7.74e-06,0.3,0.427,77.987,244507,4
+52,Avril Lavigne,Let Go,Sk8er Boi,00Mb3DuaIH1kjrwOku9CGU,0.487,0.9,0,-4.417,1,0.0482,0,0.358,0.484,149.937,204000,4
+53,Avril Lavigne,Let Go,I'm with You,1jlG3KJ3gdYmhfuySFfpO1,0.457,0.406,9,-7.462,1,0.0291,0,0.117,0.208,151.95,223067,3
+54,Before You Exit,Clouds,Clouds,0FiInivN1aBhzKM3UtHM3l,0.407,0.175,6,-13.874,1,0.0347,2.45e-06,0.0896,0.259,79.763,271846,3
+55,Big Time Rush,24/seven,24/Seven,6FkX1akf4mwRZSznL73kDR,0.664,0.739,5,-5.342,0,0.0713,0,0.0439,0.851,90.006,189547,4
+56,Big Time Rush,BTR,Til I Forget About You,4mGJcOKQhmISIWgQ3xCiLB,0.568,0.865,5,-3.653,1,0.0486,0,0.158,0.55,122.014,237947,4
+57,Big Time Rush,BTR,Worldwide,18vVJsD68uh386vlZWwO3d,0.531,0.771,4,-6.162,1,0.0468,0,0.17,0.617,159.973,224333,4
+58,Big Time Rush,BTR,Halfway There,6L4PjBaEjTxI0sOBGq8OQg,0.541,0.91,8,-4.725,1,0.052,0,0.146,0.351,143.022,212813,4
+59,Boys Like Girls,Boys Like Girls,The Great Escape,56Tl3UgyZTqfZtvFNS31wm,0.423,0.94,1,-4.012,0,0.0635,0,0.178,0.505,149.934,206520,4
+60,Boys Like Girls,Love Drunk,Two Is Better Than One (feat. Taylor Swift),1MaqkdFNIKPdpQGDzme5ss,0.521,0.702,0,-5.189,1,0.0331,0,0.0962,0.25,127.976,242840,4
+61,Bridgit Mendler,Hello My Name Is...,Ready or Not,5xvUgoVED1F4mBu8FL0HaW,0.715,0.872,2,-3.835,1,0.0509,3.84e-05,0.107,0.748,93.043,200947,4
+62,Bridgit Mendler,Hello My Name Is...,Top of the World,5l1rNbGqq7eqpE1wqPNh1h,0.603,0.668,5,-5.162,1,0.0499,0,0.166,0.466,178.14,208653,4
+63,Bridgit Mendler,Hello My Name Is...,Hurricane,7gQ5c5HY6zMsIck6QLY9dJ,0.757,0.825,7,-4.062,0,0.0701,2.63e-06,0.0798,0.446,95.01,243987,4
+64,Calvin Harris,This Is What You Came For (feat. Rihanna),This Is What You Came For (feat. Rihanna),0azC730Exh71aQlOt9Zj3y,0.631,0.927,9,-2.787,0,0.0332,0.119,0.148,0.465,123.962,222160,4
+65,Camila Cabello,Camila,Never Be the Same,4eWQlBRaTjPPUlzacqEeoQ,0.637,0.713,0,-4.333,1,0.0747,0.000637,0.137,0.243,129.923,226973,4
+66,Camila Cabello,Camila,Real Friends,3iq9nhbI8fcnNamxMft1uv,0.726,0.304,3,-8.677,1,0.131,0,0.0853,0.813,91.97,214387,4
+67,Camila Cabello,Consequences (orchestra),Consequences - orchestra,1ArLnG0bHaHPXqf08sEKM0,0.547,0.289,0,-8.131,1,0.0348,0,0.148,0.213,104.851,181913,3
+68,Carly Rae Jepsen,Emotion,I Really Like You,0PGLRTN0X6DrXh645WJCIY,0.622,0.808,5,-4.701,1,0.0418,5.63e-05,0.215,0.599,122.121,204773,4
+69,Carly Rae Jepsen,Kiss (Deluxe),Call Me Maybe,3TGRqZ0a2l1LRblBkJoaDx,0.783,0.58,7,-6.548,1,0.0408,2.28e-06,0.108,0.66,120.021,193400,4
+70,Carly Rae Jepsen,Kiss (Deluxe),Curiosity,2xrK7AOAWok7NY4WuqeApq,0.751,0.878,4,-5.176,1,0.0555,0,0.125,0.676,124.019,213120,4
+71,Cash Cash,"Blood, Sweat & 3 Years",Take Me Home (feat. Bebe Rexha),2zMXH5k5NZy1Nw460bLvRh,0.571,0.903,7,-2.184,1,0.214,1.23e-06,0.186,0.477,127.951,206320,4
+72,The Chainsmokers,Closer,Closer,7BKLCZ1jbUBVqRi2FVlTVw,0.748,0.524,8,-5.599,1,0.0338,0,0.111,0.661,95.01,244960,4
+73,The Chainsmokers,Don't Let Me Down,Don't Let Me Down,1i1fxkWeaMmKEB4T7zqbzK,0.532,0.869,11,-5.094,1,0.172,0.00508,0.136,0.422,159.803,208373,4
+74,The Chainsmokers,Memories...Do Not Open,Paris,72jbDTw1piOOj770jWNeaG,0.653,0.658,2,-6.428,1,0.0304,1.66e-06,0.0939,0.219,99.99,221507,4
+75,The Chainsmokers,Paris,Paris,15vzANxN8G9wWfwAJLLMCg,0.646,0.644,2,-6.763,1,0.031,0,0.0888,0.251,99.999,221520,4
+76,The Chainsmokers,World War Joy,Who Do You Love,0u76qSAbFZPbOsBq5lIixm,0.51,0.835,3,-4.673,1,0.0447,0,0.219,0.435,140.024,226747,4
+77,Charli XCX,SUCKER,Boom Clap,0Y1MWB026LYxGvhq4EcMiC,0.659,0.911,4,-2.28,1,0.0786,0.000304,0.191,0.576,91.999,169866,4
+78,Charlie Puth,Nine Track Mind,One Call Away,7soJgKhQTO8hLP2JPRkL5O,0.667,0.613,1,-5.353,1,0.0344,0,0.115,0.47,91.024,194453,4
+79,Charlie Puth,Nine Track Mind,Marvin Gaye (feat. Meghan Trainor),7rl1z4j7MurMDnn9rHh4M2,0.795,0.616,1,-5.281,0,0.06,0,0.349,0.815,110.015,190453,4
+80,Charlie Puth,Nine Track Mind,We Don't Talk Anymore (feat. Selena Gomez),37FXw5QGFN7uwwsLy8uAc0,0.728,0.563,1,-8.053,0,0.134,0,0.179,0.352,100.017,217707,4
+81,Charlie Puth,Voicenotes,Attention,5cF0dROlMOK5uNZtivgu50,0.775,0.613,3,-4.586,0,0.0542,2.33e-05,0.134,0.797,100.066,208787,4
+82,Cheat Codes,No Promises (feat. Demi Lovato),No Promises (feat. Demi Lovato),5lNuqFVMca4vPupY10cH0J,0.739,0.619,10,-6.669,1,0.162,0,0.105,0.58,112.961,222787,4
+83,Cher Lloyd,Sorry I'm Late,Bind Your Love,0aUq6uNfcjI9jmV0Kb3hU8,0.632,0.824,2,-4.401,1,0.0317,0,0.0875,0.604,93.985,216173,4
+84,Cher Lloyd,Sorry I'm Late,Sirens,2wg4TZ4WENyLGhOoQncz6r,0.682,0.802,8,-2.803,1,0.0422,0,0.107,0.411,116.972,235093,4
+85,Cher Lloyd,Sorry I'm Late,Human,3zr5liODTQ9fdtrDOPatiS,0.498,0.941,6,-4.589,1,0.188,0,0.278,0.444,153.859,209227,4
+86,Cher Lloyd,Sorry I'm Late,Sweet Despair,6u8g6k5BnPex5rydRnpRwP,0.567,0.579,7,-6.299,1,0.0412,0,0.0669,0.204,145.93,197520,4
+87,Cher Lloyd,Sorry I'm Late,Goodnight,0u21yyaymaJkxt9gQ04Wgf,0.455,0.21,7,-11.931,1,0.0356,0,0.132,0.308,187.35,205587,4
+88,Cher Lloyd,Sorry I'm Late,Alone With Me,26GxNoqc4Z1FnpCy0rbQmV,0.582,0.921,6,-4.908,1,0.133,0,0.123,0.385,110.067,198480,4
+89,Cher Lloyd,Sticks & Stones,Want U Back,6E11E0lT5Zy7yb6iT3y8DN,0.694,0.891,9,-2.94,1,0.0949,0,0.561,0.563,97.939,214573,4
+90,Cher Lloyd,Sticks & Stones,Oath (feat. Becky G),6D0QtayzCNVKoIZ8IX2npw,0.412,0.864,5,-3.65,1,0.13,0,0.0808,0.719,113.23,218507,5
+91,Cimorelli,Up at Night,Up at Night,1kqIZvfUIFXLpp6MzSGca2,0.52,0.607,8,-6.351,1,0.0381,0,0.302,0.425,78.244,244327,4
+92,Cimorelli,Up at Night,Hearts on Fire,2uSfeb8gP0SGxzQGfxHP48,0.568,0.525,9,-8.234,1,0.037,0,0.13,0.469,131.88,236120,4
+93,Cimorelli,Up at Night,Before October's Gone,2SyIScNy0qAkOlPEgzNjNi,0.555,0.505,3,-7.637,1,0.0324,0,0.0784,0.462,77.441,237805,4
+94,Cimorelli,Up at Night,Fall Back,3TicKqDyHE58WXQM580Qx8,0.771,0.513,9,-6.399,1,0.0326,2.91e-05,0.0445,0.745,100.016,196536,4
+95,David Guetta,2U,2U,762UXiwEHYY97VL45sAUPR,0.551,0.651,8,-5.828,0,0.0594,0,0.224,0.562,144.875,194907,4
+96,Demi Lovato,Confident (Deluxe Edition),Cool for the Summer,2zFF6jG5hQArbzcXz3KUWk,0.583,0.61,5,-5.639,0,0.0382,0.000105,0.14,0.336,114.06,214740,4
+97,Demi Lovato,Demi,Heart Attack,1V6gIisPpYqgFeWbMLI0bA,0.504,0.785,8,-4.802,1,0.104,0,0.239,0.502,173.968,210840,4
+98,Demi Lovato,Demi,Made In The USA,6SjCa7LhEpPNiCxe3bLln4,0.576,0.86,8,-3.913,1,0.0394,0,0.316,0.594,87.461,196093,4
+99,Demi Lovato,Demi,Neon Lights,34MJ07N9Bhu6iKPaxSVnCT,0.631,0.819,9,-4.24,1,0.122,0,0.1,0.733,125.928,233173,4

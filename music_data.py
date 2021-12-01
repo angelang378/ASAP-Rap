@@ -5,6 +5,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 import requests
 
+from bs4 import BeautifulSoup
+
 load_dotenv()
 spotify_cid = os.getenv('SPOTIFY_CLIENT_ID')
 spotify_secret = os.getenv('SPOTIFY_CLIENT_SECRET')
@@ -42,7 +44,13 @@ def get_playlist(creator, playlist_id):
 # Get the Beatles and top charting songs
 beatles = get_playlist("andream4273","1Gf0v4DneJjq3adPSiNVe6")
 beatles["track_name"] = beatles["track_name"].str.replace(r'-[^-]+$', "", regex=True)
-charting = get_playlist("Spotify", "37i9dQZF1DX5Ejj0EkURtP")
+vivien = get_playlist("Vivien", "4a6u0ZVG0FWYAJHVggnHAh")
+william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
+
+# Save playlists and info to CSVs
+beatles.to_csv("data/beatles.csv")
+vivien.to_csv("data/vivien.csv")
+william.to_csv("data/william.csv")
 
 # Get the lyrics for a given song
 def get_lyrics(track, artist):
@@ -55,10 +63,22 @@ def get_lyrics(track, artist):
     except:
         return None
 
-# Get the corresponding lyrics to the Beatles and top charting songs
-beatles['lyrics'] = beatles.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
-charting['lyrics'] = charting.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
+# Beautiful soup webscraping, doesn't work tho
+# def get_lyrics(artistname, songname):
+#     artistname2 = str(artistname.replace(' ','-')) if ' ' in artistname else str(artistname)
+#     songname2 = str(songname.replace(' ','-')) if ' ' in songname else str(songname)
+#     page = requests.get('https://genius.com/'+ artistname2 + '-' + songname2 + '-' + 'lyrics')
+#     html = BeautifulSoup(page.text, 'html.parser')
+#     lyrics1 = html.find("div", class_="lyrics")
+#     lyrics2 = html.find("div", class_="Lyrics__Container-sc-1ynbvzw-2 jgQsqn")
+#     if lyrics1:
+#         lyrics = lyrics1.get_text()
+#     elif lyrics2:
+#         lyrics = lyrics2.get_text()
+#     elif lyrics1 == lyrics2 == None:
+#         lyrics = None
+#     return lyrics
 
-# Save playlists and info to CSVs
-beatles.to_csv("data/beatles.csv")
-charting.to_csv("data/charting.csv")
+# Get the corresponding lyrics to the Beatles and top charting songs
+#beatles['lyrics'] = beatles.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
+#charting['lyrics'] = charting.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)

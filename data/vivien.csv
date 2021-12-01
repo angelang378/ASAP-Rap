@@ -1,0 +1,101 @@
+,artist,album,track_name,track_id,danceability,energy,key,loudness,mode,speechiness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
+0,Charli XCX,how i'm feeling now,forever,5GsJIVCBFjhCcUwJaTW2sB,0.577,0.927,1,-3.195,0,0.107,0,0.116,0.462,87.389,243672,4
+1,JPEGMAFIA,EP2!,LAST DANCE!,5oxbxoGkf2GsreNtoFjF4W,0.709,0.619,0,-5.445,1,0.0967,0,0.104,0.206,120.006,137493,4
+2,Grimes,Miss Anthropocene (Deluxe Edition),Delete Forever,71J2rawCGulCAyTMtNY3Ej,0.56,0.736,8,-7.64,1,0.0339,0.0991,0.174,0.389,94.987,237481,4
+3,Moses Sumney,Make Out in My Car: Chameleon Suite,Make Out in My Car - Sufjan Stevens Version,045NQr6Xvm5o9YFUMwbMzG,0.547,0.379,5,-11.655,1,0.0308,0.0155,0.123,0.654,149.853,166880,4
+4,Joji,SLOW DANCING IN THE DARK,SLOW DANCING IN THE DARK,0UyljEbX9dqI1K0sqdv6B6,0.515,0.479,3,-7.458,1,0.0261,0.00598,0.191,0.284,88.964,209274,4
+5,Taylor Swift,Speak Now,Enchanted,10eBRyImhfqVvkiVEGf0N0,0.455,0.623,8,-3.878,1,0.0288,0.000424,0.146,0.208,163.893,352187,4
+6,HAIM,Women In Music Pt. III,Gasoline,2oUq6l5hEPHQwHozEA4MjV,0.68,0.714,1,-4.557,0,0.0612,0.00455,0.117,0.561,133.127,193373,4
+7,Caroline Polachek,Breathless,Breathless,179YXh5spiRaUDJihittPG,0.627,0.494,4,-7.741,1,0.042,0,0.136,0.213,129.914,182360,4
+8,Empress Of,Us,When I'm With Him,3R2h3T80Ee7Ip18gXWs9SJ,0.779,0.846,1,-5.68,1,0.0345,8.83e-06,0.0623,0.757,116.014,193947,4
+9,Daughter,Wild Youth,Medicine,4TxJQDtvYHJcOBH6ONi6q2,0.166,0.298,3,-12.439,1,0.032,0.206,0.572,0.207,78.437,258973,5
+10,Charli XCX,Boys,Boys,5o4yGlG0PfeVUa6ClIyOxq,0.867,0.545,2,-5.192,1,0.0625,0.000289,0.0505,0.525,139.943,162586,4
+11,Michael Medrano,Personal Heaven,Personal Heaven,2NnUOg9dghRfOm7WB95qYF,0.822,0.739,3,-5.644,1,0.0415,0,0.191,0.575,121.015,184463,4
+12,Obongjayar,Which Way is Forward?,Still Sun,6prN8k4A5Pcuk4Y5Yvaf5x,0.693,0.854,8,-8.066,1,0.0774,0.00156,0.0564,0.531,169.945,220903,4
+13,Grimes,Miss Anthropocene (Deluxe Edition),You'll miss me when I'm not around,0Sqh9dVJMFJRwz4K0jeoOR,0.606,0.857,8,-2.916,0,0.0302,0.000933,0.15,0.825,98.054,161691,4
+14,Yves Tumor,Heaven To A Tortured Mind,Kerosene!,1Kjw0LwdniCWran4PxJqPQ,0.506,0.746,7,-7.385,0,0.0307,0,0.109,0.299,130.996,305507,4
+15,Taylor Swift,Speak Now (Deluxe Edition),Better Than Revenge,1By2VQkUN0Frd8mKNV5NYC,0.516,0.917,11,-3.186,0,0.0827,6.37e-06,0.36,0.635,145.821,217160,4
+16,HAIM,Women In Music Pt. III,All That Ever Mattered,24VIbXVX71uwU54CYPV6tM,0.726,0.713,5,-5.046,1,0.0708,0.00223,0.0995,0.874,110.002,150893,4
+17,Blood Orange,Negro Swan,Charcoal Baby,3bBmpVl9rQKJsFFGLFilIS,0.622,0.46,7,-8.389,0,0.0372,0.000369,0.119,0.514,183.241,242341,4
+18,Charli XCX,February 2017 (feat. Clairo and Yaeji),February 2017 (feat. Clairo and Yaeji),1nI59vdwggZMpI123JgD2J,0.692,0.506,11,-7.621,1,0.0738,0.00024,0.0971,0.482,119.882,153093,4
+19,Jim-E Stack,EPHEMERA,Note To Self (feat. Empress Of),3dBgEBXZvYLshrZ0ATB7fT,0.739,0.846,8,-5.647,1,0.0486,0.544,0.14,0.353,100.007,137093,4
+20,Josh Golden,dying together,dying together,703SHNf8XtJnM3gtryjyJ6,0.794,0.529,11,-6.982,0,0.0399,0.00114,0.22,0.583,95.08,156217,4
+21,Grimes,Visions,Oblivion,4P6n0udLAnmCNXVcobYbsK,0.697,0.529,2,-8.838,1,0.0338,0.901,0.0895,0.486,155.974,251267,4
+22,Caroline Polachek,Ocean of Tears,Ocean of Tears,4yqUwc3anK2zx40o5hMAJy,0.572,0.442,2,-7.473,1,0.0374,1.22e-06,0.0984,0.132,76.973,204920,4
+23,Kitty,Baby Pink,Baby Pink,0VdNUReADGpqHwEu0ogxCD,0.486,0.803,2,-7.975,1,0.0511,0.565,0.159,0.523,108.013,167275,5
+24,Grimes,Miss Anthropocene (Deluxe Edition),We Appreciate Power,46cWr45cjDcXEQpkYp9jFT,0.54,0.926,2,-2.977,0,0.0526,3.81e-05,0.381,0.445,108.02,335289,4
+25,Yves Tumor,Heaven To A Tortured Mind,Gospel For A New Century,46LX0sSwIU4GFLcj23ZfMA,0.565,0.726,0,-6.715,1,0.0548,3.06e-06,0.103,0.715,178.078,198627,4
+26,Jockstrap,Wicked City,City Hell,0gfJD5Uhx82OhbgVmUMPmH,0.273,0.399,3,-7.575,1,0.0375,0.0214,0.163,0.0661,128.959,326933,4
+27,Doja Cat,Hot Pink,Juicy,7f5trao56t7sB7f14QDTmp,0.785,0.652,0,-2.607,1,0.0668,0,0.0697,0.484,170.024,203093,4
+28,Slayyyter,Troubled Paradise,Self Destruct (feat. Wuki),534u9PwMAEffT9oprFGIwC,0.541,0.797,6,-4.217,0,0.044,4.68e-06,0.166,0.141,144.004,135310,4
+29,Taylor Swift,Red (Taylor's Version),The Very First Night (Taylor's Version) (From The Vault),6pYNq0ZwpPVazKzsqpf0G8,0.678,0.733,7,-5.025,1,0.0281,0,0.104,0.581,121.009,200280,4
+30,Charli XCX,how i'm feeling now,claws,7Dexi5Z2IowCkHrnzlWysc,0.707,0.771,10,-4.246,1,0.038,6.87e-05,0.547,0.629,135.049,149390,4
+31,HAIM,Women In Music Pt. III,The Steps,5X2RisOZS9i5MsR8EVw58p,0.703,0.714,2,-4.967,1,0.0316,1.65e-06,0.0849,0.62,116.723,247600,4
+32,Labrinth,Euphoria (Original Score from the HBO Series),Still Don't Know My Name,6N22FZs2ZhPBYi3b9XPajV,0.316,0.63,5,-5.963,1,0.117,0.262,0.205,0.313,89.643,153294,1
+33,Rina Sawayama,SAWAYAMA,XS,1TWNKyNQOBfNUkWWs7FooF,0.635,0.929,2,-3.256,0,0.146,1.14e-06,0.0822,0.59,117.039,201060,4
+34,Capital Cities,In A Tidal Wave Of Mystery (Deluxe Edition),Safe And Sound,6Z8R6UsFuGXGtiIxiD8ISb,0.655,0.819,0,-4.852,1,0.0316,0.00374,0.104,0.766,117.956,192790,5
+35,Taylor Swift,folklore,cardigan,4R2kfaDFhslZEMJqAFNpdd,0.613,0.581,0,-8.588,0,0.0424,0.000345,0.25,0.551,130.033,239560,4
+36,BANKS,Goddess (Deluxe),Beggin For Thread,4PvD06Pmbm2rHG2JjSlElF,0.597,0.696,5,-6.196,0,0.0278,0.0735,0.255,0.397,107.96,249740,4
+37,Grimes,Art Angels,Kill V. Maim,3WXhshrs1fzwF3rQE399Gq,0.578,0.947,11,-2.431,0,0.0359,0.0816,0.105,0.456,134.033,246007,4
+38,Marisa Maino,growing up can go to hell,growing up can go to hell,3UTqp1W8BqjtrXaRVyJXmU,0.712,0.495,9,-7.617,1,0.0392,2.1e-06,0.0923,0.575,132.078,235477,4
+39,Charli XCX,Pop 2,Track 10,4t9PBD27dndlf6YMBK2ROc,0.64,0.652,5,-5.07,1,0.0383,0,0.0814,0.273,100.065,326907,4
+40,Tame Impala,The Slow Rush,Lost In Yesterday,5JWPUEov2wlX7c0jhYZpeB,0.569,0.84,1,-4.123,1,0.118,0.000118,0.0995,0.749,183.059,249587,3
+41,Caroline Polachek,So Hot You're Hurting My Feelings (A. G. Cook Remix),So Hot You're Hurting My Feelings - A. G. Cook Remix,682y3Lfn64Uq6y7xOMdXPx,0.631,0.445,0,-7.056,1,0.03,0.00145,0.088,0.321,118.731,215026,4
+42,HAIM,Women In Music Pt. III,Leaning On You,1BsEKaermhlrzSQpouxlmM,0.662,0.575,7,-8.342,1,0.0321,0.000979,0.101,0.636,94.001,201440,4
+43,Rico Nasty,Anger Management,Hatin,3Wk4qCyx4m5aoafRxftp43,0.872,0.878,1,-4.511,1,0.249,0,0.0705,0.902,163.98,140347,4
+44,MARINA,Electra Heart (Deluxe),How to Be a Heartbreaker,2sEk5R8ErGIFxbZ7rX6S2S,0.69,0.897,11,-4.696,0,0.0506,0,0.108,0.849,140.05,221493,4
+45,Charli XCX,Pop 2,Femmebot (feat. Dorian Electra and Mykki Blanco),1qZuf7zgRHKgfSijGm2CTy,0.742,0.656,11,-6.409,0,0.0744,0,0.114,0.874,129.946,218253,4
+46,Kim Petras,Future Starts Now,Future Starts Now,3p2wS6G159mBIU50xl7uvc,0.693,0.853,6,-4.241,1,0.0503,0.000193,0.123,0.432,119.948,279271,4
+47,Kacy Hill,Is It Selfish If We Talk About Me Again,Much Higher,2fGvdtpLXRdt6VPFJ7iIZl,0.625,0.802,5,-5.175,0,0.0341,0.00271,0.272,0.254,159.964,229692,4
+48,Carlie Hanson,Junk,Hazel,5HG8in1JeRSmGCJPz0Sa7E,0.64,0.589,2,-5.851,1,0.0413,0,0.0958,0.561,140.011,201098,4
+49,mxmtoon,true colors (from Life is Strange),creep,7aHKcqM6ooNnM122ydEyGq,0.699,0.461,11,-8.382,1,0.0313,0.00582,0.0872,0.0703,103.989,210600,4
+50,Samia,Django,Django,7n8oAD5lFVciTlfPAChrCr,0.558,0.136,8,-11.731,0,0.0337,0,0.1,0.141,80.259,204285,4
+51,Hana Vu,At the Party,At the Party,1A8fHRsCqXr07p4oiR6i9f,0.727,0.488,10,-8.931,0,0.0303,0.248,0.115,0.339,120.036,157217,4
+52,Indigo De Souza,Any Shape You Take,Real Pain,4Q1GVYao4Z4fDZBv4KbI3y,0.211,0.499,11,-9.084,1,0.0338,0.172,0.117,0.169,180.14,290097,3
+53,Clairo,Immunity,Alewife,3jgrNd3uPU1c2PFBKYsV9d,0.433,0.329,3,-13.288,1,0.0343,0.0474,0.1,0.264,102.971,213000,4
+54,Soccer Mommy,rom com 2021,rom com 2004,4xptHDSzoW05J6a2JTBHKP,0.567,0.545,9,-5.671,1,0.0396,0.00498,0.142,0.342,89.911,173967,4
+55,Blue Rain Boots,Oh My God You Are Fine,Oh My God You Are Fine,6SxYYtexyolTqSbJ1DUZhT,0.474,0.797,11,-7.368,1,0.0488,0,0.0522,0.744,181.732,185809,4
+56,Claud,Miss You,Miss You,0ntgJ7SC3V9XGDGBhPeoqj,0.791,0.473,11,-7.683,0,0.041,0,0.0376,0.753,126.392,145450,4
+57,TV Girl,French Exit,Lovers Rock,1H7zdcRD0gLGQY0w5ejGgX,0.559,0.871,5,-5.338,0,0.0392,0.00524,0.096,0.573,104.976,213920,4
+58,The Marías,Hold It Together,Hold It Together,6gJ2H930mAD1zRqmoFiE4W,0.802,0.494,11,-10.099,0,0.059,0.103,0.107,0.518,82.014,222022,4
+59,PinkPantheress,to hell with it,Passion,0QezBrYzFFT0f68zK6EvZI,0.699,0.628,0,-5.163,0,0.0369,0.782,0.101,0.607,79.968,138268,4
+60,Cavetown,Sleepyhead,Sweet Tooth,6TCmU4U7Ooqep96bnYx5lH,0.57,0.31,0,-13.208,1,0.0316,2.03e-06,0.112,0.242,139.711,246250,4
+61,Bachelor,Doomin' Sun,Back Of My Hand,6AZ2df8r1eS355mpwOcZEB,0.894,0.668,6,-7.383,0,0.0417,0.608,0.109,0.967,120.049,209906,4
+62,Cosmo Sheldrake,The Much Much How How and I,Birthday Suit,2FpGKiMD2kGDn8Lb9RLRLk,0.739,0.575,8,-8.109,1,0.22,7.35e-05,0.121,0.532,62.474,80407,4
+63,Pom Pom Squad,Until It Stops (Spotify Singles),Until It Stops - Spotify Singles,0dN85vbuUdU7Hnu0hLZHsN,0.515,0.662,7,-7.306,1,0.0584,0,0.192,0.486,117.079,156449,3
+64,Mitski,Puberty 2,Your Best American Girl,7g5qe8VITjr13RIe8uM2p6,0.362,0.258,7,-9.655,1,0.0315,0.00714,0.231,0.133,77.021,212184,4
+65,You'll Never Get to Heaven,Adorn,"Caught In Time, So Far Away",1dj44gqRjWmPtoj495glKe,0.623,0.813,10,-5.385,1,0.029,0.924,0.373,0.49,106.962,228654,4
+66,Tokyo Tea Room,Forever out of Time,Forever out of Time,6gWo5bkadkr0ujUdIWNt4T,0.461,0.702,7,-5.441,1,0.0248,0.525,0.229,0.5,93.636,170000,4
+67,Baby FuzZ,Plastic Paradise,Cig,3RcLm0u6OEGLuzE6H9ddhO,0.391,0.311,6,-8.063,1,0.0361,0,0.114,0.219,75.455,198000,4
+68,Tomberlin,Projections,Wasted,097mtSzsgYwypHXRae7pNH,0.765,0.563,4,-9.765,1,0.0397,0.122,0.142,0.703,93.073,149423,4
+69,Gus Dapperton,Orca,Post Humorous,0yb9DKhu0xA0h0qvKOHVwu,0.639,0.843,2,-4.826,1,0.03,3.2e-05,0.0791,0.777,119.957,279691,4
+70,Still Woozy,Goodie Bag,Goodie Bag,4vHNeBWDQpVCmGbaccrRzi,0.739,0.522,7,-12.304,0,0.151,0.00124,0.233,0.619,138.263,146390,4
+71,IAN SWEET,Show Me How You Disappear,Sword,2rBTkEH09333YNk6kKjtUm,0.636,0.602,7,-5.329,1,0.0285,0.000199,0.174,0.563,100.011,182560,4
+72,Clairo,Immunity,Bags,6UFivO2zqqPFPoQYsEMuCc,0.742,0.546,1,-7.694,1,0.0315,0.38,0.115,0.868,104.996,260520,4
+73,Frankie Cosmos,Next Thing,Sappho,5DIGt883aHs3KqWSziy4gR,0.644,0.401,7,-6.782,1,0.0403,0,0.132,0.459,95.354,112879,4
+74,mxmtoon,the masquerade,seasonal depression,16vTdg4LWbLbgZ2uTrQcB8,0.582,0.636,10,-5.408,1,0.081,0,0.152,0.381,155.825,156120,4
+75,Isaac Winemiller,A Lover's Haze,A Lover's Haze,0tJTNSpslevZqDv0dFxh5W,0.699,0.594,5,-10.222,1,0.0473,0.612,0.168,0.821,92.034,240000,4
+76,Snail Mail,Valentine,Valentine,1RcGoniZzjY3oOatGifYK1,0.488,0.623,0,-4.873,1,0.0317,0,0.131,0.171,129.874,196173,4
+77,Over the Garden Wall,Over the Garden Wall (Original Television Soundtrack),Tiny Star (feat. Eddika Organista),7s0Kp5CEFoVwxEnElocRUN,0.513,0.84,9,-9.885,0,0.12,0.00156,0.291,0.491,144.1,101973,4
+78,Boyish,Garden Spider,FUCK YOU HEATHER,30FosPI4sl7D7aLCgNKF0s,0.591,0.285,0,-13.891,1,0.0285,0.000492,0.14,0.129,121.86,175183,4
+79,Hana Vu,How Many Times Have You Driven By,Crying on the Subway,75IJJjmjryq1SGHWlcMj2K,0.558,0.505,1,-10.551,1,0.0322,0.169,0.0762,0.809,89.981,164169,4
+80,Ginger Root,A Cruel Angel's Thesis (Neon Genesis Evangelion Theme Rework),A Cruel Angel's Thesis (Neon Genesis Evangelion Theme Rework),0frqCgCODyMlt7KEWrS2T2,0.901,0.719,0,-4.944,0,0.105,0.578,0.286,0.815,128.05,235840,4
+81,girl in red,we fell in love in october / forget her,we fell in love in october,1BYZxKSf0aTxp8ZFoeyM3d,0.566,0.366,7,-12.808,1,0.028,0.181,0.155,0.237,129.959,184154,4
+82,Julien Baker,boygenius,Me & My Dog,74uoN2UfgdUAzwVeFaRUE2,0.487,0.509,0,-9.051,1,0.0241,0.00878,0.115,0.2,94.017,206465,4
+83,Haley Heynderickx,I Need to Start a Garden,The Bug Collector,5nVE45ithgyVocZp5XLAk6,0.538,0.419,10,-9.705,1,0.0353,0.329,0.0967,0.529,99.622,228460,4
+84,Destroy Boys,Make Room,Vixen,43FtpuAePqILFhq4yrWeQu,0.391,0.957,7,-3.527,1,0.0501,0,0.317,0.544,89.509,157648,4
+85,The Criticals,Mimosa Hygiene,Treat Ya Better,2t8RsUdWmOwd7cfH1XgTZX,0.783,0.636,5,-5.682,0,0.0332,0.000977,0.0477,0.818,104.973,195865,4
+86,Ethan Fields,Cooler Than Me,Cooler Than Me,26CCPKPZQGVYSXLJVDgCEo,0.578,0.849,5,-4.614,0,0.0595,0,0.389,0.626,136.021,155294,4
+87,TC Superstar,R & D,Into You,3EW3fvwnGoVvLPgAPFqaMJ,0.846,0.363,0,-9.807,1,0.0683,0.16,0.101,0.648,106.02,350358,4
+88,Summer Salt,So Polite,Candy Wrappers,2WrzwxqDxBWcWYkk9DAJ9j,0.691,0.546,5,-7.33,1,0.0263,0.415,0.302,0.483,95.047,194418,4
+89,shy kids,Backward in Love,Backward in Love,68JW0PqQ1hyw3bEhouRzy8,0.714,0.47,8,-8.04,0,0.0414,0.0187,0.104,0.326,138.008,202174,4
+90,Men I Trust,Tailwhip,Tailwhip,2DoO0sn4SbUrz7Uay9ACTM,0.8,0.655,9,-8.877,0,0.0416,0.0074,0.0961,0.598,114.004,225263,4
+91,Fenne Lily,BREACH,I Used To Hate My Body But Now I Just Hate You,2lz9pdjqQy6mVT2OekH9fT,0.487,0.327,8,-12.076,1,0.0306,0.00395,0.107,0.213,142.412,269053,4
+92,Near Tears,Jaded,Jaded,3MaA1FRzIe01fWLtjW7ZD8,0.486,0.703,4,-2.0,1,0.0273,0.00235,0.105,0.406,76.003,238126,4
+93,Courtney Barnett,"Things Take Time, Take Time",Write A List of Things To Look Forward To,5MI8umTu0luQ4wQPm87adK,0.495,0.825,8,-7.037,1,0.038,0.000531,0.0921,0.665,151.94,168075,4
+94,Soccer Mommy,rom com 2021,rom com 2021,01y5BLAsXWirQHZdWluxM0,0.564,0.844,9,-2.996,1,0.0797,1.43e-05,0.226,0.641,114.965,196053,4
+95,Samia,The Baby,Pool,5d1AGB455kWMjmtOQLx7Pg,0.136,0.254,2,-12.155,1,0.0342,2.22e-05,0.0602,0.0639,68.266,269720,4
+96,Oscar Lang,bops etc.,French Girl,3BU83xQPDHM3A4tYayv2Vj,0.704,0.778,0,-8.301,1,0.157,0.00588,0.137,0.478,110.019,205429,4
+97,Indigo De Souza,Any Shape You Take,Darker Than Death,4rKfScq2VOValQKH3YovZy,0.795,0.394,2,-12.129,1,0.042,0.0072,0.113,0.25,120.002,192564,4
+98,Slow Pulp,Big Day,High,3GaamyFHQYbQi1ykc4nV4o,0.545,0.434,10,-8.326,1,0.0292,2.63e-05,0.0828,0.234,139.828,152571,4
+99,Vampire Weekend,Contra,Horchata,22d5vvCijMTue7PvUrGiz9,0.834,0.787,0,-7.119,1,0.14,0,0.356,0.837,119.976,206733,4
