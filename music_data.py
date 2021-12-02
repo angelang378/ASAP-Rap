@@ -5,7 +5,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 import requests
 
-from bs4 import BeautifulSoup
+# from bs4 import BeautifulSoup
 
 load_dotenv()
 spotify_cid = os.getenv('SPOTIFY_CLIENT_ID')
@@ -20,36 +20,45 @@ def get_playlist(creator, playlist_id):
     playlist_features_list = ["artist","album","track_name","track_id","danceability","energy","key","loudness","mode","speechiness","instrumentalness","liveness","valence","tempo","duration_ms","time_signature"]
     playlist_df = pd.DataFrame(columns = playlist_features_list)
     
-    playlist = sp.user_playlist_tracks(creator, playlist_id)["items"]
-    for track in playlist:
-        playlist_features = {}
+    playlist = sp.user_playlist_tracks(creator, playlist_id)
+
+    while playlist:
+        for track in playlist['items']:
+            playlist_features = {}
+            
+            # Metadata
+            playlist_features["artist"] = track["track"]["album"]["artists"][0]["name"]
+            playlist_features["album"] = track["track"]["album"]["name"]
+            playlist_features["track_name"] = track["track"]["name"]
+            playlist_features["track_id"] = track["track"]["id"]
+            
+            # Audio features
+            audio_features = sp.audio_features(playlist_features["track_id"])[0]
+            
+            if audio_features:
+                for feature in playlist_features_list[4:]:
+                    playlist_features[feature] = audio_features[feature]
+
+                # Concat the dfs
+                track_df = pd.DataFrame(playlist_features, index = [0])
+                playlist_df = pd.concat([playlist_df, track_df], ignore_index = True)
         
-        # Metadata
-        playlist_features["artist"] = track["track"]["album"]["artists"][0]["name"]
-        playlist_features["album"] = track["track"]["album"]["name"]
-        playlist_features["track_name"] = track["track"]["name"]
-        playlist_features["track_id"] = track["track"]["id"]
-        
-        # Audio features
-        audio_features = sp.audio_features(playlist_features["track_id"])[0]
-        for feature in playlist_features_list[4:]:
-            playlist_features[feature] = audio_features[feature]
-        
-        # Concat the dfs
-        track_df = pd.DataFrame(playlist_features, index = [0])
-        playlist_df = pd.concat([playlist_df, track_df], ignore_index = True)
+        if playlist['next']:
+            playlist = sp.next(playlist)
+        else:
+            playlist = None
 
     return playlist_df
 
-# Get the Beatles and top charting songs
+# Get and save playlist data to csv
 beatles = get_playlist("andream4273","1Gf0v4DneJjq3adPSiNVe6")
 beatles["track_name"] = beatles["track_name"].str.replace(r'-[^-]+$', "", regex=True)
-vivian = get_playlist("Vivian", "4a6u0ZVG0FWYAJHVggnHAh")
-william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
-
-# Save playlists and info to CSVs
 beatles.to_csv("data/beatles.csv")
+
+vivian = get_playlist("Vivian", "4a6u0ZVG0FWYAJHVggnHAh")
 vivian.to_csv("data/vivian.csv")
+
+william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
 william.to_csv("data/william.csv")
 
 # Get the lyrics for a given song
