@@ -183,7 +183,6 @@ def predict(data, mpath):
         scaler = StandardScaler()
         predict_tensor = scaler.fit_transform(
             torch.from_numpy(beatles_data.values))
-        predict_data = TestData(torch.FloatTensor(predict_tensor))
 
         # Loading the saved model
         model = BinaryClassification()
@@ -192,14 +191,19 @@ def predict(data, mpath):
 
         # Generate prediction
         prediction = model(torch.from_numpy(predict_tensor).float())
-        preds = np.where(prediction < 0, 0, 1)
+
+        #ranked list of songs for person 0
+        ranked = [x for _, x in sorted(zip(prediction[:, 0], song_titles))]
+        print(ranked)
 
         names = ["Vivian", "William"]
-        # Show result
+        preds = np.where(prediction < 0, 0, 1)
+        # predictions for each song title
         for i in range(len(preds)):
             print("Song: ", song_titles[i], " | Prediction: ", names[preds[i,
                                                                            0]])
 
+        #total songs classified for each person
         print(names[0], " total: ", np.count_nonzero(preds == 0))
         print(names[1], " total: ", np.count_nonzero(preds == 1))
 
@@ -207,7 +211,7 @@ def predict(data, mpath):
 
 
 if __name__ == "__main__":
-    # main()
-    predict('data/beatles.csv', "trained_model.pt")
-    # predict('data/vivian.csv', "trained_model.pt")
+    main()
+    # predict('data/beatles.csv', "trained_model.pt")
+    predict('data/vivian.csv', "trained_model.pt")
     # predict('data/william.csv', "trained_model.pt")
