@@ -31,7 +31,7 @@ def get_input_output(first_csv, second_csv=None):
                                     columns=['rank'])
 
     if category_2 is None:
-        return pd.concat([category_1_x])
+        return category_1.iloc[:, 3], category_1.iloc[:, 5:]
     else:
         return pd.concat([category_1_x, category_2_x
                           ]), pd.concat([category_1_y, category_2_y])
@@ -96,9 +96,8 @@ def binary_acc(y_pred, y_test):
     return acc
 
 
-def main():
-    combined_x, combined_y = get_input_output("data/vivian.csv",
-                                              "data/william.csv")
+def train_model(x_path, y_path):
+    combined_x, combined_y = get_input_output(x_path, y_path)
     x_train, x_test, y_train, y_test = train_test_split(combined_x,
                                                         combined_y,
                                                         test_size=0.33,
@@ -110,7 +109,7 @@ def main():
     y_train = y_train.to_numpy()
     y_test = y_test.to_numpy()
 
-    EPOCHS = 1000
+    EPOCHS = 200
     BATCH_SIZE = 30
     LEARNING_RATE = 0.005
 
@@ -171,14 +170,12 @@ def main():
     torch.save(model.state_dict(), "trained_model.pt")
 
 
-def predict(data, mpath):
+def predict(data, mpath, user_1, user_2):
+
     with torch.no_grad():
 
         # Retrieve song data to predict
-        category_1 = pd.read_csv(data)
-        category_1.head()
-        song_titles = category_1.iloc[:, 3]
-        beatles_data = category_1.iloc[:, 5:]
+        song_titles, beatles_data = get_input_output(data)
 
         scaler = StandardScaler()
         predict_tensor = scaler.fit_transform(
@@ -191,12 +188,13 @@ def predict(data, mpath):
 
         # Generate prediction
         prediction = model(torch.from_numpy(predict_tensor).float())
+        # preds = (torch.round(torch.sigmoid(preds)))
 
         #ranked list of songs for person 0
         ranked = [x for _, x in sorted(zip(prediction[:, 0], song_titles))]
         print(ranked)
 
-        names = ["Vivian", "William"]
+        names = [user_1, user_2]
         preds = np.where(prediction < 0, 0, 1)
         # predictions for each song title
         for i in range(len(preds)):
@@ -210,8 +208,12 @@ def predict(data, mpath):
         return prediction
 
 
+def main():
+    # train_model("data/vivian.csv", "data/william.csv")
+    predict('data/beatles.csv', "trained_model.pt", "Vivian", "William")
+    # predict('data/vivian.csv', "trained_model.pt")
+    # predict('data/william.csv', "trained_model.pt")
+
+
 if __name__ == "__main__":
     main()
-    # predict('data/beatles.csv', "trained_model.pt")
-    predict('data/vivian.csv', "trained_model.pt")
-    # predict('data/william.csv', "trained_model.pt")
