@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import re
 
 import torch
 import torch.nn as nn
@@ -96,7 +97,7 @@ def binary_acc(y_pred, y_test):
     return acc
 
 
-def train_model(x_path, y_path):
+def train_model(x_path, y_path, user_1, user_2):
     combined_x, combined_y = get_input_output(x_path, y_path)
     x_train, x_test, y_train, y_test = train_test_split(combined_x,
                                                         combined_y,
@@ -150,7 +151,7 @@ def train_model(x_path, y_path):
 
             epoch_loss += loss.item()
             epoch_acc += acc.item()
-        if e % 100 == 0:
+        if e % 20 == 0:
             print(
                 f'Epoch {e + 0:03}: | Loss: {epoch_loss / len(train_loader):.5f} | Acc: {epoch_acc / len(train_loader):.3f}'
             )
@@ -167,19 +168,42 @@ def train_model(x_path, y_path):
 
     y_pred_list = [a.squeeze().tolist() for a in y_pred_list]
 
-    torch.save(model.state_dict(), "trained_models/trained_model.pt")
+    save_data(model, user_1, user_2)
 
 
-def predict(data, mpath, user_1, user_2):
+def save_data(model, user_1, user_2):
+    file_data = get_models()
+    lines = len(file_data)
+    model_name = "trained_model{}".format(lines)
+    torch.save(model.state_dict(),
+               "trained_models/trained_model{}.pt".format(lines))
+    file_map = open('trained_models/map.csv', 'a')
+    file_map.write("\n{},{},{}".format(model_name, user_1, user_2))
+    file_map.close()
+
+
+def get_users(mpath):
+    m = get_models()
+    num = int(re.search("\d", mpath).group())
+    data = m.iloc[num, 1:]
+    return data[0], data[1]
+
+
+def get_models():
+    file_map = pd.read_csv("trained_models/map.csv")
+    return file_map
+
+
+def predict(data, mpath):
 
     with torch.no_grad():
 
         # Retrieve song data to predict
-        song_titles, beatles_data = get_input_output(data)
+        song_titles, song_data = get_input_output(data)
 
         scaler = StandardScaler()
         predict_tensor = scaler.fit_transform(
-            torch.from_numpy(beatles_data.values))
+            torch.from_numpy(song_data.values))
 
         # Loading the saved model
         model = BinaryClassification()
@@ -194,6 +218,7 @@ def predict(data, mpath, user_1, user_2):
         ranked = [x for _, x in sorted(zip(prediction[:, 0], song_titles))]
         print(ranked)
 
+        user_1, user_2 = get_users(mpath)
         names = [user_1, user_2]
         preds = np.where(prediction < 0, 0, 1)
         # predictions for each song title
@@ -209,11 +234,11 @@ def predict(data, mpath, user_1, user_2):
 
 
 def main():
-    # train_model("data/vivian.csv", "data/william.csv")
-    # predict('data/beatles.csv', "trained_models/trained_model.pt", "Vivian", "William")
-    predict('data/vivian.csv', "trained_models/trained_model.pt", "Vivian",
-            "William")
-    # predict('data/william.csv', "trained_models/trained_model.pt","Vivian", "William")
+    train_model("data/vivian.csv", "data/william.csv", "Vivian", "William")
+    # predict('data/beatles.csv', "trained_models/trained_model1.pt")
+    # predict('data/vivian.csv', "trained_models/trained_model0.pt")
+    predict('data/william.csv', "trained_models/trained_model2.pt")
+    # print(get_models())
 
 
 if __name__ == "__main__":
