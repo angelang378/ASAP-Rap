@@ -167,7 +167,7 @@ def train_model(x_path, y_path):
 
     y_pred_list = [a.squeeze().tolist() for a in y_pred_list]
 
-    torch.save(model.state_dict(), "trained_model.pt")
+    torch.save(model.state_dict(), "trained_models/trained_model.pt")
 
 
 def predict(data, mpath, user_1, user_2):
@@ -210,9 +210,10 @@ def predict(data, mpath, user_1, user_2):
 
 def main():
     # train_model("data/vivian.csv", "data/william.csv")
-    predict('data/beatles.csv', "trained_model.pt", "Vivian", "William")
-    # predict('data/vivian.csv', "trained_model.pt")
-    # predict('data/william.csv', "trained_model.pt")
+    # predict('data/beatles.csv', "trained_models/trained_model.pt", "Vivian", "William")
+    predict('data/vivian.csv', "trained_models/trained_model.pt", "Vivian",
+            "William")
+    # predict('data/william.csv', "trained_models/trained_model.pt","Vivian", "William")
 
 
 if __name__ == "__main__":
