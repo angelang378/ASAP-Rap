@@ -1,250 +1,1806 @@
-,artist,album,track_name,track_id,danceability,energy,key,loudness,mode,speechiness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature
-0,The Beatles,1 (Remastered),Love Me Do ,4aX3n1Pn6jiCbvqBL8eqyP,0.524,0.88,0,-3.865,1,0.0987,0.000191,0.154,0.758,148.058,140173,4
-1,The Beatles,1 (Remastered),From Me To You ,1euKWJfJSfPhgSendPrcXb,0.581,0.821,0,-4.387,1,0.0318,0.0,0.108,0.968,136.145,116160,4
-2,The Beatles,1 (Remastered),She Loves You ,6nEkxYIEnrbYH7h1hJ8Xn6,0.377,0.916,4,-3.199,0,0.0481,0.0,0.074,0.912,75.533,140920,4
-3,The Beatles,1 (Remastered),I Want To Hold Your Hand ,4pbG9SUmWIvsROVLF0zF9s,0.49,0.715,7,-5.549,1,0.0476,0.0,0.311,0.866,130.726,145747,4
-4,The Beatles,1 (Remastered),Can't Buy Me Love ,38Vb1J5W5LOs0i7SAF76pa,0.426,0.76,0,-4.082,1,0.0414,0.0,0.325,0.955,171.838,131213,4
-5,The Beatles,1 (Remastered),A Hard Day's Night ,1pctwlBtIcKIjQMzsVcGHB,0.546,0.818,0,-4.89,1,0.031,0.0,0.0983,0.756,138.561,152920,4
-6,The Beatles,1 (Remastered),I Feel Fine ,5hhF25sWnZvXhimOHLjTRE,0.564,0.827,7,-7.089,1,0.0283,3.73e-06,0.127,0.912,89.847,139347,4
-7,The Beatles,1 (Remastered),Eight Days A Week ,5ylLypaOksxWd75YrGtx2N,0.636,0.677,9,-5.605,1,0.0316,0.0,0.215,0.837,138.707,163320,4
-8,The Beatles,1 (Remastered),Ticket To Ride ,7nhrlsT1P4qsslp28UA1BI,0.554,0.904,4,-6.319,0,0.0536,0.0,0.259,0.801,123.443,190120,4
-9,The Beatles,1 (Remastered),Help! ,3Smida2eCUsLzDcmZqXEZ3,0.602,0.736,11,-6.51,0,0.0332,0.0,0.0776,0.819,94.931,139240,4
-10,The Beatles,1 (Remastered),Yesterday ,4E5rL7YL0hVUPqeMSpjEF2,0.401,0.189,0,-11.189,1,0.0287,0.0,0.0968,0.357,94.509,125320,4
-11,The Beatles,1 (Remastered),Day Tripper ,29b2b96jozyD9GPCkOrVLs,0.665,0.782,6,-8.438,0,0.0307,4.19e-06,0.125,0.731,137.453,169000,4
-12,The Beatles,1 (Remastered),We Can Work It Out ,1hTUFqJuQAMjXVGwUPWDqi,0.378,0.677,2,-8.63,1,0.0298,0.0,0.183,0.648,106.071,135693,4
-13,The Beatles,1 (Remastered),Paperback Writer ,0Ui8KPWZbJJQ2Y0CIQuVqX,0.472,0.856,7,-6.03,1,0.0562,2.78e-06,0.595,0.841,78.696,138200,4
-14,The Beatles,1 (Remastered),Yellow Submarine ,7zRmGvtSy36Jr19U5OInJT,0.66,0.557,1,-9.597,1,0.03,0.0,0.543,0.788,110.743,158800,4
-15,The Beatles,1 (Remastered),Eleanor Rigby ,0Wv8IXRUDZOfmFJHC1VOFI,0.605,0.314,0,-7.631,1,0.0327,0.0,0.359,0.836,138.148,125867,4
-16,The Beatles,1 (Remastered),Penny Lane ,7afyyi8zn4FzWbcJ70F56V,0.679,0.592,9,-5.963,1,0.0402,0.0138,0.16,0.55,113.265,180520,4
-17,The Beatles,1 (Remastered),All You Need Is Love ,6KqiVlOLfDzJViJVAPym1p,0.397,0.625,7,-5.829,1,0.0347,5.47e-06,0.263,0.676,104.54,227760,4
-18,The Beatles,1 (Remastered),"Hello, Goodbye ",0hqjsgWRfMBf2s8xsvRq1M,0.498,0.806,0,-5.284,1,0.0265,5.74e-06,0.525,0.664,99.396,207787,4
-19,The Beatles,1 (Remastered),Lady Madonna ,1raiIrqaqRAqZmQWZlLuBd,0.65,0.777,2,-4.984,1,0.0294,0.343,0.215,0.574,109.608,136827,4
-20,The Beatles,1 (Remastered),Hey Jude ,0aym2LBJBk9DAYuHHutrIl,0.386,0.607,10,-7.7,1,0.0261,1.38e-05,0.088,0.532,147.207,425653,4
-21,The Beatles,1 (Remastered),Get Back ,6zmQ8bzlDIfngjy0Ba3w46,0.703,0.636,7,-7.579,1,0.0376,0.0256,0.0959,0.218,122.921,191773,4
-22,The Beatles,1 (Remastered),The Ballad Of John And Yoko ,1F7s27lLKshLPt9TPCgMDL,0.651,0.892,4,-6.551,1,0.0313,2.85e-06,0.127,0.962,135.309,179480,4
-23,The Beatles,1 (Remastered),Something ,7mzNk14FElnA5DOKQyBrM0,0.449,0.375,0,-9.329,1,0.0286,2.41e-06,0.144,0.466,133.845,181413,4
-24,The Beatles,1 (Remastered),Come Together ,3CEFDHJSiERlfwRujZ1CkJ,0.559,0.343,9,-13.072,0,0.0424,0.138,0.1,0.183,164.53,258693,4
-25,The Beatles,1 (Remastered),Let It Be ,4qsVPnhbvEooD1bSNqvvh0,0.445,0.436,0,-8.536,1,0.0332,2.63e-05,0.112,0.483,139.848,230440,4
-26,The Beatles,1 (Remastered),The Long And Winding Road ,5xhP99gVBIkpr7omcdCeiy,0.326,0.365,3,-8.776,1,0.0265,0.000523,0.0718,0.314,133.084,219440,4
-27,The Beatles,Let It Be (Remastered),Two Of Us ,0CaBBQsaAiRHhiLmzi7ZRp,0.726,0.702,7,-10.757,1,0.032,3.46e-05,0.239,0.931,109.114,216813,4
-28,The Beatles,Let It Be (Remastered),Dig A Pony ,4OUmlC67FoPLvQNuE5C7kF,0.538,0.478,11,-8.957,0,0.0388,0.0,0.17,0.527,59.004,235000,4
-29,The Beatles,Let It Be (Remastered),Across The Universe ,4dkoqJrP0L8FXftrMZongF,0.257,0.412,1,-11.788,1,0.0287,8.68e-05,0.0702,0.858,152.126,228133,4
-30,The Beatles,Let It Be (Remastered),I Me Mine ,2BMqay80iBzZTa608Y1eG1,0.291,0.638,9,-7.854,0,0.0554,0.0,0.101,0.525,185.235,145587,3
-31,The Beatles,Let It Be (Remastered),Dig It ,0eRyOunOVBChlXxIvqwOxH,0.54,0.489,5,-12.276,1,0.117,0.0019,0.457,0.67,157.03,50467,3
-32,The Beatles,Let It Be (Remastered),Let It Be ,7iN1s7xHE4ifF5povM6A48,0.443,0.403,0,-8.339,1,0.0322,0.0,0.111,0.41,143.462,243027,4
-33,The Beatles,Let It Be (Remastered),Maggie Mae ,2VsX1BoWSGiuVXGiFSUr6h,0.516,0.515,2,-12.035,0,0.215,0.0,0.103,0.524,169.039,40040,4
-34,The Beatles,Let It Be (Remastered),I've Got A Feeling ,3gwRWIbr5ycEVLIAXrWaw7,0.44,0.609,2,-8.824,1,0.0358,0.0,0.582,0.364,165.156,217560,4
-35,The Beatles,Let It Be (Remastered),One After 909 ,50qHmeex1nPTyQTwBXjSE4,0.554,0.828,4,-6.435,1,0.0739,0.0,0.907,0.888,90.95,173960,4
-36,The Beatles,Let It Be (Remastered),The Long And Winding Road ,3mlMpmY8oZIBFc39D9zLbh,0.299,0.329,3,-10.096,1,0.0279,0.0105,0.0559,0.392,132.282,218187,4
-37,The Beatles,Let It Be (Remastered),For You Blue ,5dpRJkvY8oWMQmQbEQTXhO,0.88,0.556,2,-10.773,1,0.0855,0.0483,0.24,0.955,128.542,152213,4
-38,The Beatles,Let It Be (Remastered),Get Back ,4MLBqAEzNN89o2M9h92Z26,0.761,0.592,2,-9.836,1,0.0586,0.00626,0.61,0.332,123.095,189387,4
-39,The Beatles,Abbey Road (Remastered),Come Together ,2EqlS6tkEnglzr7tkKAAYD,0.533,0.376,9,-11.913,0,0.0393,0.248,0.0926,0.187,165.007,259947,4
-40,The Beatles,Abbey Road (Remastered),Something ,0pNeVovbiZHkulpGeOx1Gj,0.396,0.338,0,-10.872,1,0.0304,2.62e-06,0.138,0.377,133.522,182293,4
-41,The Beatles,Abbey Road (Remastered),Maxwell's Silver Hammer ,2S8xyNRJX1XQdo3qnTuovI,0.764,0.426,2,-11.045,1,0.0405,0.000119,0.132,0.726,131.12,207920,4
-42,The Beatles,Abbey Road (Remastered),Oh! Darling ,2mxByJWOajjiVsLWjNXvDJ,0.422,0.656,4,-8.412,1,0.0397,0.0279,0.268,0.549,173.93,207240,3
-43,The Beatles,Abbey Road (Remastered),Octopus's Garden ,0suLngfo7rJoetk7Ub6N8l,0.626,0.512,1,-9.15,0,0.0247,4.65e-05,0.215,0.73,92.225,170720,4
-44,The Beatles,Abbey Road (Remastered),I Want You (She's So Heavy) ,3Z25k4ZF6QENy2d9YatsM5,0.37,0.515,2,-9.487,0,0.0321,0.205,0.0966,0.42,115.732,467320,4
-45,The Beatles,Abbey Road (Remastered),Here Comes The Sun ,6dGnYIeXmHdcikdzNNDMm2,0.557,0.54,9,-10.484,1,0.0347,0.00248,0.179,0.394,129.171,185733,4
-46,The Beatles,Abbey Road (Remastered),Because ,1rxoyGj1QuPoVi8fOft1Kt,0.328,0.249,2,-11.777,1,0.0272,5.77e-06,0.134,0.162,81.257,165667,4
-47,The Beatles,Abbey Road (Remastered),You Never Give Me Your Money ,1jOLTO379yIu9aMnCkpMQl,0.335,0.416,0,-11.051,1,0.0348,0.136,0.116,0.223,174.464,242973,3
-48,The Beatles,Abbey Road (Remastered),Sun King ,4nwKdZID1ht0lDBJ5h2p87,0.483,0.177,2,-17.629,1,0.0277,0.499,0.116,0.192,74.994,146267,4
-49,The Beatles,Abbey Road (Remastered),Mean Mr Mustard ,4JOyMhad5dD81uGYLGgKrS,0.676,0.596,4,-9.107,1,0.0272,1.96e-05,0.351,0.97,100.687,66533,4
-50,The Beatles,Abbey Road (Remastered),Polythene Pam ,1FTCA6wQwulQFokDddKE68,0.474,0.939,11,-8.884,0,0.199,0.674,0.19,0.499,166.829,72640,4
-51,The Beatles,Abbey Road (Remastered),She Came In Through The Bathroom Window ,2jtUGFsqanQ82zqDlhiKIp,0.53,0.72,2,-8.793,1,0.0338,3.38e-05,0.314,0.69,80.652,118627,4
-52,The Beatles,Abbey Road (Remastered),Golden Slumbers ,01SfTM5nfCou5gQL70r6gs,0.419,0.152,0,-12.126,1,0.0277,0.0034,0.113,0.239,80.608,91760,4
-53,The Beatles,Abbey Road (Remastered),Carry That Weight ,5eZrW59C3UgBhkqNlowEID,0.543,0.458,0,-8.976,1,0.0274,0.00663,0.298,0.704,84.319,96467,4
-54,The Beatles,Abbey Road (Remastered),The End ,5aHHf6jrqDRb1fcBmue2kn,0.647,0.487,11,-10.119,0,0.0689,0.285,0.138,0.222,123.444,141613,1
-55,The Beatles,Abbey Road (Remastered),Her Majesty ,6UCFZ9ZOFRxK8oak7MdPZu,0.703,0.215,2,-23.03,1,0.0892,1.23e-06,0.13,0.522,100.874,25987,3
-56,The Beatles,Yellow Submarine (Remastered),Yellow Submarine ,3oEo8Pqm5IAi8wQfCI5BpR,0.605,0.536,1,-10.069,1,0.0421,0.0,0.528,0.688,110.849,159720,4
-57,The Beatles,Yellow Submarine (Remastered),Only A Northern Song ,4phXWLTSlC1BEogSWhJMDD,0.175,0.731,9,-8.341,1,0.0705,0.000751,0.0846,0.801,209.242,204493,4
-58,The Beatles,Yellow Submarine (Remastered),All Together Now ,2ck8lFrYAch2GPtdhpTHe3,0.587,0.431,2,-9.495,1,0.0686,0.0,0.561,0.778,95.937,130893,4
-59,The Beatles,Yellow Submarine (Remastered),Hey Bulldog ,5xYC2ZJJ9TMJL8BOl85O2R,0.587,0.617,7,-9.164,1,0.028,0.639,0.199,0.947,100.495,191307,4
-60,The Beatles,Yellow Submarine (Remastered),It's All Too Much ,2bQZ9BBhP7vSBiyDz7KXnv,0.39,0.781,7,-7.878,1,0.0364,0.412,0.1,0.199,113.511,385013,4
-61,The Beatles,Yellow Submarine (Remastered),All You Need Is Love ,2Z8cY4QpZTFUZxCQCpvNe1,0.4,0.463,7,-8.455,1,0.0288,4.59e-05,0.286,0.627,103.103,231213,4
-62,The Beatles,Yellow Submarine (Remastered),Pepperland ,1y8kq7M3tBw4zAttsZMya8,0.354,0.281,7,-12.434,1,0.032,0.763,0.243,0.367,113.126,140733,4
-63,The Beatles,Yellow Submarine (Remastered),Sea Of Time ,6FvhNdlAom6yYHa8ekAaAM,0.237,0.096,2,-20.629,0,0.0387,0.0961,0.203,0.0629,128.054,180213,4
-64,The Beatles,Yellow Submarine (Remastered),Sea Of Holes ,6n42oei7aEx2I0dcluKAGx,0.249,0.0994,6,-19.266,0,0.04,0.926,0.454,0.0357,118.99,136693,3
-65,The Beatles,Yellow Submarine (Remastered),Sea Of Monsters ,30u8QyT0kBSYO5RcZmaLl3,0.253,0.166,9,-16.624,1,0.0346,0.862,0.135,0.0489,83.971,216693,3
-66,The Beatles,Yellow Submarine (Remastered),March Of The Meanies ,7zJKIrxcH2jY4TOqpvoLvH,0.538,0.378,9,-14.117,0,0.0387,0.758,0.456,0.16,117.185,139360,4
-67,The Beatles,Yellow Submarine (Remastered),Pepperland Laid Waste ,0rHHNFcUgB0zlzCk4MVluw,0.269,0.0902,8,-23.018,0,0.042,0.821,0.302,0.0462,82.423,132773,4
-68,The Beatles,Yellow Submarine (Remastered),Yellow Submarine In Pepperland ,7ExawMDcRz2lMgNEjjYzdr,0.406,0.219,7,-13.155,1,0.0359,0.599,0.15,0.271,105.345,134027,4
-69,The Beatles,The Beatles (Remastered),Back In The U.S.S.R. ,0j3p1p06deJ7f9xmJ9yG22,0.48,0.969,9,-7.464,1,0.0854,0.00022,0.0608,0.494,142.489,163453,4
-70,The Beatles,The Beatles (Remastered),Dear Prudence ,5NQYyej46WQkgCbnzGD21W,0.388,0.529,7,-10.533,1,0.0436,0.0681,0.108,0.332,150.721,235773,4
-71,The Beatles,The Beatles (Remastered),Glass Onion ,2jAojvUaPoHPFSPpF0UNRo,0.523,0.51,7,-9.827,0,0.0514,8.38e-05,0.108,0.789,120.432,137840,4
-72,The Beatles,The Beatles (Remastered),"Ob-La-Di, Ob-La-Da ",1gFNm7cXfG1vSMcxPpSxec,0.818,0.728,10,-8.331,1,0.0314,0.0642,0.251,0.975,113.059,188960,4
-73,The Beatles,The Beatles (Remastered),Wild Honey Pie ,6j67aNAPeQ31uw4qw4rpLa,0.792,0.763,2,-11.185,1,0.0506,0.627,0.789,0.152,89.9,52973,4
-74,The Beatles,The Beatles (Remastered),The Continuing Story Of Bungalow Bill ,5Z3Rd1fMcaty8g5Pn7yhBQ,0.621,0.459,0,-10.414,1,0.104,0.0,0.656,0.648,114.816,194160,4
-75,The Beatles,The Beatles (Remastered),While My Guitar Gently Weeps ,389QX9Q1eUOEZ19vtzzI9O,0.453,0.654,4,-8.855,0,0.0317,0.00395,0.172,0.702,115.0,285000,4
-76,The Beatles,The Beatles (Remastered),Happiness Is A Warm Gun ,71LsKf3xISiOlY1mj7FFPP,0.431,0.54,9,-9.6,0,0.0589,1.34e-06,0.169,0.44,139.288,164547,4
-77,The Beatles,The Beatles (Remastered),Martha My Dear ,1swmf4hFMJYRNA8Rq9PVaW,0.472,0.292,10,-11.591,1,0.0321,0.0007,0.128,0.824,177.624,148573,4
-78,The Beatles,The Beatles (Remastered),I'm So Tired ,2X9H5BokS1u5O46YpNYNsZ,0.433,0.483,9,-9.422,1,0.175,2.64e-05,0.539,0.717,68.492,123493,4
-79,The Beatles,The Beatles (Remastered),Blackbird ,5jgFfDIR6FR0gvlA56Nakr,0.686,0.127,7,-14.361,1,0.0342,1.41e-05,0.0573,0.372,93.699,138387,4
-80,The Beatles,The Beatles (Remastered),Piggies ,4ZmjfLdJXbqjAENqk7eWSE,0.542,0.445,8,-9.105,1,0.0303,0.0,0.516,0.52,93.245,124267,4
-81,The Beatles,The Beatles (Remastered),Rocky Raccoon ,1ITQbrueGLl581a25XXm9c,0.599,0.363,7,-11.728,1,0.0315,0.0,0.243,0.648,79.456,213107,4
-82,The Beatles,The Beatles (Remastered),Don't Pass Me By ,4zq4rrfHZeZsTbo5vjJXSV,0.599,0.537,0,-9.617,1,0.0254,1.92e-05,0.194,0.946,84.895,230453,4
-83,The Beatles,The Beatles (Remastered),Why Don't We Do It In The Road? ,4eLIq1nQNwz2qLu8DeiWIp,0.589,0.522,2,-8.718,1,0.0521,0.000243,0.0993,0.957,187.688,101160,4
-84,The Beatles,The Beatles (Remastered),I Will ,09x9v1o51dbqi5H0u7UGfp,0.631,0.387,5,-11.529,1,0.0262,0.000406,0.0822,0.832,103.11,105933,4
-85,The Beatles,The Beatles (Remastered),Julia ,5FnpXVgDOk2sLT58qM22Of,0.512,0.0953,2,-16.082,1,0.0304,0.000268,0.117,0.193,134.706,176667,4
-86,The Beatles,The Beatles (Remastered),Birthday ,1ABegtCPBMMJaMpfDyATjE,0.541,0.727,2,-7.509,1,0.0384,0.717,0.232,0.91,139.239,163080,4
-87,The Beatles,The Beatles (Remastered),Yer Blues ,2AsGApoUuN8pTM17Lq9eUd,0.327,0.525,9,-10.272,1,0.0475,0.259,0.133,0.435,151.766,240453,3
-88,The Beatles,The Beatles (Remastered),Mother Nature's Son ,6TjUg1cTUzWHbal6yQAi7c,0.608,0.178,2,-17.109,1,0.0264,0.352,0.166,0.401,84.78,168027,4
-89,The Beatles,The Beatles (Remastered),Everybody's Got Something To Hide Except Me And My Monkey ,64P3zpRsDHIk7YTpRtaKYL,0.523,0.731,2,-8.613,1,0.0559,0.000464,0.081,0.81,117.089,144773,4
-90,The Beatles,The Beatles (Remastered),Sexy Sadie ,2tBv9tAdqEbLNDi5smSjbg,0.577,0.624,0,-9.626,1,0.0285,0.00622,0.117,0.671,75.478,195267,4
-91,The Beatles,The Beatles (Remastered),Helter Skelter ,0Bs0hUYxz7REyIHH7tRhL2,0.166,0.831,9,-8.469,1,0.0894,0.846,0.811,0.281,167.518,269787,4
-92,The Beatles,The Beatles (Remastered),"Long, Long, Long ",40d2EcaOOCUjDzzo2YvUWn,0.349,0.129,5,-15.883,1,0.0294,0.405,0.192,0.163,104.837,186307,3
-93,The Beatles,The Beatles (Remastered),Revolution 1 ,1aOzDhi5a1RWWRy5dmYA8I,0.386,0.626,9,-9.451,1,0.0377,0.00164,0.621,0.695,98.425,255707,4
-94,The Beatles,The Beatles (Remastered),Honey Pie ,1TPcNcmuKlq0PKpYOBgP1U,0.537,0.297,7,-15.452,1,0.0822,1.5e-05,0.145,0.553,144.197,161160,4
-95,The Beatles,The Beatles (Remastered),Savoy Truffle ,5iyCSUM7zzficwaGo8GIoc,0.623,0.544,11,-11.043,0,0.0536,0.309,0.134,0.793,120.761,174467,4
-96,The Beatles,The Beatles (Remastered),Cry Baby Cry ,5XmetMMUFNXClbiYnGdVmP,0.517,0.529,9,-11.851,0,0.0323,0.00396,0.174,0.362,76.644,182080,4
-97,The Beatles,The Beatles (Remastered),Revolution 9 ,5dZ8PeKKZJLIQAWNTdp8WX,0.208,0.615,2,-15.297,0,0.342,0.118,0.824,0.101,91.158,502013,4
-98,The Beatles,The Beatles (Remastered),Good Night ,3T4Kt51PV4k8tx6YCtBgcl,0.146,0.355,7,-14.583,1,0.0352,0.835,0.114,0.178,146.408,193760,3
-99,The Beatles,Magical Mystery Tour (Remastered),Magical Mystery Tour ,0qHMhBZqYb99yhX9BHcIkV,0.297,0.613,9,-9.065,1,0.0931,3.98e-05,0.0734,0.338,170.962,170107,4
-100,The Beatles,Magical Mystery Tour (Remastered),The Fool On The Hill ,6rHh8urosEFRI67xVa6fzU,0.356,0.26,4,-10.577,0,0.0314,2.1e-06,0.105,0.49,144.184,179107,4
-101,The Beatles,Magical Mystery Tour (Remastered),Flying ,1itLKsCWHtLnxALkgBk1Fa,0.551,0.395,0,-14.755,1,0.0501,0.88,0.0932,0.261,92.929,135520,4
-102,The Beatles,Magical Mystery Tour (Remastered),Blue Jay Way ,0QIX9BS0AUCQcHYvyrsMkV,0.294,0.407,0,-11.575,1,0.0308,0.000219,0.0852,0.0378,101.052,235067,4
-103,The Beatles,Magical Mystery Tour (Remastered),Your Mother Should Know ,1dxbAIfCASqv6jix2R1Taj,0.698,0.293,0,-11.361,1,0.0332,0.0106,0.0936,0.724,117.613,148413,4
-104,The Beatles,Magical Mystery Tour (Remastered),I Am The Walrus ,6Pq9MmkDQYZiiCDpxnvrf6,0.401,0.556,2,-10.532,1,0.0513,0.000359,0.589,0.654,85.206,275867,4
-105,The Beatles,Magical Mystery Tour (Remastered),"Hello, Goodbye ",0vZ97gHhemKm6c64hTfJNA,0.479,0.733,0,-8.753,1,0.0256,2.4e-05,0.414,0.806,99.307,208840,4
-106,The Beatles,Magical Mystery Tour (Remastered),Strawberry Fields Forever ,3Am0IbOxmvlSXro7N5iSfZ,0.39,0.502,10,-12.277,1,0.178,0.000138,0.0713,0.289,97.871,247320,4
-107,The Beatles,Magical Mystery Tour (Remastered),Penny Lane ,1h04XMpzGzmAudoI6VHBgA,0.651,0.488,9,-8.22,1,0.0316,0.026,0.136,0.49,113.038,180893,4
-108,The Beatles,Magical Mystery Tour (Remastered),"Baby, You're A Rich Man ",0JBvtprXP2Z0LP3jmzA7Xp,0.619,0.625,7,-9.635,1,0.036,1.05e-06,0.152,0.467,96.751,181307,4
-109,The Beatles,Magical Mystery Tour (Remastered),All You Need Is Love ,68BTFws92cRztMS1oQ7Ewj,0.4,0.48,7,-7.768,1,0.0295,3.1e-05,0.155,0.653,103.436,230387,4
-110,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Sgt. Pepper's Lonely Hearts Club Band ,4fUKE8EULjQdHF4zb0M8FO,0.451,0.673,7,-9.115,1,0.0734,0.00225,0.797,0.583,95.513,122893,4
-111,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),With A Little Help From My Friends ,2RnPATK99oGOZygnD2GTO6,0.705,0.515,4,-9.343,1,0.0337,0.0,0.389,0.803,112.035,164107,4
-112,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Lucy In The Sky With Diamonds ,25yQPHgC35WNnnOUqFhgVR,0.311,0.325,2,-9.042,1,0.0283,0.0,0.139,0.668,65.09,208467,1
-113,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Getting Better ,3LtOmWpTXLhilL5odoKysR,0.632,0.471,0,-7.887,1,0.0348,5.08e-06,0.0712,0.764,121.672,168120,4
-114,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Fixing A Hole ,3pKKxkeB1pOUMHwWBmKc3Y,0.469,0.507,0,-8.917,0,0.0451,0.0,0.0783,0.619,112.984,156827,4
-115,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),She's Leaving Home ,3PjMtNzwhDHqxoKudm6GvF,0.381,0.214,4,-11.629,1,0.0337,0.0,0.106,0.393,127.581,215160,3
-116,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Being For The Benefit Of Mr. Kite! ,6W35n1UlkvqhfMZstB4BXs,0.526,0.413,0,-9.865,1,0.0446,0.0,0.0992,0.71,111.874,157533,4
-117,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Within You Without You ,3Umg8CDhO8dOSj7yBTInYb,0.352,0.479,6,-9.965,1,0.0338,0.000353,0.486,0.354,126.166,304667,4
-118,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),When I'm Sixty Four ,1NrbnHlR2BFREcyWXHIHip,0.704,0.241,1,-13.258,1,0.0476,2.8e-05,0.0868,0.661,140.411,157667,4
-119,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Lovely Rita ,6h9W5FxX4E9lUFsyq8j1AD,0.61,0.471,8,-9.151,0,0.0261,0.0,0.118,0.63,87.379,162093,4
-120,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Good Morning Good Morning ,0xIuNHHcKI1JDuBPlSwzb1,0.542,0.618,2,-8.876,1,0.139,0.0,0.772,0.93,121.849,161227,3
-121,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Sgt. Pepper's Lonely Hearts Club Band ,42ocGQCOT0xYtV3f5kJDsD,0.653,0.889,0,-8.006,1,0.0453,0.589,0.892,0.879,118.773,79067,4
-122,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),A Day In The Life ,0hKRSZhUGEhKU6aNSPBACZ,0.364,0.457,4,-14.162,0,0.0675,0.000106,0.922,0.175,163.219,337413,4
-123,The Beatles,Revolver (Remastered),Taxman ,4BRkPBUxOYffM2QXVlq7aC,0.469,0.596,7,-8.348,1,0.0749,0.0,0.321,0.783,133.586,158853,4
-124,The Beatles,Revolver (Remastered),Eleanor Rigby ,5GjPQ0eI7AgmOnADn1EO6Q,0.581,0.28,4,-9.091,0,0.0381,1.56e-05,0.305,0.813,137.831,126533,4
-125,The Beatles,Revolver (Remastered),I'm Only Sleeping ,2ylCrFiBu98SC0vFfaCent,0.494,0.47,8,-9.599,0,0.0301,0.0,0.28,0.698,103.477,180320,4
-126,The Beatles,Revolver (Remastered),Love You To ,4RdJFhfLQcezwN5LsXl4qP,0.391,0.593,5,-8.999,1,0.0413,0.000249,0.0829,0.707,123.986,179827,4
-127,The Beatles,Revolver (Remastered),"Here, There And Everywhere ",2B4Y9u4ERAFiMo13XPJyGP,0.29,0.247,7,-12.125,1,0.0383,0.00565,0.0917,0.36,165.361,144880,4
-128,The Beatles,Revolver (Remastered),Yellow Submarine ,50xwQXPtfNZFKFeZ0XePWc,0.604,0.549,1,-9.873,1,0.0389,0.0,0.438,0.696,111.398,158880,4
-129,The Beatles,Revolver (Remastered),She Said She Said ,3VSuWxZM6x6V3ig5nYtikL,0.329,0.678,3,-7.878,1,0.0344,0.168,0.843,0.672,106.476,156040,4
-130,The Beatles,Revolver (Remastered),Good Day Sunshine ,7HTH1ppjkkOe7RLoBDKXYJ,0.77,0.496,11,-8.45,1,0.0468,0.0,0.123,0.571,117.331,129293,3
-131,The Beatles,Revolver (Remastered),And Your Bird Can Sing ,4KRgqwb4kvBuTz1utbYxfb,0.555,0.65,4,-6.936,1,0.0282,0.0491,0.236,0.966,132.59,120493,4
-132,The Beatles,Revolver (Remastered),For No One ,1kDkaFlmkdEZiVUogaP9OZ,0.483,0.351,1,-10.487,0,0.0278,0.0,0.115,0.713,81.208,119813,4
-133,The Beatles,Revolver (Remastered),Doctor Robert ,1ob06Ol8FMIPQgjpg7bMyk,0.394,0.64,4,-8.992,1,0.0488,0.139,0.153,0.574,164.626,134267,4
-134,The Beatles,Revolver (Remastered),I Want To Tell You ,7orb0y6ySGdsYZywMoQtsD,0.493,0.525,9,-9.289,1,0.0315,4.4e-06,0.148,0.449,127.492,147973,4
-135,The Beatles,Revolver (Remastered),Got To Get You Into My Life ,3tGhRLgcCP6SIZU3tbGl7l,0.521,0.524,0,-6.136,1,0.0302,9.27e-06,0.0838,0.711,136.679,149240,4
-136,The Beatles,Revolver (Remastered),Tomorrow Never Knows ,00oZhqZIQfL9P5CjOP6JsO,0.38,0.829,5,-6.105,1,0.0405,0.00208,0.342,0.0534,125.887,179547,4
-137,The Beatles,Rubber Soul (Remastered),Drive My Car ,06ypiqmILMdVeaiErMFA91,0.754,0.571,2,-8.547,1,0.0421,0.0,0.3,0.82,122.463,148893,4
-138,The Beatles,Rubber Soul (Remastered),Norwegian Wood (This Bird Has Flown) ,1H7gMYGykdtwZOV6s1N0by,0.425,0.369,4,-11.876,1,0.0379,0.00126,0.112,0.65,176.625,124693,3
-139,The Beatles,Rubber Soul (Remastered),You Won't See Me ,4LLBKnNCrSRrSjSTuiwjE9,0.488,0.539,9,-8.752,1,0.0304,0.0,0.0538,0.473,115.941,199960,4
-140,The Beatles,Rubber Soul (Remastered),Nowhere Man ,5SUlhldQJtOhUr2GzH5RI7,0.534,0.624,4,-9.589,1,0.0462,0.0,0.128,0.687,121.402,163693,4
-141,The Beatles,Rubber Soul (Remastered),Think For Yourself ,64bKVrkaXQAKx04dLHqCNz,0.529,0.567,0,-9.796,1,0.0282,0.0,0.0729,0.799,130.544,138520,4
-142,The Beatles,Rubber Soul (Remastered),The Word ,4GBaPHvAyj4V2jeobD9tsy,0.59,0.641,0,-9.687,1,0.0416,0.0,0.0553,0.792,120.773,163107,4
-143,The Beatles,Rubber Soul (Remastered),Michelle ,5By7Pzgl6TMuVJG168VWzS,0.578,0.29,5,-12.501,0,0.0341,0.0,0.105,0.666,117.403,162373,4
-144,The Beatles,Rubber Soul (Remastered),What Goes On ,19QXdPRZFHI5kNK3tN8Mh7,0.67,0.776,4,-10.035,1,0.0749,3.01e-06,0.0732,0.765,96.93,168573,4
-145,The Beatles,Rubber Soul (Remastered),Girl ,6tQvjqDIK9GXWIC6mejms8,0.699,0.294,5,-13.205,0,0.0294,0.0,0.117,0.893,96.615,151720,4
-146,The Beatles,Rubber Soul (Remastered),I'm Looking Through You ,5E3BVY66TEDexFutOO5GeS,0.667,0.498,1,-11.027,1,0.0364,0.0,0.0481,0.774,85.843,146387,4
-147,The Beatles,Rubber Soul (Remastered),In My Life ,3KfbEIOC7YIv90FIfNSZpo,0.688,0.435,9,-11.359,1,0.0323,0.0,0.113,0.435,103.239,146333,4
-148,The Beatles,Rubber Soul (Remastered),Wait ,0CGbof9amBnsNlRhZ8IY2H,0.552,0.487,6,-10.574,0,0.04,0.0,0.105,0.657,127.201,134720,4
-149,The Beatles,Rubber Soul (Remastered),If I Needed Someone ,7C6hdDIz90Uf5YmdZnYbJJ,0.492,0.755,9,-9.273,1,0.0331,0.0,0.102,0.796,127.387,142267,4
-150,The Beatles,Rubber Soul (Remastered),Run For Your Life ,4gUYV3ktbaOeAK5KrXMWV5,0.563,0.705,2,-9.232,1,0.103,0.0,0.0552,0.822,176.732,141093,4
-151,The Beatles,Help! (Remastered),Help! ,7DD7eSuYSC5xk2ArU62esN,0.534,0.725,6,-7.576,0,0.0332,0.0,0.0994,0.763,95.003,139560,4
-152,The Beatles,Help! (Remastered),The Night Before ,5xcfepnz1v7a83T8An9gjw,0.461,0.762,2,-6.727,1,0.0379,0.0,0.238,0.632,84.496,154933,4
-153,The Beatles,Help! (Remastered),You've Got To Hide Your Love Away ,4F1AgKpuFRMLEgtPETVwZk,0.398,0.392,7,-9.05,1,0.0282,0.0,0.102,0.378,184.267,129120,3
-154,The Beatles,Help! (Remastered),I Need You ,5EzvwjFwdP5Kfl5AZAemzu,0.601,0.489,9,-8.554,1,0.0455,0.0,0.0988,0.638,136.215,148787,4
-155,The Beatles,Help! (Remastered),Another Girl ,7hefVXaGsFPesbK6fKwS6F,0.516,0.638,9,-7.453,1,0.0314,0.0,0.333,0.822,88.657,125360,4
-156,The Beatles,Help! (Remastered),You're Going To Lose That Girl ,70HNt0eoBVqr4ss68U8x3B,0.533,0.66,4,-7.694,1,0.0337,0.0,0.26,0.818,131.975,138667,4
-157,The Beatles,Help! (Remastered),Ticket To Ride ,7CZiDzGVjUssMSOXrDNYHL,0.519,0.85,9,-6.777,1,0.0678,0.0,0.233,0.749,123.419,189680,4
-158,The Beatles,Help! (Remastered),Act Naturally ,0IxxqsYBcCHEQ1HqLYJnwx,0.702,0.447,7,-10.122,1,0.0308,0.0,0.153,0.944,93.02,150373,4
-159,The Beatles,Help! (Remastered),It's Only Love ,2ue1KRstSKHF8jQkIJZiNC,0.629,0.551,0,-8.281,1,0.0256,0.0,0.0432,0.685,113.155,116480,3
-160,The Beatles,Help! (Remastered),You Like Me Too Much ,0y1LLH0NiwOD5tM3aNMXTr,0.555,0.57,7,-7.869,1,0.0302,0.0,0.191,0.899,88.316,156867,4
-161,The Beatles,Help! (Remastered),Tell Me What You See ,2jnr9KaaMAmvk0zMcM9UzV,0.592,0.796,7,-8.125,1,0.0429,0.0,0.131,0.7,136.675,157987,4
-162,The Beatles,Help! (Remastered),I've Just Seen A Face ,788U1Sqej9M6c4iikuDGxO,0.647,0.56,9,-8.809,1,0.0387,0.0,0.118,0.913,120.418,125040,3
-163,The Beatles,Help! (Remastered),Yesterday ,3BQHpFgAp4l80e1XslIjNI,0.332,0.179,5,-11.83,1,0.0326,0.0,0.0886,0.315,96.529,125667,4
-164,The Beatles,Help! (Remastered),Dizzy Miss Lizzy ,70Dohn82wv6VtxGesqRzbZ,0.373,0.934,9,-6.753,1,0.0591,0.00445,0.0962,0.918,136.037,176507,4
-165,The Beatles,Beatles For Sale (Remastered),No Reply ,4ltC6PrqkTtpcRNi5lvS4z,0.718,0.593,0,-9.976,1,0.0377,0.0,0.172,0.869,124.251,136067,4
-166,The Beatles,Beatles For Sale (Remastered),I'm A Loser ,7wC4EW11mBVxDK3xdC7FTf,0.492,0.628,7,-7.813,1,0.0439,1.07e-06,0.267,0.856,89.877,150027,4
-167,The Beatles,Beatles For Sale (Remastered),Baby's In Black ,7cb2SdLm1UMLwdUoWwrZN1,0.374,0.596,9,-7.666,1,0.0416,0.0,0.098,0.876,202.97,124520,3
-168,The Beatles,Beatles For Sale (Remastered),Rock And Roll Music ,7Ho3T7ERfooiAfvODaMQ2N,0.457,0.917,9,-6.213,1,0.0441,0.0,0.333,0.965,167.092,151280,4
-169,The Beatles,Beatles For Sale (Remastered),I'll Follow The Sun ,45WX2cfbL8bCIqv3rOq1G3,0.689,0.313,0,-10.073,1,0.0366,0.0,0.144,0.625,133.754,108853,4
-170,The Beatles,Beatles For Sale (Remastered),Mr Moonlight ,6pPOkr2OxhQ6htrzOiDmq9,0.631,0.424,6,-9.106,1,0.0438,0.000143,0.118,0.589,126.127,158627,5
-171,The Beatles,Beatles For Sale (Remastered),Kansas City / Hey-Hey-Hey-Hey ,5xf0zdP4KCfshyVn02D3Ea,0.588,0.724,7,-6.63,1,0.0335,8.92e-05,0.877,0.924,131.36,158147,4
-172,The Beatles,Beatles For Sale (Remastered),Eight Days A Week ,1Dg4dFJr3HW7sbA7vPejre,0.652,0.583,9,-7.811,1,0.038,0.0,0.119,0.744,138.134,163600,4
-173,The Beatles,Beatles For Sale (Remastered),Words Of Love ,42qkSeX6HNJYHxlk6cWoFe,0.551,0.533,9,-9.8,1,0.0297,0.722,0.173,0.85,122.358,124320,4
-174,The Beatles,Beatles For Sale (Remastered),Honey Don't ,2d7GP7Fz1NrfPpo7MzWZgb,0.629,0.545,4,-11.466,1,0.0348,5.08e-05,0.0854,0.735,162.438,177427,4
-175,The Beatles,Beatles For Sale (Remastered),Every Little Thing ,2CxTkdvhDuQrOxl8xXkdJS,0.74,0.49,2,-9.095,1,0.038,0.0,0.103,0.678,123.227,123800,4
-176,The Beatles,Beatles For Sale (Remastered),I Don't Want To Spoil The Party ,3kQDIa85ZK8cKVn72NfBnl,0.533,0.668,7,-7.237,1,0.033,0.0,0.149,0.889,95.438,154467,4
-177,The Beatles,Beatles For Sale (Remastered),What You're Doing ,6C6y4OWK1Ki3FVF1TIonxW,0.695,0.53,2,-8.309,1,0.0403,2e-06,0.0583,0.825,129.506,150040,4
-178,The Beatles,Beatles For Sale (Remastered),Everybody's Trying To Be My Baby ,4DZAH8eiqSAkMIE9l5D71U,0.543,0.806,4,-7.231,1,0.0385,0.0,0.134,0.943,85.172,146000,4
-179,The Beatles,A Hard Day's Night (Remastered),A Hard Day's Night ,5J2CHimS7dWYMImCHkEFaJ,0.59,0.805,0,-6.481,1,0.0371,0.0,0.0996,0.797,138.514,154200,4
-180,The Beatles,A Hard Day's Night (Remastered),I Should Have Known Better ,3pU1CUgPiFfxPCpscwIwQR,0.682,0.444,7,-7.689,1,0.0289,0.0,0.115,0.91,130.704,163080,4
-181,The Beatles,A Hard Day's Night (Remastered),If I Fell ,1hgvykolO4kBIEozATmpyj,0.665,0.31,2,-8.928,1,0.0278,0.0,0.0877,0.568,108.211,139467,4
-182,The Beatles,A Hard Day's Night (Remastered),I'm Happy Just To Dance With You ,0gd50I2gKioJ59C827EdAY,0.658,0.537,6,-7.535,0,0.0307,0.0,0.0572,0.887,132.115,116373,4
-183,The Beatles,A Hard Day's Night (Remastered),And I Love Her ,65vdMBskhx3akkG9vQlSH1,0.767,0.331,1,-10.777,0,0.0337,0.0,0.0681,0.636,113.312,149693,4
-184,The Beatles,A Hard Day's Night (Remastered),Tell Me Why ,0Wzp5pWPoX0YoBg002HXL9,0.267,0.688,11,-6.309,0,0.0388,0.0,0.307,0.797,150.942,128693,3
-185,The Beatles,A Hard Day's Night (Remastered),Can't Buy Me Love ,3SdingSsFcZDZAyvcJbgAw,0.483,0.677,0,-5.91,1,0.0593,0.0,0.321,0.842,170.72,131867,4
-186,The Beatles,A Hard Day's Night (Remastered),Any Time At All ,70XHAdaMaoLIOVb1hSaeJ4,0.612,0.719,2,-7.026,1,0.0398,3.88e-06,0.437,0.744,141.016,131280,4
-187,The Beatles,A Hard Day's Night (Remastered),I'll Cry Instead ,01xMiErR26kH1KCif6uEYI,0.643,0.73,7,-6.859,1,0.0347,0.0,0.253,0.96,96.711,105987,4
-188,The Beatles,A Hard Day's Night (Remastered),Things We Said Today ,0voUr8lubIafUVJlauJxYF,0.551,0.575,2,-8.208,0,0.0332,0.0,0.112,0.516,137.054,155333,4
-189,The Beatles,A Hard Day's Night (Remastered),When I Get Home ,4oLQ0imA5IDtNUnhFKY87q,0.568,0.793,9,-6.201,0,0.0482,0.0,0.388,0.64,125.375,136640,4
-190,The Beatles,A Hard Day's Night (Remastered),You Can't Do That ,5b9G4dtK3Tdguuy9BO3Nwo,0.612,0.788,0,-6.251,1,0.0335,0.0,0.382,0.961,129.161,154893,4
-191,The Beatles,A Hard Day's Night (Remastered),I'll Be Back ,3lSi6qfnp2YZazTzcOLBZk,0.721,0.527,9,-7.224,1,0.0293,0.0,0.186,0.641,123.902,144187,4
-192,The Beatles,With The Beatles (Remastered),It Won't Be Long ,4ekUX4pWizXXksJe0JfS9U,0.472,0.673,4,-8.853,1,0.0318,0.0,0.206,0.862,133.117,133387,4
-193,The Beatles,With The Beatles (Remastered),All I've Got To Do ,5tztLBvTlNC15Np2tnQ5Ll,0.49,0.579,1,-10.301,0,0.0344,0.0,0.0644,0.879,119.403,122573,4
-194,The Beatles,With The Beatles (Remastered),All My Loving ,4joiWvli4qJVEW6qZV2i2J,0.416,0.563,1,-8.724,0,0.0298,0.0,0.343,0.9,77.56,127853,4
-195,The Beatles,With The Beatles (Remastered),Don't Bother Me ,7y1hMqXNa0dKQLZH7CKbUG,0.371,0.724,2,-9.792,1,0.0562,0.0,0.299,0.916,170.377,148253,4
-196,The Beatles,With The Beatles (Remastered),Little Child ,0KogQrSowDnZoU8GSpaxkj,0.526,0.858,9,-8.533,1,0.0476,0.001,0.353,0.886,75.596,106400,4
-197,The Beatles,With The Beatles (Remastered),Till There Was You ,0ESIjVxnDnCDaTPo6sStHm,0.727,0.338,5,-13.887,1,0.0454,0.0,0.105,0.646,122.421,133507,4
-198,The Beatles,With The Beatles (Remastered),Please Mister Postman ,6wfK1R6FoLpmUA9lk5ll4T,0.552,0.644,9,-9.129,1,0.0372,0.0,0.36,0.961,122.546,154160,4
-199,The Beatles,With The Beatles (Remastered),Roll Over Beethoven ,3idqWaBn3mRdsIodCU6uBi,0.351,0.749,2,-9.435,1,0.0628,0.0,0.0952,0.967,160.673,165467,4
-200,The Beatles,With The Beatles (Remastered),Hold Me Tight ,2RvKsA6Ho7VbJkVFiD4UQF,0.54,0.744,5,-9.637,1,0.0312,0.0,0.21,0.963,135.731,151907,4
-201,The Beatles,With The Beatles (Remastered),You Really Got A Hold On Me ,7rgUYidQh5tH0YlXCoKaYJ,0.373,0.388,9,-9.31,1,0.0337,0.0,0.267,0.687,77.643,181347,4
-202,The Beatles,With The Beatles (Remastered),I Wanna Be Your Man ,0sIZcoe69iSym9AecvZ7CT,0.553,0.914,9,-8.232,1,0.0415,0.0,0.292,0.683,99.138,119507,4
-203,The Beatles,With The Beatles (Remastered),Devil In Her Heart ,5maTh4fY9SlgR3FhRkf040,0.618,0.622,7,-8.861,1,0.0296,0.0,0.0438,0.966,121.072,146213,4
-204,The Beatles,With The Beatles (Remastered),Not A Second Time ,5vl0sRtrQM1BTSAxQZFqEN,0.471,0.817,7,-9.999,1,0.0372,0.0,0.498,0.961,124.848,126827,4
-205,The Beatles,With The Beatles (Remastered),Money (That's What I Want) ,3zw4FTrVNfy2teEkV9FOvh,0.545,0.853,11,-8.369,0,0.0394,0.0,0.266,0.923,128.816,169507,1
-206,The Beatles,Please Please Me (Remastered),I Saw Her Standing There ,3KiexfmhxHvG5IgAElmTkd,0.491,0.801,4,-9.835,1,0.0361,0.0,0.0665,0.971,160.109,173947,4
-207,The Beatles,Please Please Me (Remastered),Misery ,40qXGg5nRbcWzcFb26KWkQ,0.591,0.605,0,-10.925,1,0.0413,0.0,0.309,0.882,133.348,108547,4
-208,The Beatles,Please Please Me (Remastered),Anna (Go To Him) ,2baEFuU0gQon0hgVRioI1o,0.608,0.565,2,-11.06,1,0.0336,0.0,0.0601,0.835,109.286,177133,4
-209,The Beatles,Please Please Me (Remastered),Chains ,3JQWLa88R35d971o5bIImd,0.654,0.561,10,-10.551,1,0.0304,0.0,0.129,0.929,129.884,145080,4
-210,The Beatles,Please Please Me (Remastered),Boys ,7JxGM1R32ZqfwZou3VtnTg,0.402,0.86,4,-10.31,1,0.0504,0.0,0.736,0.822,142.445,146440,4
-211,The Beatles,Please Please Me (Remastered),Ask Me Why ,7529Z6b1rlGZFFPWjHPeV5,0.605,0.394,4,-11.33,1,0.0378,0.0,0.0967,0.597,133.942,146533,4
-212,The Beatles,Please Please Me (Remastered),Please Please Me ,6EHuOufBeL6vk3TvVJB5qo,0.527,0.48,4,-9.61,1,0.028,0.0,0.0702,0.706,139.388,120853,4
-213,The Beatles,Please Please Me (Remastered),Love Me Do ,3VbGCXWRiouAq8VyMYN2MI,0.52,0.829,0,-6.228,1,0.0806,6.2e-05,0.227,0.744,147.997,141693,4
-214,The Beatles,Please Please Me (Remastered),P.S. I Love You ,7Msq9qojB7yORuJvz49iUy,0.635,0.656,2,-8.5,1,0.0291,0.00127,0.0828,0.77,134.435,124360,4
-215,The Beatles,Please Please Me (Remastered),Baby It's You ,2VmB1rF9FtfKUmFHDVnq8Q,0.608,0.494,4,-12.211,0,0.0345,0.0,0.0926,0.879,112.421,160520,4
-216,The Beatles,Please Please Me (Remastered),Do You Want To Know A Secret ,7Aobt67JnaF7qN8jCCKvHq,0.673,0.349,4,-12.414,1,0.0368,0.0,0.38,0.609,124.451,117013,4
-217,The Beatles,Please Please Me (Remastered),A Taste Of Honey ,7fh53ta3vAOGJMQ4i5tCHe,0.42,0.372,1,-11.416,0,0.0327,0.0,0.104,0.412,101.408,123480,3
-218,The Beatles,Please Please Me (Remastered),There's A Place ,4dessGxnKXmTbHPhVgqODq,0.455,0.582,4,-10.009,1,0.0292,4.22e-06,0.172,0.927,140.928,110493,4
-219,The Beatles,Please Please Me (Remastered),Twist And Shout ,5ZBeML7Lf3FMEVviTyvi8l,0.482,0.849,2,-9.198,1,0.0452,7.74e-06,0.0414,0.937,124.631,155227,4
-220,The Beatles,Love,Because,2VRNkdYbYUAOAcw71IqPBx,0.246,0.166,6,-20.719,0,0.0536,5.56e-05,0.358,0.0625,110.07,164632,4
-221,The Beatles,Love,Get Back,7vubCYwMND42wTDf2ULHeZ,0.63,0.793,7,-9.444,1,0.0352,0.0722,0.194,0.27,123.562,125341,4
-222,The Beatles,Love,Glass Onion,5Zlm8F6P7spQVplh2EERqP,0.453,0.694,5,-11.039,1,0.0507,0.00184,0.426,0.139,122.273,80619,4
-223,The Beatles,Love,Eleanor Rigby / Julia,41a5geUkthuhkKG4eQrmwk,0.517,0.178,0,-16.083,1,0.0376,4.44e-06,0.386,0.677,137.884,185940,4
-224,The Beatles,Love,I Am The Walrus,7qUPlJTYxDRnpw3FKoWhm1,0.294,0.686,2,-8.556,1,0.0396,3.31e-06,0.688,0.561,173.105,268246,4
-225,The Beatles,Love,I Want To Hold Your Hand,5J3Mf6dyqeGy67yuQ7ql9B,0.287,0.753,7,-7.587,1,0.0387,0.0,0.288,0.882,130.637,82397,4
-226,The Beatles,Love,Drive My Car / The Word / What You're Doing,62QN8Ib1QZbEF4yDwFSH1A,0.685,0.731,2,-7.431,1,0.034,0.00845,0.307,0.85,122.508,114058,4
-227,The Beatles,Love,Gnik Nus,2KGVVXu3ikPXBVL8Fi9ym4,0.185,0.114,0,-22.739,1,0.0383,3.51e-05,0.482,0.275,70.394,55435,1
-228,The Beatles,Love,Something / Blue Jay Way,0LnvAT4La0KdNk9oQScNTG,0.332,0.402,0,-10.795,1,0.0308,6.98e-05,0.385,0.112,133.848,209701,4
-229,The Beatles,Love,Being For The Benefit Of Mr Kite! / I Want You (She's So Heavy) / Helter Skelter,2MAU8kcMbo0lHXWzZ19SNo,0.291,0.69,2,-8.761,0,0.0671,2.25e-06,0.378,0.544,144.054,202209,3
-230,The Beatles,Love,Help!,6EdSN1iGtLPhcz43QDRkdK,0.552,0.734,6,-7.126,0,0.0291,0.0,0.116,0.846,94.887,138286,4
-231,The Beatles,Love,Blackbird / Yesterday,41ETKVJbZDSjATzW2wAqmc,0.483,0.107,5,-15.465,1,0.031,0.0,0.092,0.195,94.371,151992,4
-232,The Beatles,Love,Strawberry Fields Forever,1J7wMZrvCtWZlXBdMM25Ce,0.383,0.558,11,-10.319,1,0.0514,3.98e-05,0.555,0.207,102.508,271974,4
-233,The Beatles,Love,Within You Without You / Tomorrow Never Knows,7ABfgkjRNW5LwDzLIKcygW,0.231,0.518,5,-10.146,1,0.0423,2.95e-05,0.365,0.0718,127.116,187634,4
-234,The Beatles,Love,Lucy In The Sky With Diamonds,068kw8ocU8Nqgk96slYAUK,0.366,0.368,2,-9.397,1,0.0274,0.0,0.416,0.367,97.211,250435,4
-235,The Beatles,Love,Octopus's Garden,4wKLjpjrCejAXF8vebREmm,0.485,0.627,1,-9.702,0,0.0416,1.14e-05,0.338,0.359,92.163,198635,4
-236,The Beatles,Love,Lady Madonna,5l1eg7A2S6PtlIbo3Ms4dl,0.674,0.688,11,-8.584,0,0.0337,0.0295,0.129,0.774,109.347,176707,4
-237,The Beatles,Love,Here Comes The Sun / The Inner Light,31f9rGz7b2rjAv7tg10iSp,0.503,0.526,2,-10.485,1,0.037,0.00487,0.418,0.301,128.697,258126,4
-238,The Beatles,Love,Come Together / Dear Prudence / Cry Baby Cry,7hLRwxAazwahxdilR2vp3K,0.5,0.36,9,-11.695,0,0.0461,0.0836,0.125,0.243,164.28,285322,4
-239,The Beatles,Love,Revolution,5KGLcZLBCAqdPP6sa5zLYs,0.507,0.855,1,-7.63,1,0.063,0.00015,0.272,0.817,120.913,203620,4
-240,The Beatles,Love,Back In The U.S.S.R,5rJjib4hv7JD1fpf5TzRcr,0.533,0.937,2,-7.51,1,0.0397,0.000103,0.185,0.862,142.399,154393,4
-241,The Beatles,Love,While My Guitar Gently Weeps,0FzGKD3N0jK6nNOyOJBvNG,0.417,0.163,5,-14.445,1,0.0369,0.000211,0.112,0.216,122.61,226757,4
-242,The Beatles,Love,A Day In The Life,4XiDAxr6alWzxm24i2Rt4K,0.322,0.394,4,-12.798,0,0.0335,0.000282,0.163,0.192,78.513,308192,4
-243,The Beatles,Love,Hey Jude,1eT2CjXwFXNx6oY5ydvzKU,0.462,0.632,5,-7.438,1,0.0248,0.0,0.397,0.585,74.268,238854,4
-244,The Beatles,Love,Sgt. Pepper's Lonely Hearts Club Band ,7DJOx5DO5MAAuy589sAXCg,0.607,0.863,5,-5.469,1,0.0315,0.0167,0.325,0.912,118.472,82084,4
-245,The Beatles,Love,All You Need Is Love,3oGGipilQmZTol8qFTR6u1,0.372,0.532,7,-7.968,1,0.0314,0.0,0.0951,0.727,102.627,220045,4
-246,The Beatles,Love,The Fool On The Hill,2xnHP0XnnsLmtdaX8POQ4M,0.485,0.321,4,-12.156,0,0.0285,0.0,0.271,0.369,144.531,209714,4
-247,The Beatles,Love,Girl,3wviriLUfnj7GkRjoN2wD8,0.645,0.363,0,-10.702,0,0.0266,0.0,0.0964,0.665,96.488,162742,4
-248,The Beatles,Past Masters (Vols. 1 & 2 / Remastered),I'm Down ,5ovYFa8Em47SgPmhBlZb5N,0.439,0.813,7,-8.304,1,0.0607,0.000605,0.728,0.937,82.077,153893,4
+,artist,album,track_name,track_id,danceability,energy,key,loudness,mode,speechiness,instrumentalness,liveness,valence,tempo,duration_ms,time_signature,acoustic,afrobeat,alt-rock,alternative,ambient,anime,black-metal,bluegrass,blues,bossanova,brazil,breakbeat,british,cantopop,chicago-house,children,chill,classical,club,comedy,country,dance,dancehall,death-metal,deep-house,detroit-techno,disco,disney,drum-and-bass,dub,dubstep,edm,electro,electronic,emo,folk,forro,french,funk,garage,german,gospel,goth,grindcore,groove,grunge,guitar,happy,hard-rock,hardcore,hardstyle,heavy-metal,hip-hop,holidays,honky-tonk,house,idm,indian,indie,indie-pop,industrial,iranian,j-dance,j-idol,j-pop,j-rock,jazz,k-pop,kids,latin,latino,malay,mandopop,metal,metal-misc,metalcore,minimal-techno,movies,mpb,new-age,new-release,opera,pagode,party,philippines-opm,piano,pop,pop-film,post-dubstep,power-pop,progressive-house,psych-rock,punk,punk-rock,r-n-b,rainy-day,reggae,reggaeton,road-trip,rock,rock-n-roll,rockabilly,romance,sad,salsa,samba,sertanejo,show-tunes,singer-songwriter,ska,sleep,songwriter,soul,soundtracks,spanish,study,summer,swedish,synth-pop,tango,techno,trance,trip-hop,turkish,work-out,world-music,popularity,lyrics
+0,The Beatles,1 (Remastered),Love Me Do ,4aX3n1Pn6jiCbvqBL8eqyP,0.524,0.88,0,-3.865,1,0.0987,0.000191,0.154,0.758,148.058,140173,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,
+1,The Beatles,1 (Remastered),From Me To You ,1euKWJfJSfPhgSendPrcXb,0.581,0.821,0,-4.387,1,0.0318,0.0,0.108,0.968,136.145,116160,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,"Da-da-daa da-da-dum dum daa
+
+Da-da-daa da-da-dum dum daa
+
+If there's anything that you want
+If there's anything I can do
+Just call on me, and I'll send it along
+With love from me to you
+
+I got everything that you want
+Like a heart that's, oh, so true
+
+"
+2,The Beatles,1 (Remastered),She Loves You ,6nEkxYIEnrbYH7h1hJ8Xn6,0.377,0.916,4,-3.199,0,0.0481,0.0,0.074,0.912,75.533,140920,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68.0,
+3,The Beatles,1 (Remastered),I Want To Hold Your Hand ,4pbG9SUmWIvsROVLF0zF9s,0.49,0.715,7,-5.549,1,0.0476,0.0,0.311,0.866,130.726,145747,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73.0,
+4,The Beatles,1 (Remastered),Can't Buy Me Love ,38Vb1J5W5LOs0i7SAF76pa,0.426,0.76,0,-4.082,1,0.0414,0.0,0.325,0.955,171.838,131213,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,"Can't buy me love, love
+Love, oh
+Can't buy me love
+
+I'll buy you a diamond ring my friend
+If it makes you feel all right
+I'll get you anything my friend
+If it makes you feel all right
+'Cause I don't care too much for money
+For money can't buy me love
+
+I'll give you all I've got to give
+If you say you love me too
+I may not have a lot to give
+But what I've got I'll give to you
+"
+5,The Beatles,1 (Remastered),A Hard Day's Night ,1pctwlBtIcKIjQMzsVcGHB,0.546,0.818,0,-4.89,1,0.031,0.0,0.0983,0.756,138.561,152920,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"It's been a hard day's night
+And I've been working like a dog
+It's been a hard day's night
+I should be sleeping like a log
+
+But when I get home to you
+I find the things that you do
+Will make me feel alright
+
+You know I work all day
+To get you money to buy you things
+And it's worth it just to hear you say
+You're gonna give me everything
+
+So why on earth should I moan?
+'Cause when I get you alone
+"
+6,The Beatles,1 (Remastered),I Feel Fine ,5hhF25sWnZvXhimOHLjTRE,0.564,0.827,7,-7.089,1,0.0283,3.73e-06,0.127,0.912,89.847,139347,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65.0,
+7,The Beatles,1 (Remastered),Eight Days A Week ,5ylLypaOksxWd75YrGtx2N,0.636,0.677,9,-5.605,1,0.0316,0.0,0.215,0.837,138.707,163320,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57.0,
+8,The Beatles,1 (Remastered),Ticket To Ride ,7nhrlsT1P4qsslp28UA1BI,0.554,0.904,4,-6.319,0,0.0536,0.0,0.259,0.801,123.443,190120,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57.0,
+9,The Beatles,1 (Remastered),Help! ,3Smida2eCUsLzDcmZqXEZ3,0.602,0.736,11,-6.51,0,0.0332,0.0,0.0776,0.819,94.931,139240,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,
+10,The Beatles,1 (Remastered),Yesterday ,4E5rL7YL0hVUPqeMSpjEF2,0.401,0.189,0,-11.189,1,0.0287,0.0,0.0968,0.357,94.509,125320,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.0,"Yesterday
+All my trouble seemed so far away
+Now it looks as though they're here to stay
+Oh, I believe in yesterday
+
+Suddenly
+I'm not half the man I used to be
+There's a shadow hanging over me
+Oh, yesterday came suddenly
+
+Why she had to go
+"
+11,The Beatles,1 (Remastered),Day Tripper ,29b2b96jozyD9GPCkOrVLs,0.665,0.782,6,-8.438,0,0.0307,4.19e-06,0.125,0.731,137.453,169000,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66.0,"Got a good reason
+For taking the easy way out
+Got a good reason
+For taking the easy way out now
+
+She was a day tripper
+One way ticket, yeah
+It took me so long
+
+To find out
+
+And I found out
+
+She's a big teaser
+She took me half the way there
+"
+12,The Beatles,1 (Remastered),We Can Work It Out ,1hTUFqJuQAMjXVGwUPWDqi,0.378,0.677,2,-8.63,1,0.0298,0.0,0.183,0.648,106.071,135693,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,"Try to see it my way
+Do I have to keep on talking 'til I can't go on?
+While you see it your way
+Run the risk of knowing that our love may soon be gone
+
+We can work it out
+We can work it out
+
+Think of what you're saying
+You can get it wrong and still you think that it's alright
+Think of what I'm saying
+We can work it out and get it straight, or say goodnight
+
+We can work it out
+"
+13,The Beatles,1 (Remastered),Paperback Writer ,0Ui8KPWZbJJQ2Y0CIQuVqX,0.472,0.856,7,-6.03,1,0.0562,2.78e-06,0.595,0.841,78.696,138200,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,"Paperback writer (Paperback writer, writer)
+
+Dear Sir or Madam will you read my book?
+It took me years to write, will you take a look?
+It's based on a novel by a man named Lear
+And I need a job
+So I want to be a paperback writer
+Paperback writer
+
+It's a dirty story of a dirty man
+And his clinging wife doesn't understand
+His son is working for the Daily Mail
+It's a steady job
+But he wants to be a paperback writer
+"
+14,The Beatles,1 (Remastered),Yellow Submarine ,7zRmGvtSy36Jr19U5OInJT,0.66,0.557,1,-9.597,1,0.03,0.0,0.543,0.788,110.743,158800,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56.0,"In the town where I was born
+Lived a man who sailed to sea
+And he told us of his life
+In the land of submarines
+
+So we sailed onto the sun
+'Til we found the sea of green
+And we lived beneath the waves
+In our yellow submarine
+
+We all live in a yellow submarine
+Yellow submarine, yellow submarine
+We all live in a yellow submarine
+Yellow submarine, yellow submarine
+
+"
+15,The Beatles,1 (Remastered),Eleanor Rigby ,0Wv8IXRUDZOfmFJHC1VOFI,0.605,0.314,0,-7.631,1,0.0327,0.0,0.359,0.836,138.148,125867,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62.0,
+16,The Beatles,1 (Remastered),Penny Lane ,7afyyi8zn4FzWbcJ70F56V,0.679,0.592,9,-5.963,1,0.0402,0.0138,0.16,0.55,113.265,180520,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,
+17,The Beatles,1 (Remastered),All You Need Is Love ,6KqiVlOLfDzJViJVAPym1p,0.397,0.625,7,-5.829,1,0.0347,5.47e-06,0.263,0.676,104.54,227760,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"Love, love, love
+Love, love, love
+Love, love, love
+
+There's nothing you can do that can't be done
+Nothing you can sing that can't be sung
+Nothing you can say, but you can learn how to play the game
+It's easy
+
+Nothing you can make that can't be made
+No one you can save that can't be saved
+Nothing you can do, but you can learn how to be you in time
+It's easy
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+"
+18,The Beatles,1 (Remastered),"Hello, Goodbye ",0hqjsgWRfMBf2s8xsvRq1M,0.498,0.806,0,-5.284,1,0.0265,5.74e-06,0.525,0.664,99.396,207787,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56.0,
+19,The Beatles,1 (Remastered),Lady Madonna ,1raiIrqaqRAqZmQWZlLuBd,0.65,0.777,2,-4.984,1,0.0294,0.343,0.215,0.574,109.608,136827,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,"Lady Madonna, children at your feet
+Wonder how you manage to make ends meet
+Who finds the money when you pay the rent
+Did you think that money was heaven sent
+
+Friday night arrives without a suitcase
+Sunday morning creeping like a nun
+Monday's child has learned to tie his bootlace
+See how they run
+"
+20,The Beatles,1 (Remastered),Hey Jude ,0aym2LBJBk9DAYuHHutrIl,0.386,0.607,10,-7.7,1,0.0261,1.38e-05,0.088,0.532,147.207,425653,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,76.0,
+21,The Beatles,1 (Remastered),Get Back ,6zmQ8bzlDIfngjy0Ba3w46,0.703,0.636,7,-7.579,1,0.0376,0.0256,0.0959,0.218,122.921,191773,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,"Jojo was a man who thought he was a loner
+But he knew it couldn't last
+Jojo left his home in Tucson, Arizona
+For some California grass
+
+Get back, get back
+Get back to where you once belonged
+Get back, get back
+"
+22,The Beatles,1 (Remastered),The Ballad Of John And Yoko ,1F7s27lLKshLPt9TPCgMDL,0.651,0.892,4,-6.551,1,0.0313,2.85e-06,0.127,0.962,135.309,179480,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"Standing in the dock at Southampton
+Trying to get to Holland or France
+The man in the mac said
+""You've got to go back""
+You know, they didn't even give us a chance
+
+Christ, you know it ain't easy
+You know how hard it can be
+The way things are going
+They're gonna crucify me
+
+Finally made the plane into Paris
+Honeymooning down by the Seine
+Peter Brown called to say
+You can make it okay
+You can get married in Gibraltar near Spain
+
+Christ, you know it ain't easy
+You know how hard it can be
+The way things are going
+They're gonna crucify me
+"
+23,The Beatles,1 (Remastered),Something ,7mzNk14FElnA5DOKQyBrM0,0.449,0.375,0,-9.329,1,0.0286,2.41e-06,0.144,0.466,133.845,181413,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56.0,
+24,The Beatles,1 (Remastered),Come Together ,3CEFDHJSiERlfwRujZ1CkJ,0.559,0.343,9,-13.072,0,0.0424,0.138,0.1,0.183,164.53,258693,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56.0,
+25,The Beatles,1 (Remastered),Let It Be ,4qsVPnhbvEooD1bSNqvvh0,0.445,0.436,0,-8.536,1,0.0332,2.63e-05,0.112,0.483,139.848,230440,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62.0,
+26,The Beatles,1 (Remastered),The Long And Winding Road ,5xhP99gVBIkpr7omcdCeiy,0.326,0.365,3,-8.776,1,0.0265,0.000523,0.0718,0.314,133.084,219440,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+27,The Beatles,Let It Be (Remastered),Two Of Us ,0CaBBQsaAiRHhiLmzi7ZRp,0.726,0.702,7,-10.757,1,0.032,3.46e-05,0.239,0.931,109.114,216813,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64.0,
+28,The Beatles,Let It Be (Remastered),Dig A Pony ,4OUmlC67FoPLvQNuE5C7kF,0.538,0.478,11,-8.957,0,0.0388,0.0,0.17,0.527,59.004,235000,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.0,
+29,The Beatles,Let It Be (Remastered),Across The Universe ,4dkoqJrP0L8FXftrMZongF,0.257,0.412,1,-11.788,1,0.0287,8.68e-05,0.0702,0.858,152.126,228133,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69.0,
+30,The Beatles,Let It Be (Remastered),I Me Mine ,2BMqay80iBzZTa608Y1eG1,0.291,0.638,9,-7.854,0,0.0554,0.0,0.101,0.525,185.235,145587,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62.0,
+31,The Beatles,Let It Be (Remastered),Dig It ,0eRyOunOVBChlXxIvqwOxH,0.54,0.489,5,-12.276,1,0.117,0.0019,0.457,0.67,157.03,50467,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,"Like a Rolling Stone
+Like a Rolling Stone
+Like a Rolling Stone
+Like the FBI
+And the CIA
+And the BBC
+"
+32,The Beatles,Let It Be (Remastered),Let It Be ,7iN1s7xHE4ifF5povM6A48,0.443,0.403,0,-8.339,1,0.0322,0.0,0.111,0.41,143.462,243027,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79.0,
+33,The Beatles,Let It Be (Remastered),Maggie Mae ,2VsX1BoWSGiuVXGiFSUr6h,0.516,0.515,2,-12.035,0,0.215,0.0,0.103,0.524,169.039,40040,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,
+34,The Beatles,Let It Be (Remastered),I've Got A Feeling ,3gwRWIbr5ycEVLIAXrWaw7,0.44,0.609,2,-8.824,1,0.0358,0.0,0.582,0.364,165.156,217560,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,"I've got a feeling
+A feeling deep inside, oh, yeah
+(Oh, yeah, that's right)
+I've got a feeling
+A feeling I can't hide, oh, no, no
+Oh, no
+Oh, no
+Yeah, yeah, I've got a feeling, yeah
+
+Oh, please, believe me
+I'd hate to miss the train, oh, yeah
+Oh, yeah
+And if you leave me
+I won't be late again, oh, no
+Oh, no
+Oh, no
+Yeah, yeah, I've got a feeling, yeah
+I got a feeling
+
+All these years I've been wandering around
+Wondering how come nobody told me
+"
+35,The Beatles,Let It Be (Remastered),One After 909 ,50qHmeex1nPTyQTwBXjSE4,0.554,0.828,4,-6.435,1,0.0739,0.0,0.907,0.888,90.95,173960,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,"My baby said she's travelling on the one after 909
+I said move over honey, I'm travelling on that line
+I said move over once, move over twice
+Come on, baby, don't be cold as ice
+Said she's travelling on the one after 909
+
+I begged her not to go, and I begged her on my bended knees
+You're only fooling 'round, only fooling 'round with me
+I said move over once, move over twice
+Come on, baby, don't be cold as ice
+Said she's travelling on the one after 909
+
+"
+36,The Beatles,Let It Be (Remastered),The Long And Winding Road ,3mlMpmY8oZIBFc39D9zLbh,0.299,0.329,3,-10.096,1,0.0279,0.0105,0.0559,0.392,132.282,218187,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,
+37,The Beatles,Let It Be (Remastered),For You Blue ,5dpRJkvY8oWMQmQbEQTXhO,0.88,0.556,2,-10.773,1,0.0855,0.0483,0.24,0.955,128.542,152213,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,
+38,The Beatles,Let It Be (Remastered),Get Back ,4MLBqAEzNN89o2M9h92Z26,0.761,0.592,2,-9.836,1,0.0586,0.00626,0.61,0.332,123.095,189387,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70.0,"Jojo was a man who thought he was a loner
+But he knew it couldn't last
+Jojo left his home in Tucson, Arizona
+For some California grass
+
+Get back, get back
+Get back to where you once belonged
+Get back, get back
+"
+39,The Beatles,Abbey Road (Remastered),Come Together ,2EqlS6tkEnglzr7tkKAAYD,0.533,0.376,9,-11.913,0,0.0393,0.248,0.0926,0.187,165.007,259947,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,79.0,
+40,The Beatles,Abbey Road (Remastered),Something ,0pNeVovbiZHkulpGeOx1Gj,0.396,0.338,0,-10.872,1,0.0304,2.62e-06,0.138,0.377,133.522,182293,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73.0,
+41,The Beatles,Abbey Road (Remastered),Maxwell's Silver Hammer ,2S8xyNRJX1XQdo3qnTuovI,0.764,0.426,2,-11.045,1,0.0405,0.000119,0.132,0.726,131.12,207920,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62.0,"Joan was quizzical
+Studied pataphysical
+Science in the home
+Late nights all alone with a test tube, oh, oh, oh, oh
+Maxwell Edison
+
+Majoring in medicine
+Calls her on the phone
+""Can I take you out to the pictures, Joan?""
+But as she's getting ready to go
+
+A knock comes on the door
+Bang, bang, Maxwell's silver hammer came down upon her head
+Clang, clang, Maxwell's silver hammer made sure that she was dead
+Back in school again
+"
+42,The Beatles,Abbey Road (Remastered),Oh! Darling ,2mxByJWOajjiVsLWjNXvDJ,0.422,0.656,4,-8.412,1,0.0397,0.0279,0.268,0.549,173.93,207240,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69.0,"Oh! Darling, please believe me
+I'll never do you no harm
+Believe me when I tell you
+I'll never do you no harm
+
+Oh! Darling, if you leave me
+I'll never make it alone
+Believe me when I beg you
+Don't ever leave me alone
+
+When you told me
+You didn't need me anymore
+"
+43,The Beatles,Abbey Road (Remastered),Octopus's Garden ,0suLngfo7rJoetk7Ub6N8l,0.626,0.512,1,-9.15,0,0.0247,4.65e-05,0.215,0.73,92.225,170720,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65.0,"I'd like to be
+Under the sea
+In an octopus' garden
+In the shade
+
+He'd let us in
+Knows where we've been
+In his octopus' garden
+In the shade
+
+I'd ask my friends
+To come and see
+An octopus' garden
+With me
+
+I'd like to be
+Under the sea
+In an octopus' garden
+In the shade
+
+We would be warm
+Below the storm
+"
+44,The Beatles,Abbey Road (Remastered),I Want You (She's So Heavy) ,3Z25k4ZF6QENy2d9YatsM5,0.37,0.515,2,-9.487,0,0.0321,0.205,0.0966,0.42,115.732,467320,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64.0,
+45,The Beatles,Abbey Road (Remastered),Here Comes The Sun ,6dGnYIeXmHdcikdzNNDMm2,0.557,0.54,9,-10.484,1,0.0347,0.00248,0.179,0.394,129.171,185733,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,83.0,
+46,The Beatles,Abbey Road (Remastered),Because ,1rxoyGj1QuPoVi8fOft1Kt,0.328,0.249,2,-11.777,1,0.0272,5.77e-06,0.134,0.162,81.257,165667,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.0,
+47,The Beatles,Abbey Road (Remastered),You Never Give Me Your Money ,1jOLTO379yIu9aMnCkpMQl,0.335,0.416,0,-11.051,1,0.0348,0.136,0.116,0.223,174.464,242973,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62.0,
+48,The Beatles,Abbey Road (Remastered),Sun King ,4nwKdZID1ht0lDBJ5h2p87,0.483,0.177,2,-17.629,1,0.0277,0.499,0.116,0.192,74.994,146267,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,"Aaaaah
+
+Here come the sun king
+Here come the sun king
+"
+49,The Beatles,Abbey Road (Remastered),Mean Mr Mustard ,4JOyMhad5dD81uGYLGgKrS,0.676,0.596,4,-9.107,1,0.0272,1.96e-05,0.351,0.97,100.687,66533,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"Mean Mr. Mustard sleeps in the park
+Shaves in the dark
+Trying to save paper
+Sleeps in a hole in the road
+Saving up to buy some clothes
+Keeps a ten-bob note up his nose
+"
+50,The Beatles,Abbey Road (Remastered),Polythene Pam ,1FTCA6wQwulQFokDddKE68,0.474,0.939,11,-8.884,0,0.199,0.674,0.19,0.499,166.829,72640,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,
+51,The Beatles,Abbey Road (Remastered),She Came In Through The Bathroom Window ,2jtUGFsqanQ82zqDlhiKIp,0.53,0.72,2,-8.793,1,0.0338,3.38e-05,0.314,0.69,80.652,118627,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.0,"Gonna come out now
+Ha-ha-ha
+Wow! look-out
+
+She came in through the bathroom window
+Protected by a silver-spoon
+But now she sucks her thumb and wanders
+By the banks of her own lagoon
+
+Didn't anybody tell her
+"
+52,The Beatles,Abbey Road (Remastered),Golden Slumbers ,01SfTM5nfCou5gQL70r6gs,0.419,0.152,0,-12.126,1,0.0277,0.0034,0.113,0.239,80.608,91760,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,"Once there was a way
+To get back homeward
+
+Once there was a way
+To get back home
+
+Sleep, pretty darling
+Do not cry
+"
+53,The Beatles,Abbey Road (Remastered),Carry That Weight ,5eZrW59C3UgBhkqNlowEID,0.543,0.458,0,-8.976,1,0.0274,0.00663,0.298,0.704,84.319,96467,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64.0,
+54,The Beatles,Abbey Road (Remastered),The End ,5aHHf6jrqDRb1fcBmue2kn,0.647,0.487,11,-10.119,0,0.0689,0.285,0.138,0.222,123.444,141613,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,
+55,The Beatles,Abbey Road (Remastered),Her Majesty ,6UCFZ9ZOFRxK8oak7MdPZu,0.703,0.215,2,-23.03,1,0.0892,1.23e-06,0.13,0.522,100.874,25987,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26.0,
+56,The Beatles,Yellow Submarine (Remastered),Yellow Submarine ,3oEo8Pqm5IAi8wQfCI5BpR,0.605,0.536,1,-10.069,1,0.0421,0.0,0.528,0.688,110.849,159720,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49.0,"In the town where I was born
+Lived a man who sailed to sea
+And he told us of his life
+In the land of submarines
+
+So we sailed onto the sun
+'Til we found the sea of green
+And we lived beneath the waves
+In our yellow submarine
+
+We all live in a yellow submarine
+Yellow submarine, yellow submarine
+We all live in a yellow submarine
+Yellow submarine, yellow submarine
+
+"
+57,The Beatles,Yellow Submarine (Remastered),Only A Northern Song ,4phXWLTSlC1BEogSWhJMDD,0.175,0.731,9,-8.341,1,0.0705,0.000751,0.0846,0.801,209.242,204493,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44.0,
+58,The Beatles,Yellow Submarine (Remastered),All Together Now ,2ck8lFrYAch2GPtdhpTHe3,0.587,0.431,2,-9.495,1,0.0686,0.0,0.561,0.778,95.937,130893,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46.0,
+59,The Beatles,Yellow Submarine (Remastered),Hey Bulldog ,5xYC2ZJJ9TMJL8BOl85O2R,0.587,0.617,7,-9.164,1,0.028,0.639,0.199,0.947,100.495,191307,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+60,The Beatles,Yellow Submarine (Remastered),It's All Too Much ,2bQZ9BBhP7vSBiyDz7KXnv,0.39,0.781,7,-7.878,1,0.0364,0.412,0.1,0.199,113.511,385013,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45.0,"To your mother!
+It's all too much
+
+It's all too much
+When I look into your eyes
+
+Your love is there for me
+And the more I go inside
+The more there is to see
+It's all too much for me to take
+
+The love that's shining all around you
+Everywhere it's what you make for us to take
+It's all too much
+Floating down the stream of time
+
+From life to life with me
+Makes no difference where you are
+Or where you'd like to be
+It's all too much for me to take
+
+The love that's shining all around here
+All the world is birthday cake
+So take a piece but not too much
+Sell me on a silver sun
+
+"
+61,The Beatles,Yellow Submarine (Remastered),All You Need Is Love ,2Z8cY4QpZTFUZxCQCpvNe1,0.4,0.463,7,-8.455,1,0.0288,4.59e-05,0.286,0.627,103.103,231213,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45.0,"Love, love, love
+Love, love, love
+Love, love, love
+
+There's nothing you can do that can't be done
+Nothing you can sing that can't be sung
+Nothing you can say, but you can learn how to play the game
+It's easy
+
+Nothing you can make that can't be made
+No one you can save that can't be saved
+Nothing you can do, but you can learn how to be you in time
+It's easy
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+"
+62,The Beatles,Yellow Submarine (Remastered),Pepperland ,1y8kq7M3tBw4zAttsZMya8,0.354,0.281,7,-12.434,1,0.032,0.763,0.243,0.367,113.126,140733,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,
+63,The Beatles,Yellow Submarine (Remastered),Sea Of Time ,6FvhNdlAom6yYHa8ekAaAM,0.237,0.096,2,-20.629,0,0.0387,0.0961,0.203,0.0629,128.054,180213,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,38.0,
+64,The Beatles,Yellow Submarine (Remastered),Sea Of Holes ,6n42oei7aEx2I0dcluKAGx,0.249,0.0994,6,-19.266,0,0.04,0.926,0.454,0.0357,118.99,136693,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36.0,
+65,The Beatles,Yellow Submarine (Remastered),Sea Of Monsters ,30u8QyT0kBSYO5RcZmaLl3,0.253,0.166,9,-16.624,1,0.0346,0.862,0.135,0.0489,83.971,216693,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35.0,
+66,The Beatles,Yellow Submarine (Remastered),March Of The Meanies ,7zJKIrxcH2jY4TOqpvoLvH,0.538,0.378,9,-14.117,0,0.0387,0.758,0.456,0.16,117.185,139360,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35.0,
+67,The Beatles,Yellow Submarine (Remastered),Pepperland Laid Waste ,0rHHNFcUgB0zlzCk4MVluw,0.269,0.0902,8,-23.018,0,0.042,0.821,0.302,0.0462,82.423,132773,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,34.0,
+68,The Beatles,Yellow Submarine (Remastered),Yellow Submarine In Pepperland ,7ExawMDcRz2lMgNEjjYzdr,0.406,0.219,7,-13.155,1,0.0359,0.599,0.15,0.271,105.345,134027,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,36.0,
+69,The Beatles,The Beatles (Remastered),Back In The U.S.S.R. ,0j3p1p06deJ7f9xmJ9yG22,0.48,0.969,9,-7.464,1,0.0854,0.00022,0.0608,0.494,142.489,163453,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69.0,"Ohh!
+
+Flew in from Miami Beach B.O.A.C.
+Didn't get to bed last night
+On the way the paper bag was on my knee
+Man, I had a dreadful flight
+
+I'm back in the U.S.S.R.
+You don't know how lucky you are, boy
+Back in the U.S.S.R. (Yeah!)
+
+Been away so long, I hardly knew the place
+Gee, it's good to be back home
+Leave it till tomorrow to unpack my case
+Honey, disconnect the phone
+
+I'm back in the U.S.S.R.
+You don't know how lucky you are, boy
+Back in the U.S.
+Back in the U.S.
+"
+70,The Beatles,The Beatles (Remastered),Dear Prudence ,5NQYyej46WQkgCbnzGD21W,0.388,0.529,7,-10.533,1,0.0436,0.0681,0.108,0.332,150.721,235773,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64.0,"Dear Prudence
+Won't you come out to pla-a-ay?
+Dear Prudence
+Greet the brand new da-a-a-ay
+The sun is up, the sky is blue
+It's beautiful, and so are you
+Dear Prudence
+Won't you come out to play?
+
+Dear Prudence
+Open up your eyes
+Dear Prudence
+See the sunny ski-i-i-ies
+Aaa"
+71,The Beatles,The Beatles (Remastered),Glass Onion ,2jAojvUaPoHPFSPpF0UNRo,0.523,0.51,7,-9.827,0,0.0514,8.38e-05,0.108,0.789,120.432,137840,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,"I told you 'bout Strawberry Fields
+You know, the place where nothing is real
+Well, here's another place you can go-o
+Where everything flo-ows
+Looking through the bent-backed tulips
+To see how the other half live
+Looking through a glass onion
+
+I told you 'bout the walrus and me, man
+"
+72,The Beatles,The Beatles (Remastered),"Ob-La-Di, Ob-La-Da ",1gFNm7cXfG1vSMcxPpSxec,0.818,0.728,10,-8.331,1,0.0314,0.0642,0.251,0.975,113.059,188960,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72.0,"Desmond has a barrow in the marketplace
+Molly is the singer in a band
+Desmond says to Molly, ""Girl, I like your face""
+And Molly says this as she takes him by the hand
+
+Ob-la-di, ob-la-da
+Life goes on, bra
+La, la, how the life goes on
+Ob-la-di, ob-la-da
+Life goes on, bra
+La, la, how the life goes on
+
+Desmond takes a trolley to the jeweler's store
+Buys a 20 carat golden ring (ring)
+Takes it back to Molly waiting at the door
+And as he gives it to her, she begins to sing (sing)
+
+Ob-la-di, ob-la-da (la, la, la, la, la, la)
+Life goes on, brah (la, la, la, la, la, la)
+La, la, how the life goes on
+Ob-la-di, ob-la-da (la, la, la, la, la, la)
+Life goes on, brah (la, la, la, la, la, la)
+La, la, how the life goes on
+"
+73,The Beatles,The Beatles (Remastered),Wild Honey Pie ,6j67aNAPeQ31uw4qw4rpLa,0.792,0.763,2,-11.185,1,0.0506,0.627,0.789,0.152,89.9,52973,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,
+74,The Beatles,The Beatles (Remastered),The Continuing Story Of Bungalow Bill ,5Z3Rd1fMcaty8g5Pn7yhBQ,0.621,0.459,0,-10.414,1,0.104,0.0,0.656,0.648,114.816,194160,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,"Hey, Bungalow Bill
+What did you kill, Bungalow Bill?
+Hey, Bungalow Bill
+What did you kill, Bungalow Bill?
+He went out tiger hunting with his elephant and gun
+In case of accidents he always took his mom
+He's the all-American bullet-headed Saxon mother's son
+All the children sing
+Hey, Bungalow Bill
+What did you kill, Bungalow Bill?
+Hey, Bungalow Bill
+What did you kill, Bungalow Bill?
+Deep in the jungle, where the mighty tiger lies
+Bill and his elephants were taken by surprise
+"
+75,The Beatles,The Beatles (Remastered),While My Guitar Gently Weeps ,389QX9Q1eUOEZ19vtzzI9O,0.453,0.654,4,-8.855,0,0.0317,0.00395,0.172,0.702,115.0,285000,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,71.0,
+76,The Beatles,The Beatles (Remastered),Happiness Is A Warm Gun ,71LsKf3xISiOlY1mj7FFPP,0.431,0.54,9,-9.6,0,0.0589,1.34e-06,0.169,0.44,139.288,164547,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,
+77,The Beatles,The Beatles (Remastered),Martha My Dear ,1swmf4hFMJYRNA8Rq9PVaW,0.472,0.292,10,-11.591,1,0.0321,0.0007,0.128,0.824,177.624,148573,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57.0,
+78,The Beatles,The Beatles (Remastered),I'm So Tired ,2X9H5BokS1u5O46YpNYNsZ,0.433,0.483,9,-9.422,1,0.175,2.64e-05,0.539,0.717,68.492,123493,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,"I'm so tired, I haven't slept a wink
+I'm so tired, my mind is on the blink
+I wonder, should I get up and fix myself a drink
+No, no, no
+
+I'm so tired, I don't know what to do
+I'm so tired, my mind is set on you
+I wonder should I call you, but I know
+What you would do
+
+You'd say I'm putting you on
+But it's no joke, it's doing me harm
+"
+79,The Beatles,The Beatles (Remastered),Blackbird ,5jgFfDIR6FR0gvlA56Nakr,0.686,0.127,7,-14.361,1,0.0342,1.41e-05,0.0573,0.372,93.699,138387,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75.0,
+80,The Beatles,The Beatles (Remastered),Piggies ,4ZmjfLdJXbqjAENqk7eWSE,0.542,0.445,8,-9.105,1,0.0303,0.0,0.516,0.52,93.245,124267,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+81,The Beatles,The Beatles (Remastered),Rocky Raccoon ,1ITQbrueGLl581a25XXm9c,0.599,0.363,7,-11.728,1,0.0315,0.0,0.243,0.648,79.456,213107,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,
+82,The Beatles,The Beatles (Remastered),Don't Pass Me By ,4zq4rrfHZeZsTbo5vjJXSV,0.599,0.537,0,-9.617,1,0.0254,1.92e-05,0.194,0.946,84.895,230453,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+83,The Beatles,The Beatles (Remastered),Why Don't We Do It In The Road? ,4eLIq1nQNwz2qLu8DeiWIp,0.589,0.522,2,-8.718,1,0.0521,0.000243,0.0993,0.957,187.688,101160,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+84,The Beatles,The Beatles (Remastered),I Will ,09x9v1o51dbqi5H0u7UGfp,0.631,0.387,5,-11.529,1,0.0262,0.000406,0.0822,0.832,103.11,105933,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65.0,"Who knows how long I've loved you
+You know I love you still
+Will I wait a lonely lifetime
+If you want me to, I will
+
+For if I ever saw you
+I didn't catch your name
+"
+85,The Beatles,The Beatles (Remastered),Julia ,5FnpXVgDOk2sLT58qM22Of,0.512,0.0953,2,-16.082,1,0.0304,0.000268,0.117,0.193,134.706,176667,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57.0,
+86,The Beatles,The Beatles (Remastered),Birthday ,1ABegtCPBMMJaMpfDyATjE,0.541,0.727,2,-7.509,1,0.0384,0.717,0.232,0.91,139.239,163080,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,"They say it's your birthday
+It's my birthday too, yeah
+They say it's your birthday
+We're gonna have a good time
+I'm glad it's your birthday
+Happy Birthday to you
+
+Ah,
+Ah,
+Ah
+Come on,
+Come on
+"
+87,The Beatles,The Beatles (Remastered),Yer Blues ,2AsGApoUuN8pTM17Lq9eUd,0.327,0.525,9,-10.272,1,0.0475,0.259,0.133,0.435,151.766,240453,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+88,The Beatles,The Beatles (Remastered),Mother Nature's Son ,6TjUg1cTUzWHbal6yQAi7c,0.608,0.178,2,-17.109,1,0.0264,0.352,0.166,0.401,84.78,168027,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,"Born a poor young country boy, Mother Nature's son
+All day long I'm sitting singing songs for everyone
+
+"
+89,The Beatles,The Beatles (Remastered),Everybody's Got Something To Hide Except Me And My Monkey ,64P3zpRsDHIk7YTpRtaKYL,0.523,0.731,2,-8.613,1,0.0559,0.000464,0.081,0.81,117.089,144773,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,"Come on, come on
+Come on, come on
+Come on is such a joy
+Come on is such a joy
+
+Come on, let's take it easy
+Come on, let's take it easy
+Take it easy
+Take it easy
+Everybody's got something to hide except for me and my monkey
+
+Deeper you go, the higher you fly
+The higher you fly, the deeper you go
+"
+90,The Beatles,The Beatles (Remastered),Sexy Sadie ,2tBv9tAdqEbLNDi5smSjbg,0.577,0.624,0,-9.626,1,0.0285,0.00622,0.117,0.671,75.478,195267,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,"Sexy Sadie, what have you done?
+You made a fool of everyone
+
+You made a fool of everyone
+Sexy Sadie, oh, what have you done?
+
+Sexy Sadie, you broke the rules
+You laid it down for all to see
+You laid it down for all to see
+Sexy Sadie, oh, you broke the rules
+
+One sunny day, the world was waiting for a lover
+She came along to turn on everyone
+"
+91,The Beatles,The Beatles (Remastered),Helter Skelter ,0Bs0hUYxz7REyIHH7tRhL2,0.166,0.831,9,-8.469,1,0.0894,0.846,0.811,0.281,167.518,269787,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64.0,
+92,The Beatles,The Beatles (Remastered),"Long, Long, Long ",40d2EcaOOCUjDzzo2YvUWn,0.349,0.129,5,-15.883,1,0.0294,0.405,0.192,0.163,104.837,186307,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,
+93,The Beatles,The Beatles (Remastered),Revolution 1 ,1aOzDhi5a1RWWRy5dmYA8I,0.386,0.626,9,-9.451,1,0.0377,0.00164,0.621,0.695,98.425,255707,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,"Take two
+Okay
+
+You say you want a revolution
+Well, you know
+We all want to change the world
+You tell me that it's evolution
+Well, you know
+We all want to change the world
+
+But when you talk about destruction
+Don't you know that you can count me out (in)
+
+Don't you know it's gonna be
+All right?
+Don't you know it's gonna be (all right)
+"
+94,The Beatles,The Beatles (Remastered),Honey Pie ,1TPcNcmuKlq0PKpYOBgP1U,0.537,0.297,7,-15.452,1,0.0822,1.5e-05,0.145,0.553,144.197,161160,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,"She was a working girl
+North of England way
+Now she's hit the big time
+In the U.S.A.
+And if she could only hear me
+This is what I'd say
+
+Honey Pie
+You are making me crazy
+I'm in love, but I'm lazy
+So won't you please come home?
+
+Oh, Honey Pie
+"
+95,The Beatles,The Beatles (Remastered),Savoy Truffle ,5iyCSUM7zzficwaGo8GIoc,0.623,0.544,11,-11.043,0,0.0536,0.309,0.134,0.793,120.761,174467,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,
+96,The Beatles,The Beatles (Remastered),Cry Baby Cry ,5XmetMMUFNXClbiYnGdVmP,0.517,0.529,9,-11.851,0,0.0323,0.00396,0.174,0.362,76.644,182080,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52.0,"Cry, baby, cry
+Make your mother sigh
+She's old enough to know better
+
+The king of Marigold was in the kitchen
+Cooking breakfast for the queen
+The queen was in the parlour
+Playing piano for the children of the king
+
+Cry, baby, cry
+Make your mother sigh
+She's old enough to know better
+So cry, baby, cry
+
+The king was in the garden
+Picking flowers for a friend who came to play
+The queen was in the playroom
+Painting pictures for the children's holiday
+
+Cry, baby, cry
+Make your mother sigh
+She's old enough to know better
+"
+97,The Beatles,The Beatles (Remastered),Revolution 9 ,5dZ8PeKKZJLIQAWNTdp8WX,0.208,0.615,2,-15.297,0,0.342,0.118,0.824,0.101,91.158,502013,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49.0,"Bottle of claret for you if I'd realised
+Well, do next time
+I'd forgotten all about it, George, so I'm sorry
+Will you forgive me?
+Yes
+Cheeky bitch
+
+Number 9, number 9, number 9, number 9, number 9
+Number 9, number 9, number 9, number 9, number 9
+Number 9, number 9, number 9, number 9, number
+
+Then there's this Welsh Rarebit wearing some brown underpants
+About the shortage of grain in Hertfordshire
+Every one of them knew that as time went by
+They'd get a little bit older and a little bit slower but
+
+It's all the same thing, in this case
+Manufactured by someone who's always
+Umpteen times
+Your fibres giving it diddly-i-dee
+District was leaving, intended to pay for
+
+Number 9, number 9
+
+Who's to know?
+Who was to know?
+
+Number 9, number 9, number 9, number 9,
+Number 9, number 9, number 9, number 9,
+Number 9, number 9, number 9, number 9
+
+I sustained nothing worse than
+Also spoken for
+Whatever you're doing
+A business deal falls through
+I informed him on the third night
+When fortune gives
+
+Number 9, number 9, number 9
+
+Right, right
+Right, right, right, right
+Right, right
+
+9, number 9, number 9, number 9
+
+I've missed all of that
+It makes me a few days late
+"
+98,The Beatles,The Beatles (Remastered),Good Night ,3T4Kt51PV4k8tx6YCtBgcl,0.146,0.355,7,-14.583,1,0.0352,0.835,0.114,0.178,146.408,193760,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,"Now it's time to say good night
+Good night, sleep tight
+Now the sun turns out his light
+Good night, sleep tight
+Dream sweet dreams for me (Dream sweet)
+Dream sweet dreams for you
+
+Close your eyes and I'll close mine
+Good night, sleep tight
+Now the moon begins to shine
+"
+99,The Beatles,Magical Mystery Tour (Remastered),Magical Mystery Tour ,0qHMhBZqYb99yhX9BHcIkV,0.297,0.613,9,-9.065,1,0.0931,3.98e-05,0.0734,0.338,170.962,170107,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,
+100,The Beatles,Magical Mystery Tour (Remastered),The Fool On The Hill ,6rHh8urosEFRI67xVa6fzU,0.356,0.26,4,-10.577,0,0.0314,2.1e-06,0.105,0.49,144.184,179107,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"Day after day, alone on a hill
+The man with the foolish grin
+Is keeping perfectly still
+But nobody wants to know him
+They can see that he's just a fool
+And he never gives an answer
+
+But the fool on the hill
+Sees the sun going down
+And the eyes in his head
+See the world spinning round
+
+Well on the way, head in a cloud
+The man of a thousand voices
+Talking perfectly loud
+"
+101,The Beatles,Magical Mystery Tour (Remastered),Flying ,1itLKsCWHtLnxALkgBk1Fa,0.551,0.395,0,-14.755,1,0.0501,0.88,0.0932,0.261,92.929,135520,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,
+102,The Beatles,Magical Mystery Tour (Remastered),Blue Jay Way ,0QIX9BS0AUCQcHYvyrsMkV,0.294,0.407,0,-11.575,1,0.0308,0.000219,0.0852,0.0378,101.052,235067,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,
+103,The Beatles,Magical Mystery Tour (Remastered),Your Mother Should Know ,1dxbAIfCASqv6jix2R1Taj,0.698,0.293,0,-11.361,1,0.0332,0.0106,0.0936,0.724,117.613,148413,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56.0,
+104,The Beatles,Magical Mystery Tour (Remastered),I Am The Walrus ,6Pq9MmkDQYZiiCDpxnvrf6,0.401,0.556,2,-10.532,1,0.0513,0.000359,0.589,0.654,85.206,275867,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66.0,
+105,The Beatles,Magical Mystery Tour (Remastered),"Hello, Goodbye ",0vZ97gHhemKm6c64hTfJNA,0.479,0.733,0,-8.753,1,0.0256,2.4e-05,0.414,0.806,99.307,208840,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66.0,
+106,The Beatles,Magical Mystery Tour (Remastered),Strawberry Fields Forever ,3Am0IbOxmvlSXro7N5iSfZ,0.39,0.502,10,-12.277,1,0.178,0.000138,0.0713,0.289,97.871,247320,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,71.0,
+107,The Beatles,Magical Mystery Tour (Remastered),Penny Lane ,1h04XMpzGzmAudoI6VHBgA,0.651,0.488,9,-8.22,1,0.0316,0.026,0.136,0.49,113.038,180893,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,
+108,The Beatles,Magical Mystery Tour (Remastered),"Baby, You're A Rich Man ",0JBvtprXP2Z0LP3jmzA7Xp,0.619,0.625,7,-9.635,1,0.036,1.05e-06,0.152,0.467,96.751,181307,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"How does it feel to be
+One of the beautiful people?
+Now that you know who you are
+What do you want to be?
+And have you travelled very far?
+Far as the eye can see
+
+How does it feel to be
+One of the beautiful people?
+How often have you been there?
+Often enough to know
+What did you see when you were there?
+Nothing that doesn't show
+
+Baby, you're a rich man
+"
+109,The Beatles,Magical Mystery Tour (Remastered),All You Need Is Love ,68BTFws92cRztMS1oQ7Ewj,0.4,0.48,7,-7.768,1,0.0295,3.1e-05,0.155,0.653,103.436,230387,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,"Love, love, love
+Love, love, love
+Love, love, love
+
+There's nothing you can do that can't be done
+Nothing you can sing that can't be sung
+Nothing you can say, but you can learn how to play the game
+It's easy
+
+Nothing you can make that can't be made
+No one you can save that can't be saved
+Nothing you can do, but you can learn how to be you in time
+It's easy
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+"
+110,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Sgt. Pepper's Lonely Hearts Club Band ,4fUKE8EULjQdHF4zb0M8FO,0.451,0.673,7,-9.115,1,0.0734,0.00225,0.797,0.583,95.513,122893,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66.0,
+111,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),With A Little Help From My Friends ,2RnPATK99oGOZygnD2GTO6,0.705,0.515,4,-9.343,1,0.0337,0.0,0.389,0.803,112.035,164107,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,
+112,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Lucy In The Sky With Diamonds ,25yQPHgC35WNnnOUqFhgVR,0.311,0.325,2,-9.042,1,0.0283,0.0,0.139,0.668,65.09,208467,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70.0,
+113,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Getting Better ,3LtOmWpTXLhilL5odoKysR,0.632,0.471,0,-7.887,1,0.0348,5.08e-06,0.0712,0.764,121.672,168120,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,"It's getting better all the time
+I used to get mad at my school (Now I can't complain)
+The teachers who taught me weren't cool (Now I can't complain)
+Holding me down
+Turning me 'round
+Filling me up with your rules
+
+I've got to admit it's getting better (Better)
+A little better all the time (It can't get no worse)
+I have to admit it's getting better (Better)
+It's getting better, since you've been mine
+
+I used to be angry a man
+"
+114,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Fixing A Hole ,3pKKxkeB1pOUMHwWBmKc3Y,0.469,0.507,0,-8.917,0,0.0451,0.0,0.0783,0.619,112.984,156827,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,
+115,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),She's Leaving Home ,3PjMtNzwhDHqxoKudm6GvF,0.381,0.214,4,-11.629,1,0.0337,0.0,0.106,0.393,127.581,215160,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,
+116,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Being For The Benefit Of Mr. Kite! ,6W35n1UlkvqhfMZstB4BXs,0.526,0.413,0,-9.865,1,0.0446,0.0,0.0992,0.71,111.874,157533,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+117,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Within You Without You ,3Umg8CDhO8dOSj7yBTInYb,0.352,0.479,6,-9.965,1,0.0338,0.000353,0.486,0.354,126.166,304667,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,
+118,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),When I'm Sixty Four ,1NrbnHlR2BFREcyWXHIHip,0.704,0.241,1,-13.258,1,0.0476,2.8e-05,0.0868,0.661,140.411,157667,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65.0,"When I get older losing my hair
+Many years from now
+Will you still be sending me a Valentine
+Birthday greetings, bottle of wine?
+If I'd been out till quarter to three
+Would you lock the door?
+Will you still need me, will you still feed me
+When I'm sixty-four?
+
+You'll be older too
+And if you say the word
+I could stay with you
+"
+119,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Lovely Rita ,6h9W5FxX4E9lUFsyq8j1AD,0.61,0.471,8,-9.151,0,0.0261,0.0,0.118,0.63,87.379,162093,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,"Lovely Rita meter maid
+Lovely Rita meter maid
+
+Lovely Rita meter maid
+Nothing can come between us
+When it gets dark I tow your heart away
+
+Standing by a parking meter
+When I caught a glimpse of Rita
+Filling in the ticket in her little white book
+In a cap she looked much older
+And the bag across her shoulder
+"
+120,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Good Morning Good Morning ,0xIuNHHcKI1JDuBPlSwzb1,0.542,0.618,2,-8.876,1,0.139,0.0,0.772,0.93,121.849,161227,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52.0,
+121,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),Sgt. Pepper's Lonely Hearts Club Band ,42ocGQCOT0xYtV3f5kJDsD,0.653,0.889,0,-8.006,1,0.0453,0.589,0.892,0.879,118.773,79067,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,
+122,The Beatles,Sgt. Pepper's Lonely Hearts Club Band (Remastered),A Day In The Life ,0hKRSZhUGEhKU6aNSPBACZ,0.364,0.457,4,-14.162,0,0.0675,0.000106,0.922,0.175,163.219,337413,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,
+123,The Beatles,Revolver (Remastered),Taxman ,4BRkPBUxOYffM2QXVlq7aC,0.469,0.596,7,-8.348,1,0.0749,0.0,0.321,0.783,133.586,158853,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,
+124,The Beatles,Revolver (Remastered),Eleanor Rigby ,5GjPQ0eI7AgmOnADn1EO6Q,0.581,0.28,4,-9.091,0,0.0381,1.56e-05,0.305,0.813,137.831,126533,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,72.0,
+125,The Beatles,Revolver (Remastered),I'm Only Sleeping ,2ylCrFiBu98SC0vFfaCent,0.494,0.47,8,-9.599,0,0.0301,0.0,0.28,0.698,103.477,180320,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,
+126,The Beatles,Revolver (Remastered),Love You To ,4RdJFhfLQcezwN5LsXl4qP,0.391,0.593,5,-8.999,1,0.0413,0.000249,0.0829,0.707,123.986,179827,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,"Each day just goes so fast
+I turn around, it's past
+You don't get time to hang a sign on me
+Love me while you can
+Before I'm a dead old man
+
+A life time is so short
+"
+127,The Beatles,Revolver (Remastered),"Here, There And Everywhere ",2B4Y9u4ERAFiMo13XPJyGP,0.29,0.247,7,-12.125,1,0.0383,0.00565,0.0917,0.36,165.361,144880,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,"To lead a better life
+I need my love to be here
+
+Here, making each day of the year
+Changing my life with a wave of her hand
+Nobody can deny that there's something there
+
+There, running my hands through her hair
+Both of us thinking how good it can be
+"
+128,The Beatles,Revolver (Remastered),Yellow Submarine ,50xwQXPtfNZFKFeZ0XePWc,0.604,0.549,1,-9.873,1,0.0389,0.0,0.438,0.696,111.398,158880,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65.0,"In the town where I was born
+Lived a man who sailed to sea
+And he told us of his life
+In the land of submarines
+
+So we sailed onto the sun
+'Til we found the sea of green
+And we lived beneath the waves
+In our yellow submarine
+
+We all live in a yellow submarine
+Yellow submarine, yellow submarine
+We all live in a yellow submarine
+Yellow submarine, yellow submarine
+
+"
+129,The Beatles,Revolver (Remastered),She Said She Said ,3VSuWxZM6x6V3ig5nYtikL,0.329,0.678,3,-7.878,1,0.0344,0.168,0.843,0.672,106.476,156040,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57.0,
+130,The Beatles,Revolver (Remastered),Good Day Sunshine ,7HTH1ppjkkOe7RLoBDKXYJ,0.77,0.496,11,-8.45,1,0.0468,0.0,0.123,0.571,117.331,129293,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.0,
+131,The Beatles,Revolver (Remastered),And Your Bird Can Sing ,4KRgqwb4kvBuTz1utbYxfb,0.555,0.65,4,-6.936,1,0.0282,0.0491,0.236,0.966,132.59,120493,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.0,"Tell me that you've got everything you want
+And your bird can sing
+But you don't get me
+You don't get
+
+Me
+You'll say you've seen seven wonders
+And your bird is green
+But you can't see me
+
+"
+132,The Beatles,Revolver (Remastered),For No One ,1kDkaFlmkdEZiVUogaP9OZ,0.483,0.351,1,-10.487,0,0.0278,0.0,0.115,0.713,81.208,119813,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64.0,
+133,The Beatles,Revolver (Remastered),Doctor Robert ,1ob06Ol8FMIPQgjpg7bMyk,0.394,0.64,4,-8.992,1,0.0488,0.139,0.153,0.574,164.626,134267,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+134,The Beatles,Revolver (Remastered),I Want To Tell You ,7orb0y6ySGdsYZywMoQtsD,0.493,0.525,9,-9.289,1,0.0315,4.4e-06,0.148,0.449,127.492,147973,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+135,The Beatles,Revolver (Remastered),Got To Get You Into My Life ,3tGhRLgcCP6SIZU3tbGl7l,0.521,0.524,0,-6.136,1,0.0302,9.27e-06,0.0838,0.711,136.679,149240,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,"I was alone I took a ride
+I didn't know what I would find there
+Another road where maybe I
+Could see another kind of mind there
+
+Ooh, then I suddenly see you
+Ooh, did I tell you I need you
+Ev'ry single day of my life
+
+You didn't run, you didn't lie
+You knew I wanted just to hold you
+And had you gone you knew in time
+We'd meet again for I had told you
+
+"
+136,The Beatles,Revolver (Remastered),Tomorrow Never Knows ,00oZhqZIQfL9P5CjOP6JsO,0.38,0.829,5,-6.105,1,0.0405,0.00208,0.342,0.0534,125.887,179547,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"Turn off your mind
+Relax and float down stream
+It is not dying
+It is not dying
+
+Lay down all thoughts
+Surrender to the void
+It is shining
+It is shining
+
+That you may see
+The meaning of within
+It is being
+"
+137,The Beatles,Rubber Soul (Remastered),Drive My Car ,06ypiqmILMdVeaiErMFA91,0.754,0.571,2,-8.547,1,0.0421,0.0,0.3,0.82,122.463,148893,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,"Asked a girl what she wanted to be
+She said, ""Baby, can't you see
+I wanna be famous, a star on the screen
+But you can do something in between""
+
+Baby, you can drive my car
+Yes, I'm gonna be a star
+Baby, you can drive my car
+And maybe I love you
+
+I told a girl that my prospects were good
+And she said, ""Baby, it's understood
+Working for peanuts is all very fine
+"
+138,The Beatles,Rubber Soul (Remastered),Norwegian Wood (This Bird Has Flown) ,1H7gMYGykdtwZOV6s1N0by,0.425,0.369,4,-11.876,1,0.0379,0.00126,0.112,0.65,176.625,124693,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69.0,"I once had a girl
+Or should I say she once had me
+She showed me her room
+Isn't it good Norwegian wood?
+
+She asked me to stay
+And she told me to sit anywhere
+So I looked around
+And I noticed there wasn't a chair
+"
+139,The Beatles,Rubber Soul (Remastered),You Won't See Me ,4LLBKnNCrSRrSjSTuiwjE9,0.488,0.539,9,-8.752,1,0.0304,0.0,0.0538,0.473,115.941,199960,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.0,
+140,The Beatles,Rubber Soul (Remastered),Nowhere Man ,5SUlhldQJtOhUr2GzH5RI7,0.534,0.624,4,-9.589,1,0.0462,0.0,0.128,0.687,121.402,163693,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65.0,
+141,The Beatles,Rubber Soul (Remastered),Think For Yourself ,64bKVrkaXQAKx04dLHqCNz,0.529,0.567,0,-9.796,1,0.0282,0.0,0.0729,0.799,130.544,138520,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,
+142,The Beatles,Rubber Soul (Remastered),The Word ,4GBaPHvAyj4V2jeobD9tsy,0.59,0.641,0,-9.687,1,0.0416,0.0,0.0553,0.792,120.773,163107,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,"Say the word and you'll be free
+Say the word and be like me
+Say the word I'm thinking of
+Have you heard the word is love?
+It's so fine, it's sunshine
+It's the word, love
+In the beginning I misunderstood
+But now I've got it, the word is good
+Spread the word and you'll be free
+
+Spread the word and be like me
+Spread the word I'm thinking of
+Have you heard the word is love?
+It's so fine, it's sunshine
+It's the word, love
+"
+143,The Beatles,Rubber Soul (Remastered),Michelle ,5By7Pzgl6TMuVJG168VWzS,0.578,0.29,5,-12.501,0,0.0341,0.0,0.105,0.666,117.403,162373,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,68.0,"Michelle, ma belle
+These are words that go together well
+My Michelle
+
+Michelle, ma belle
+Sont les mots qui vont très bien ensemble
+Très bien ensemble
+
+I love you, I love you, I love you
+That's all I want to say
+Until I find a way
+I will say the only words I know that
+"
+144,The Beatles,Rubber Soul (Remastered),What Goes On ,19QXdPRZFHI5kNK3tN8Mh7,0.67,0.776,4,-10.035,1,0.0749,3.01e-06,0.0732,0.765,96.93,168573,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+145,The Beatles,Rubber Soul (Remastered),Girl ,6tQvjqDIK9GXWIC6mejms8,0.699,0.294,5,-13.205,0,0.0294,0.0,0.117,0.893,96.615,151720,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64.0,
+146,The Beatles,Rubber Soul (Remastered),I'm Looking Through You ,5E3BVY66TEDexFutOO5GeS,0.667,0.498,1,-11.027,1,0.0364,0.0,0.0481,0.774,85.843,146387,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62.0,
+147,The Beatles,Rubber Soul (Remastered),In My Life ,3KfbEIOC7YIv90FIfNSZpo,0.688,0.435,9,-11.359,1,0.0323,0.0,0.113,0.435,103.239,146333,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,74.0,"There are places I'll remember
+All my life though some have changed
+Some forever, not for better
+Some have gone and some remain
+
+All these places have their moments
+With lovers and friends I still can recall
+Some are dead and some are living
+In my life I've loved them all
+"
+148,The Beatles,Rubber Soul (Remastered),Wait ,0CGbof9amBnsNlRhZ8IY2H,0.552,0.487,6,-10.574,0,0.04,0.0,0.105,0.657,127.201,134720,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,"It's been a long time
+Now I'm coming back home
+I've been away now
+Oh how i've been alone
+
+Wait 'til I come back to your side
+We'll forget the tears we've cried
+
+But if your heart breaks
+Don't wait, turn me away
+And if your heart's strong
+Hold on, I won't delay
+
+Wait 'til I come back to your side
+We'll forget the tears we've cried
+
+I feel as though
+You ought to know
+"
+149,The Beatles,Rubber Soul (Remastered),If I Needed Someone ,7C6hdDIz90Uf5YmdZnYbJJ,0.492,0.755,9,-9.273,1,0.0331,0.0,0.102,0.796,127.387,142267,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,
+150,The Beatles,Rubber Soul (Remastered),Run For Your Life ,4gUYV3ktbaOeAK5KrXMWV5,0.563,0.705,2,-9.232,1,0.103,0.0,0.0552,0.822,176.732,141093,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,
+151,The Beatles,Help! (Remastered),Help! ,7DD7eSuYSC5xk2ArU62esN,0.534,0.725,6,-7.576,0,0.0332,0.0,0.0994,0.763,95.003,139560,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,73.0,
+152,The Beatles,Help! (Remastered),The Night Before ,5xcfepnz1v7a83T8An9gjw,0.461,0.762,2,-6.727,1,0.0379,0.0,0.238,0.632,84.496,154933,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,
+153,The Beatles,Help! (Remastered),You've Got To Hide Your Love Away ,4F1AgKpuFRMLEgtPETVwZk,0.398,0.392,7,-9.05,1,0.0282,0.0,0.102,0.378,184.267,129120,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65.0,"Here I stand head in hand
+Turn my face to the wall
+If she's gone I can't go on
+Feelin' two-foot small
+
+Everywhere people stare
+Each and every day
+I can see them laugh at me
+"
+154,The Beatles,Help! (Remastered),I Need You ,5EzvwjFwdP5Kfl5AZAemzu,0.601,0.489,9,-8.554,1,0.0455,0.0,0.0988,0.638,136.215,148787,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,55.0,
+155,The Beatles,Help! (Remastered),Another Girl ,7hefVXaGsFPesbK6fKwS6F,0.516,0.638,9,-7.453,1,0.0314,0.0,0.333,0.822,88.657,125360,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,
+156,The Beatles,Help! (Remastered),You're Going To Lose That Girl ,70HNt0eoBVqr4ss68U8x3B,0.533,0.66,4,-7.694,1,0.0337,0.0,0.26,0.818,131.975,138667,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,"You're gonna lose that girl (Yes, yes, you're gonna lose that girl)
+You're gonna lose that girl (Yes, yes, you're gonna lose that girl)
+
+If you don't take her out tonight
+She's gonna change her mind (She's gonna change her mind)
+And I will take her out tonight
+And I will treat her kind (I'm gonna treat her kind)
+
+You're gonna lose that girl (Yes, yes, you're gonna lose that girl)
+You're gonna lose that girl (Yes, yes, you're gonna lose that girl)
+
+If you don't treat her right, my friend
+You're gonna find her gone (You're gonna find her gone)
+'Cause I will treat her right, and then
+You'll be the lonely one (You're not the only one)
+"
+157,The Beatles,Help! (Remastered),Ticket To Ride ,7CZiDzGVjUssMSOXrDNYHL,0.519,0.85,9,-6.777,1,0.0678,0.0,0.233,0.749,123.419,189680,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,
+158,The Beatles,Help! (Remastered),Act Naturally ,0IxxqsYBcCHEQ1HqLYJnwx,0.702,0.447,7,-10.122,1,0.0308,0.0,0.153,0.944,93.02,150373,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,"They're gonna put me in the movies
+They're gonna make a big star out of me
+We'll make a film about a man that's sad and lonely
+And all I gotta do is act naturally
+
+Well, I'll bet you I'm gonna be a big star
+Might win an Oscar, you can never tell
+The movies gonna make me a big star
+'Cause I can play the part so well
+"
+159,The Beatles,Help! (Remastered),It's Only Love ,2ue1KRstSKHF8jQkIJZiNC,0.629,0.551,0,-8.281,1,0.0256,0.0,0.0432,0.685,113.155,116480,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,
+160,The Beatles,Help! (Remastered),You Like Me Too Much ,0y1LLH0NiwOD5tM3aNMXTr,0.555,0.57,7,-7.869,1,0.0302,0.0,0.191,0.899,88.316,156867,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0,
+161,The Beatles,Help! (Remastered),Tell Me What You See ,2jnr9KaaMAmvk0zMcM9UzV,0.592,0.796,7,-8.125,1,0.0429,0.0,0.131,0.7,136.675,157987,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49.0,
+162,The Beatles,Help! (Remastered),I've Just Seen A Face ,788U1Sqej9M6c4iikuDGxO,0.647,0.56,9,-8.809,1,0.0387,0.0,0.118,0.913,120.418,125040,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,
+163,The Beatles,Help! (Remastered),Yesterday ,3BQHpFgAp4l80e1XslIjNI,0.332,0.179,5,-11.83,1,0.0326,0.0,0.0886,0.315,96.529,125667,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,78.0,"Yesterday
+All my trouble seemed so far away
+Now it looks as though they're here to stay
+Oh, I believe in yesterday
+
+Suddenly
+I'm not half the man I used to be
+There's a shadow hanging over me
+Oh, yesterday came suddenly
+
+Why she had to go
+"
+164,The Beatles,Help! (Remastered),Dizzy Miss Lizzy ,70Dohn82wv6VtxGesqRzbZ,0.373,0.934,9,-6.753,1,0.0591,0.00445,0.0962,0.918,136.037,176507,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49.0,"Ow!
+
+You make me dizzy, Miss Lizzy
+The way you rock and roll
+You make me dizzy, Miss Lizzy
+When you do the stroll
+Come on, Miss Lizzy
+Love me 'fore I grow too old
+
+Come on, give me fever
+Put your little hand in mine
+You make me dizzy, dizz, Lizzy
+Ooh, girl, you look so fine
+Just a-rockin' an' a-rollin'
+Girl, I said I wish you were mine
+"
+165,The Beatles,Beatles For Sale (Remastered),No Reply ,4ltC6PrqkTtpcRNi5lvS4z,0.718,0.593,0,-9.976,1,0.0377,0.0,0.172,0.869,124.251,136067,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,"This happened once before
+When I came to your door
+No reply
+
+They said it wasn't you
+But I saw you peep through
+Your window
+
+I saw the light
+I saw the light
+I know that you saw me
+'Cause I looked up to see
+Your face
+
+I tried to telephone
+They said you were not home
+"
+166,The Beatles,Beatles For Sale (Remastered),I'm A Loser ,7wC4EW11mBVxDK3xdC7FTf,0.492,0.628,7,-7.813,1,0.0439,1.07e-06,0.267,0.856,89.877,150027,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0,"I'm a loser, I'm a loser
+And I'm not what I appear to be
+
+Of all the love I have won or have lost
+There is one love I should never have crossed
+She was a girl in a million my friend
+I should have known she would win in the end
+
+I'm a loser, and I lost someone who's near to me
+"
+167,The Beatles,Beatles For Sale (Remastered),Baby's In Black ,7cb2SdLm1UMLwdUoWwrZN1,0.374,0.596,9,-7.666,1,0.0416,0.0,0.098,0.876,202.97,124520,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49.0,"Oh dear, what can I do?
+Baby's in black and I'm feeling blue
+Tell me, oh what can I do?
+
+She thinks of him and so she dresses in black
+And though he'll never come back, she's dressed in black
+
+Oh dear, what can I do?
+Baby's in black and I'm feeling blue
+Tell me, oh what can I do?
+
+"
+168,The Beatles,Beatles For Sale (Remastered),Rock And Roll Music ,7Ho3T7ERfooiAfvODaMQ2N,0.457,0.917,9,-6.213,1,0.0441,0.0,0.333,0.965,167.092,151280,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,"Just let me hear some of that rock and roll music
+Any old way you choose it
+It's got a back beat you can't lose it
+Any old time you use it
+Gotta be rock roll music
+If you wanna dance with me
+If you wanna dance with me
+
+I've got no kick against modern jazz
+Unless they try to play it too darn fast
+And lose the beauty of the melody
+Until they sound like a symphony
+
+That's why I go for that rock and roll music
+Any old way you choose it
+It's got a back beat you can't lose it
+Any old time you use it
+It's gotta be rock roll music
+If you wanna dance with me
+If you wanna dance with me
+"
+169,The Beatles,Beatles For Sale (Remastered),I'll Follow The Sun ,45WX2cfbL8bCIqv3rOq1G3,0.689,0.313,0,-10.073,1,0.0366,0.0,0.144,0.625,133.754,108853,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,61.0,
+170,The Beatles,Beatles For Sale (Remastered),Mr Moonlight ,6pPOkr2OxhQ6htrzOiDmq9,0.631,0.424,6,-9.106,1,0.0438,0.000143,0.118,0.589,126.127,158627,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48.0,"Mr. Moonlight
+You came to me one summer night
+And from your beam, you made my dream
+And from the whirl, you sent my girl
+And from above, you sent us love
+
+And now she is mine
+I think you're fine
+'Cause we love you
+Mr. Moonlight
+
+Mr. Moonlight, come again please
+"
+171,The Beatles,Beatles For Sale (Remastered),Kansas City / Hey-Hey-Hey-Hey ,5xf0zdP4KCfshyVn02D3Ea,0.588,0.724,7,-6.63,1,0.0335,8.92e-05,0.877,0.924,131.36,158147,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47.0,
+172,The Beatles,Beatles For Sale (Remastered),Eight Days A Week ,1Dg4dFJr3HW7sbA7vPejre,0.652,0.583,9,-7.811,1,0.038,0.0,0.119,0.744,138.134,163600,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,67.0,
+173,The Beatles,Beatles For Sale (Remastered),Words Of Love ,42qkSeX6HNJYHxlk6cWoFe,0.551,0.533,9,-9.8,1,0.0297,0.722,0.173,0.85,122.358,124320,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0,"Hold me close and
+Tell me how you feel
+Tell me love is real
+
+Words of love you
+"
+174,The Beatles,Beatles For Sale (Remastered),Honey Don't ,2d7GP7Fz1NrfPpo7MzWZgb,0.629,0.545,4,-11.466,1,0.0348,5.08e-05,0.0854,0.735,162.438,177427,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46.0,"Well how come you say you will when you won't
+Say you do, baby, when you don't
+Let me know honey how you feel
+Tell the truth now, is love real
+But uh-ah, well honey don't
+Well honey don't
+Honey don't
+Honey don't
+Honey don't
+I say you will when you won't uh-ah, honey don't
+
+Well I love you baby, and you ought to know
+I like the way that you wear your clothes
+Everything about you is so doggone sweet
+You got that sand all over your feet
+But uh-ah, well honey don't
+"
+175,The Beatles,Beatles For Sale (Remastered),Every Little Thing ,2CxTkdvhDuQrOxl8xXkdJS,0.74,0.49,2,-9.095,1,0.038,0.0,0.103,0.678,123.227,123800,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48.0,"When I'm walking beside her
+People tell me I'm lucky
+Yes, I know I'm a lucky guy
+I remember the first time
+I was lonely without her
+Can't stop thinking about her now
+
+Every Little Thing, She does
+She does for me, Yeah!
+And you know the things She does
+"
+176,The Beatles,Beatles For Sale (Remastered),I Don't Want To Spoil The Party ,3kQDIa85ZK8cKVn72NfBnl,0.533,0.668,7,-7.237,1,0.033,0.0,0.149,0.889,95.438,154467,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47.0,"I don't want to spoil the party so I'll go
+I would hate my disappointment to show
+There's nothing for me here, so I will disappear
+If she turns up while I'm gone please let me know
+
+I've had a drink or two and I don't care
+There's no fun in what I do if she's not there
+I wonder what went wrong, I've waited far too long
+I think I'll take a walk and look for her
+
+"
+177,The Beatles,Beatles For Sale (Remastered),What You're Doing ,6C6y4OWK1Ki3FVF1TIonxW,0.695,0.53,2,-8.309,1,0.0403,2e-06,0.0583,0.825,129.506,150040,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47.0,"Look what you're doing
+I'm feeling blue and lonely
+Would it be too much to ask of you
+What you're doing to me?
+
+You got me running
+And there's no fun in it
+Why should it be so much to ask of you
+What you're doing to me?
+
+"
+178,The Beatles,Beatles For Sale (Remastered),Everybody's Trying To Be My Baby ,4DZAH8eiqSAkMIE9l5D71U,0.543,0.806,4,-7.231,1,0.0385,0.0,0.134,0.943,85.172,146000,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46.0,
+179,The Beatles,A Hard Day's Night (Remastered),A Hard Day's Night ,5J2CHimS7dWYMImCHkEFaJ,0.59,0.805,0,-6.481,1,0.0371,0.0,0.0996,0.797,138.514,154200,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69.0,"It's been a hard day's night
+And I've been working like a dog
+It's been a hard day's night
+I should be sleeping like a log
+
+But when I get home to you
+I find the things that you do
+Will make me feel alright
+
+You know I work all day
+To get you money to buy you things
+And it's worth it just to hear you say
+You're gonna give me everything
+
+So why on earth should I moan?
+'Cause when I get you alone
+"
+180,The Beatles,A Hard Day's Night (Remastered),I Should Have Known Better ,3pU1CUgPiFfxPCpscwIwQR,0.682,0.444,7,-7.689,1,0.0289,0.0,0.115,0.91,130.704,163080,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62.0,
+181,The Beatles,A Hard Day's Night (Remastered),If I Fell ,1hgvykolO4kBIEozATmpyj,0.665,0.31,2,-8.928,1,0.0278,0.0,0.0877,0.568,108.211,139467,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64.0,
+182,The Beatles,A Hard Day's Night (Remastered),I'm Happy Just To Dance With You ,0gd50I2gKioJ59C827EdAY,0.658,0.537,6,-7.535,0,0.0307,0.0,0.0572,0.887,132.115,116373,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,"Before this dance is through
+I think I'll love you too
+I'm so happy when you dance with me
+
+I don't wanna kiss or hold your hand
+If it's funny, try and understand
+There is really nothing else I'd rather do
+'Cause I'm happy just to dance with you
+
+I don't need to hug or hold you tight
+I just wanna dance with you all night
+In this world there's nothing I would rather do
+'Cause I'm happy just to dance with you
+
+"
+183,The Beatles,A Hard Day's Night (Remastered),And I Love Her ,65vdMBskhx3akkG9vQlSH1,0.767,0.331,1,-10.777,0,0.0337,0.0,0.0681,0.636,113.312,149693,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69.0,"I give her all my love
+That's all I do
+And if you saw my love
+You'd love her too
+I love her
+
+She gives me everything
+And tenderly
+The kiss my lover brings
+"
+184,The Beatles,A Hard Day's Night (Remastered),Tell Me Why ,0Wzp5pWPoX0YoBg002HXL9,0.267,0.688,11,-6.309,0,0.0388,0.0,0.307,0.797,150.942,128693,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,"Tell me why you cried
+And why you lied to me
+Tell me why you cried
+And why you lied to me
+
+Well, I gave you everything I had
+But you left me sitting on my own
+Did you have to leave me oh so bad?
+All I do is hang my head and moan
+
+Tell me why you cried
+And why you lied to me
+"
+185,The Beatles,A Hard Day's Night (Remastered),Can't Buy Me Love ,3SdingSsFcZDZAyvcJbgAw,0.483,0.677,0,-5.91,1,0.0593,0.0,0.321,0.842,170.72,131867,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66.0,"Can't buy me love, love
+Love, oh
+Can't buy me love
+
+I'll buy you a diamond ring my friend
+If it makes you feel all right
+I'll get you anything my friend
+If it makes you feel all right
+'Cause I don't care too much for money
+For money can't buy me love
+
+I'll give you all I've got to give
+If you say you love me too
+I may not have a lot to give
+But what I've got I'll give to you
+"
+186,The Beatles,A Hard Day's Night (Remastered),Any Time At All ,70XHAdaMaoLIOVb1hSaeJ4,0.612,0.719,2,-7.026,1,0.0398,3.88e-06,0.437,0.744,141.016,131280,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,
+187,The Beatles,A Hard Day's Night (Remastered),I'll Cry Instead ,01xMiErR26kH1KCif6uEYI,0.643,0.73,7,-6.859,1,0.0347,0.0,0.253,0.96,96.711,105987,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48.0,
+188,The Beatles,A Hard Day's Night (Remastered),Things We Said Today ,0voUr8lubIafUVJlauJxYF,0.551,0.575,2,-8.208,0,0.0332,0.0,0.112,0.516,137.054,155333,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"You say you will love me
+If I have to go
+You'll be thinking of me
+Somehow I will know
+
+Someday, when I'm lonely
+Wishing you weren't so far away
+Then I will remember
+Things we said today
+
+You say you'll be mine, girl
+'Til the end of time
+These days, such a kind girl
+Seems so hard to find
+
+Someday, when we're dreaming
+"
+189,The Beatles,A Hard Day's Night (Remastered),When I Get Home ,4oLQ0imA5IDtNUnhFKY87q,0.568,0.793,9,-6.201,0,0.0482,0.0,0.388,0.64,125.375,136640,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47.0,"Whoa, I
+Whoa, I
+I got a whole lot of thing to tell her
+When I get home
+
+Come on
+Out my way
+'Cause I'm a-gonna see my baby today
+I got a whole lot of things I gotta say
+
+To her
+Whoa, I
+Whoa, I
+I got a whole lot of things to tell her
+
+When I get home
+"
+190,The Beatles,A Hard Day's Night (Remastered),You Can't Do That ,5b9G4dtK3Tdguuy9BO3Nwo,0.612,0.788,0,-6.251,1,0.0335,0.0,0.382,0.961,129.161,154893,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,"I got something to say
+That might cause you pain
+If I catch you talking
+To that boy again
+I'm gonna let you down
+And leave you flat
+Because I told you before
+Oh, you can't do that
+
+Well, it's the second time
+I've caught you talking to him
+Do I have to tell you one more time
+I think it's a sin?
+I think I'll let you down (Let you down) and leave you flat
+(Gonna let you down and leave you flat)
+Because I told you before
+Oh, you can't do that
+
+"
+191,The Beatles,A Hard Day's Night (Remastered),I'll Be Back ,3lSi6qfnp2YZazTzcOLBZk,0.721,0.527,9,-7.224,1,0.0293,0.0,0.186,0.641,123.902,144187,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52.0,
+192,The Beatles,With The Beatles (Remastered),It Won't Be Long ,4ekUX4pWizXXksJe0JfS9U,0.472,0.673,4,-8.853,1,0.0318,0.0,0.206,0.862,133.117,133387,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"It won't be long
+Yeah (yeah) yeah (yeah) yeah (yeah)
+It won't be long
+Yeah (yeah) yeah (yeah) yeah (yeah)
+It won't be long
+Yeah (yeah)
+'Til I belong to you (ahh)
+
+Every night, when everybody has fun
+Here am I, sitting all on my own
+
+It won't be long
+Yeah (yeah) yeah (yeah) yeah (yeah)
+It won't be long
+Yeah (yeah) yeah (yeah) yeah (yeah)
+It won't be long
+Yeah (yeah)
+'Til I belong to you (ahh)
+
+"
+193,The Beatles,With The Beatles (Remastered),All I've Got To Do ,5tztLBvTlNC15Np2tnQ5Ll,0.49,0.579,1,-10.301,0,0.0344,0.0,0.0644,0.879,119.403,122573,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"Whenever I want you around, yeah
+All I gotta do
+Is call you on the phone
+And you'll come running home
+Yeah, that's all I gotta do
+
+And when I, I wanna kiss you, yeah
+All I gotta do
+Is whisper in your ear
+The words you long to hear
+And I'll be kissing you
+"
+194,The Beatles,With The Beatles (Remastered),All My Loving ,4joiWvli4qJVEW6qZV2i2J,0.416,0.563,1,-8.724,0,0.0298,0.0,0.343,0.9,77.56,127853,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70.0,"Close your eyes and I'll kiss you
+Tomorrow I'll miss you
+Remember I'll always be true
+And then while I'm away
+I'll write home every day
+And I'll send all my loving to you
+
+I'll pretend that I'm kissing
+The lips I am missing
+"
+195,The Beatles,With The Beatles (Remastered),Don't Bother Me ,7y1hMqXNa0dKQLZH7CKbUG,0.371,0.724,2,-9.792,1,0.0562,0.0,0.299,0.916,170.377,148253,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,58.0,
+196,The Beatles,With The Beatles (Remastered),Little Child ,0KogQrSowDnZoU8GSpaxkj,0.526,0.858,9,-8.533,1,0.0476,0.001,0.353,0.886,75.596,106400,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,46.0,
+197,The Beatles,With The Beatles (Remastered),Till There Was You ,0ESIjVxnDnCDaTPo6sStHm,0.727,0.338,5,-13.887,1,0.0454,0.0,0.105,0.646,122.421,133507,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,"There were bells on a hill
+But I never heard them ringing
+No, I never heard them at all
+'Til there was you
+
+There were birds in the sky
+But I never saw them winging
+No, I never saw them at all
+'Til there was you
+
+"
+198,The Beatles,With The Beatles (Remastered),Please Mister Postman ,6wfK1R6FoLpmUA9lk5ll4T,0.552,0.644,9,-9.129,1,0.0372,0.0,0.36,0.961,122.546,154160,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,57.0,
+199,The Beatles,With The Beatles (Remastered),Roll Over Beethoven ,3idqWaBn3mRdsIodCU6uBi,0.351,0.749,2,-9.435,1,0.0628,0.0,0.0952,0.967,160.673,165467,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,"Well, gonna write a little letter
+Gonna mail it to my local DJ
+It's a rockin' little record
+I want my jockey to play
+Roll over Beethoven
+Gotta hear it again today
+
+You know my temperature's risin'
+And the jukebox's blows a fuse
+My heart's beatin' rhythm
+And my soul keeps singing the blues
+Roll over Beethoven
+And tell Tchaikovsky the news
+
+I got a rockin' pneumonia
+I need a shot of rhythm and blues (woo)
+"
+200,The Beatles,With The Beatles (Remastered),Hold Me Tight ,2RvKsA6Ho7VbJkVFiD4UQF,0.54,0.744,5,-9.637,1,0.0312,0.0,0.21,0.963,135.731,151907,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0,
+201,The Beatles,With The Beatles (Remastered),You Really Got A Hold On Me ,7rgUYidQh5tH0YlXCoKaYJ,0.373,0.388,9,-9.31,1,0.0337,0.0,0.267,0.687,77.643,181347,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,59.0,"I don't like you
+But I love you
+Seems that I'm always
+Thinking of you
+Oh, oh, oh
+You treat me badly
+I love you madly
+You've really got a hold on me
+(You really got a hold on me)
+You really got a hold on me
+(You really got a hold on me)
+
+Baby
+I don't want you
+But I need you
+Don't want to kiss you
+But I need to
+Oh, oh, oh
+"
+202,The Beatles,With The Beatles (Remastered),I Wanna Be Your Man ,0sIZcoe69iSym9AecvZ7CT,0.553,0.914,9,-8.232,1,0.0415,0.0,0.292,0.683,99.138,119507,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49.0,
+203,The Beatles,With The Beatles (Remastered),Devil In Her Heart ,5maTh4fY9SlgR3FhRkf040,0.618,0.622,7,-8.861,1,0.0296,0.0,0.0438,0.966,121.072,146213,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,49.0,"She's got the devil in her heart
+But her eyes they tantalise
+She's gonna tear your heart apart
+Oh, her lips, they really thrill me
+
+I'll take my chances
+For romance is
+So important to me
+She'll never hurt me
+She won't desert me
+She's an angel sent to me
+
+She's got the devil in her heart
+No, no, this I can't believe
+"
+204,The Beatles,With The Beatles (Remastered),Not A Second Time ,5vl0sRtrQM1BTSAxQZFqEN,0.471,0.817,7,-9.999,1,0.0372,0.0,0.498,0.961,124.848,126827,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48.0,
+205,The Beatles,With The Beatles (Remastered),Money (That's What I Want) ,3zw4FTrVNfy2teEkV9FOvh,0.545,0.853,11,-8.369,0,0.0394,0.0,0.266,0.923,128.816,169507,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0,
+206,The Beatles,Please Please Me (Remastered),I Saw Her Standing There ,3KiexfmhxHvG5IgAElmTkd,0.491,0.801,4,-9.835,1,0.0361,0.0,0.0665,0.971,160.109,173947,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,70.0,"Well, she was just seventeen
+You know what I mean
+And the way she looked
+
+Was way beyond compare
+So how could I dance with another
+Ooh, when I saw her standing there?
+
+Well, she looked at me
+And I, I could see
+That before too long
+
+I'd fall in love with her
+She wouldn't dance with another
+"
+207,The Beatles,Please Please Me (Remastered),Misery ,40qXGg5nRbcWzcFb26KWkQ,0.591,0.605,0,-10.925,1,0.0413,0.0,0.309,0.882,133.348,108547,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,54.0,
+208,The Beatles,Please Please Me (Remastered),Anna (Go To Him) ,2baEFuU0gQon0hgVRioI1o,0.608,0.565,2,-11.06,1,0.0336,0.0,0.0601,0.835,109.286,177133,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,62.0,
+209,The Beatles,Please Please Me (Remastered),Chains ,3JQWLa88R35d971o5bIImd,0.654,0.561,10,-10.551,1,0.0304,0.0,0.129,0.929,129.884,145080,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0,"Chains
+My baby's got me locked up in chains
+And they ain't the kind
+That you can see
+Woh, these chains of love
+Got a hold on me, yeah
+
+Chains
+Well I can't break away from these chains
+Can't run around
+'Cause I'm not free
+Woh, these chains of love
+Won't let me be, yeah
+"
+210,The Beatles,Please Please Me (Remastered),Boys ,7JxGM1R32ZqfwZou3VtnTg,0.402,0.86,4,-10.31,1,0.0504,0.0,0.736,0.822,142.445,146440,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,"I been told when a boy kiss a girl
+Take a trip around the world
+Hey, hey, (bop shuop, m'bop bop shuop)
+Hey, hey, (bop shuop, m'bop bop shuop)
+Hey, hey, (bop shuop) yeah, she say ya do (bop shuop)
+
+My girl says when I kiss her lips
+Gets a thrill through her fingertips
+Hey, hey, (bop shuop, m'bop bop shuop)
+Hey, hey, (bop shuop, m'bop bop shuop)
+Hey, hey, (bop shuop) yeah, she say ya do (bop shuop)
+
+"
+211,The Beatles,Please Please Me (Remastered),Ask Me Why ,7529Z6b1rlGZFFPWjHPeV5,0.605,0.394,4,-11.33,1,0.0378,0.0,0.0967,0.597,133.942,146533,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,52.0,
+212,The Beatles,Please Please Me (Remastered),Please Please Me ,6EHuOufBeL6vk3TvVJB5qo,0.527,0.48,4,-9.61,1,0.028,0.0,0.0702,0.706,139.388,120853,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,
+213,The Beatles,Please Please Me (Remastered),Love Me Do ,3VbGCXWRiouAq8VyMYN2MI,0.52,0.829,0,-6.228,1,0.0806,6.2e-05,0.227,0.744,147.997,141693,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69.0,
+214,The Beatles,Please Please Me (Remastered),P.S. I Love You ,7Msq9qojB7yORuJvz49iUy,0.635,0.656,2,-8.5,1,0.0291,0.00127,0.0828,0.77,134.435,124360,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,
+215,The Beatles,Please Please Me (Remastered),Baby It's You ,2VmB1rF9FtfKUmFHDVnq8Q,0.608,0.494,4,-12.211,0,0.0345,0.0,0.0926,0.879,112.421,160520,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,60.0,
+216,The Beatles,Please Please Me (Remastered),Do You Want To Know A Secret ,7Aobt67JnaF7qN8jCCKvHq,0.673,0.349,4,-12.414,1,0.0368,0.0,0.38,0.609,124.451,117013,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,63.0,"You'll never know how much I really love you
+You'll never know how much I really care
+
+Listen
+Do you want to know a secret?
+Do you promise not to tell?
+
+Closer
+Let me whisper in your ear
+Say the words you long to hear
+I'm in love with you
+"
+217,The Beatles,Please Please Me (Remastered),A Taste Of Honey ,7fh53ta3vAOGJMQ4i5tCHe,0.42,0.372,1,-11.416,0,0.0327,0.0,0.104,0.412,101.408,123480,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0,"A taste of honey
+Tasting much sweeter
+Than wine
+(Doo-doo-d'n doo)
+(Doo-doo-d'n doo)
+
+I dream of your
+First kiss and then
+I feel upon
+My lips again
+
+A taste of honey
+(A taste of honey)
+"
+218,The Beatles,Please Please Me (Remastered),There's A Place ,4dessGxnKXmTbHPhVgqODq,0.455,0.582,4,-10.009,1,0.0292,4.22e-06,0.172,0.927,140.928,110493,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50.0,"There, there is a place
+Where I can go
+When I feel low
+When I feel blue
+
+And that it's my mind
+And there's no time
+When I'm alone
+
+I, I think of you
+And things you do
+"
+219,The Beatles,Please Please Me (Remastered),Twist And Shout ,5ZBeML7Lf3FMEVviTyvi8l,0.482,0.849,2,-9.198,1,0.0452,7.74e-06,0.0414,0.937,124.631,155227,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,75.0,"Well, shake it up, baby, now
+(Shake it up baby)
+Twist and shout
+(Twist and shout)
+
+Come on, come on, come, come on, baby, now
+Come on and work it on out
+Well, work it on out, honey
+You know you look so good
+
+You know you got me goin' now
+Just like I knew you would
+Well, shake it up, baby, now
+"
+220,The Beatles,Love,Because,2VRNkdYbYUAOAcw71IqPBx,0.246,0.166,6,-20.719,0,0.0536,5.56e-05,0.358,0.0625,110.07,164632,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43.0,
+221,The Beatles,Love,Get Back,7vubCYwMND42wTDf2ULHeZ,0.63,0.793,7,-9.444,1,0.0352,0.0722,0.194,0.27,123.562,125341,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48.0,"Jojo was a man who thought he was a loner
+But he knew it couldn't last
+Jojo left his home in Tucson, Arizona
+For some California grass
+
+Get back, get back
+Get back to where you once belonged
+Get back, get back
+"
+222,The Beatles,Love,Glass Onion,5Zlm8F6P7spQVplh2EERqP,0.453,0.694,5,-11.039,1,0.0507,0.00184,0.426,0.139,122.273,80619,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,"I told you 'bout Strawberry Fields
+You know, the place where nothing is real
+Well, here's another place you can go-o
+Where everything flo-ows
+Looking through the bent-backed tulips
+To see how the other half live
+Looking through a glass onion
+
+I told you 'bout the walrus and me, man
+"
+223,The Beatles,Love,Eleanor Rigby / Julia,41a5geUkthuhkKG4eQrmwk,0.517,0.178,0,-16.083,1,0.0376,4.44e-06,0.386,0.677,137.884,185940,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44.0,"Ah, look at all the lonely people
+Ah, look at all the lonely people
+
+Eleanor Rigby
+Picks up the rice in the church where a wedding has been
+Lives in a dream
+Waits at the window
+Wearing a face that she keeps in a jar by the door
+Who is it for?
+
+All the lonely people
+Where do they all come from?
+All the lonely people
+Where do they all belong?
+"
+224,The Beatles,Love,I Am The Walrus,7qUPlJTYxDRnpw3FKoWhm1,0.294,0.686,2,-8.556,1,0.0396,3.31e-06,0.688,0.561,173.105,268246,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45.0,
+225,The Beatles,Love,I Want To Hold Your Hand,5J3Mf6dyqeGy67yuQ7ql9B,0.287,0.753,7,-7.587,1,0.0387,0.0,0.288,0.882,130.637,82397,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47.0,
+226,The Beatles,Love,Drive My Car / The Word / What You're Doing,62QN8Ib1QZbEF4yDwFSH1A,0.685,0.731,2,-7.431,1,0.034,0.00845,0.307,0.85,122.508,114058,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43.0,"Asked a girl what she wanted to be
+She said ""Baby, can't you see?
+I wanna be famous, a star of the screen
+But you can do something in between""
+Baby, you can drive my car
+Yes, I'm gonna be a star
+Baby, you can drive my car
+And maybe I'll love you
+"
+227,The Beatles,Love,Gnik Nus,2KGVVXu3ikPXBVL8Fi9ym4,0.185,0.114,0,-22.739,1,0.0383,3.51e-05,0.482,0.275,70.394,55435,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39.0,"Gnik nus eht semoc ereh
+Gnik nus eht semoc ereh
+"
+228,The Beatles,Love,Something / Blue Jay Way,0LnvAT4La0KdNk9oQScNTG,0.332,0.402,0,-10.795,1,0.0308,6.98e-05,0.385,0.112,133.848,209701,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42.0,"Something in the way
+She moves
+Attracts me like
+
+No other lover
+Something in the way
+
+She
+Woos me
+I don't want to leave her now
+
+You know I believe and how
+•••
+
+Somewhere in her smile
+She knows
+That I don't need
+"
+229,The Beatles,Love,Being For The Benefit Of Mr Kite! / I Want You (She's So Heavy) / Helter Skelter,2MAU8kcMbo0lHXWzZ19SNo,0.291,0.69,2,-8.761,0,0.0671,2.25e-06,0.378,0.544,144.054,202209,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,"For the benefit of Mr. Kite
+There will be a show tonight on trampoline
+The Hendersons will all be there
+Late of Pablo Fanques' Fair, what a scene
+Over men and horses hoops and garters
+Lastly through a hogshead of real fire
+In this way Mr. K will challenge the world
+
+"
+230,The Beatles,Love,Help!,6EdSN1iGtLPhcz43QDRkdK,0.552,0.734,6,-7.126,0,0.0291,0.0,0.116,0.846,94.887,138286,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53.0,
+231,The Beatles,Love,Blackbird / Yesterday,41ETKVJbZDSjATzW2wAqmc,0.483,0.107,5,-15.465,1,0.031,0.0,0.092,0.195,94.371,151992,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,48.0,"Yesterday all my troubles seemed so far away
+Now it looks as though they're here to stay
+Oh, I believe in yesterday
+
+Suddenly I'm not half the man I used to be
+There's a shadow hanging over me
+Oh, yesterday came suddenly
+"
+232,The Beatles,Love,Strawberry Fields Forever,1J7wMZrvCtWZlXBdMM25Ce,0.383,0.558,11,-10.319,1,0.0514,3.98e-05,0.555,0.207,102.508,271974,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47.0,
+233,The Beatles,Love,Within You Without You / Tomorrow Never Knows,7ABfgkjRNW5LwDzLIKcygW,0.231,0.518,5,-10.146,1,0.0423,2.95e-05,0.365,0.0718,127.116,187634,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,"We were talking
+About the space between us all
+And people who hide themselves
+Behind a wall of illusion
+Never glimpse the truth
+Then it's far too late
+When they pass away
+
+We were talking
+About the love we all could share
+When we find it
+"
+234,The Beatles,Love,Lucy In The Sky With Diamonds,068kw8ocU8Nqgk96slYAUK,0.366,0.368,2,-9.397,1,0.0274,0.0,0.416,0.367,97.211,250435,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,
+235,The Beatles,Love,Octopus's Garden,4wKLjpjrCejAXF8vebREmm,0.485,0.627,1,-9.702,0,0.0416,1.14e-05,0.338,0.359,92.163,198635,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,"I'd like to be
+Under the sea
+In an octopus' garden
+In the shade
+
+He'd let us in
+Knows where we've been
+In his octopus' garden
+In the shade
+
+I'd ask my friends
+To come and see
+An octopus' garden
+With me
+
+I'd like to be
+Under the sea
+In an octopus' garden
+In the shade
+
+We would be warm
+Below the storm
+"
+236,The Beatles,Love,Lady Madonna,5l1eg7A2S6PtlIbo3Ms4dl,0.674,0.688,11,-8.584,0,0.0337,0.0295,0.129,0.774,109.347,176707,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,"Lady Madonna, children at your feet
+Wonder how you manage to make ends meet
+Who finds the money when you pay the rent
+Did you think that money was heaven sent
+
+Friday night arrives without a suitcase
+Sunday morning creeping like a nun
+Monday's child has learned to tie his bootlace
+See how they run
+"
+237,The Beatles,Love,Here Comes The Sun / The Inner Light,31f9rGz7b2rjAv7tg10iSp,0.503,0.526,2,-10.485,1,0.037,0.00487,0.418,0.301,128.697,258126,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45.0,
+238,The Beatles,Love,Come Together / Dear Prudence / Cry Baby Cry,7hLRwxAazwahxdilR2vp3K,0.5,0.36,9,-11.695,0,0.0461,0.0836,0.125,0.243,164.28,285322,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,"Shoot me
+Shoot me
+Shoot me
+Shoot me
+
+Here come old flattop
+He come groovin' up slowly
+He got joo-joo eyeball
+He one holy roller
+He got hair down to his knees
+Got to be a joker
+He just do what he please
+
+Shoot me
+Shoot me
+Shoot me
+Shoot me
+
+He wear no shoeshine
+He got toe jam football
+He got monkey finger
+He shoot Coca Cola
+He say I know you, you know me
+One thing I can tell you is
+You got to be free
+
+Come together, right now
+Over me
+"
+239,The Beatles,Love,Revolution,5KGLcZLBCAqdPP6sa5zLYs,0.507,0.855,1,-7.63,1,0.063,0.00015,0.272,0.817,120.913,203620,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,44.0,"Aah
+
+You say you want a revolution
+Well, you know
+We all want to change the world
+You tell me that it's evolution
+Well, you know
+We all want to change the world
+But when you talk about destruction
+Don't you know that you can count me out
+
+Don't you know it's gonna be
+Alright
+Alright
+Alright
+
+"
+240,The Beatles,Love,Back In The U.S.S.R,5rJjib4hv7JD1fpf5TzRcr,0.533,0.937,2,-7.51,1,0.0397,0.000103,0.185,0.862,142.399,154393,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42.0,"Ohh!
+
+Flew in from Miami Beach B.O.A.C.
+Didn't get to bed last night
+On the way the paper bag was on my knee
+Man, I had a dreadful flight
+
+I'm back in the U.S.S.R.
+You don't know how lucky you are, boy
+Back in the U.S.S.R. (Yeah!)
+
+Been away so long, I hardly knew the place
+Gee, it's good to be back home
+Leave it till tomorrow to unpack my case
+Honey, disconnect the phone
+
+I'm back in the U.S.S.R.
+You don't know how lucky you are, boy
+Back in the U.S.
+Back in the U.S.
+"
+241,The Beatles,Love,While My Guitar Gently Weeps,0FzGKD3N0jK6nNOyOJBvNG,0.417,0.163,5,-14.445,1,0.0369,0.000211,0.112,0.216,122.61,226757,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,51.0,
+242,The Beatles,Love,A Day In The Life,4XiDAxr6alWzxm24i2Rt4K,0.322,0.394,4,-12.798,0,0.0335,0.000282,0.163,0.192,78.513,308192,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,47.0,
+243,The Beatles,Love,Hey Jude,1eT2CjXwFXNx6oY5ydvzKU,0.462,0.632,5,-7.438,1,0.0248,0.0,0.397,0.585,74.268,238854,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,65.0,
+244,The Beatles,Love,Sgt. Pepper's Lonely Hearts Club Band ,7DJOx5DO5MAAuy589sAXCg,0.607,0.863,5,-5.469,1,0.0315,0.0167,0.325,0.912,118.472,82084,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,39.0,
+245,The Beatles,Love,All You Need Is Love,3oGGipilQmZTol8qFTR6u1,0.372,0.532,7,-7.968,1,0.0314,0.0,0.0951,0.727,102.627,220045,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,45.0,"Love, love, love
+Love, love, love
+Love, love, love
+
+There's nothing you can do that can't be done
+Nothing you can sing that can't be sung
+Nothing you can say, but you can learn how to play the game
+It's easy
+
+Nothing you can make that can't be made
+No one you can save that can't be saved
+Nothing you can do, but you can learn how to be you in time
+It's easy
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+All you need is love
+All you need is love
+All you need is love, love
+Love is all you need
+
+"
+246,The Beatles,Love,The Fool On The Hill,2xnHP0XnnsLmtdaX8POQ4M,0.485,0.321,4,-12.156,0,0.0285,0.0,0.271,0.369,144.531,209714,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41.0,"Day after day, alone on a hill
+The man with the foolish grin
+Is keeping perfectly still
+But nobody wants to know him
+They can see that he's just a fool
+And he never gives an answer
+
+But the fool on the hill
+Sees the sun going down
+And the eyes in his head
+See the world spinning round
+
+Well on the way, head in a cloud
+The man of a thousand voices
+Talking perfectly loud
+"
+247,The Beatles,Love,Girl,3wviriLUfnj7GkRjoN2wD8,0.645,0.363,0,-10.702,0,0.0266,0.0,0.0964,0.665,96.488,162742,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,42.0,
+248,The Beatles,Past Masters (Vols. 1 & 2 / Remastered),I'm Down ,5ovYFa8Em47SgPmhBlZb5N,0.439,0.813,7,-8.304,1,0.0607,0.000605,0.728,0.937,82.077,153893,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,43.0,"You tell lies thinking I can't see
+You can't cry 'cos you're laughing at me
+I'm down (I'm really down)
+I'm down (Down on the ground)
+I'm down (I'm really down)
+How can you laugh when you know I'm down
+(How can you laugh) When you know I'm down.
+
+Man buys ring woman throws it away
+Same old thing happens everyday
+I'm down (I'm really down)
+I'm down (Down on the ground)
+I'm down (I'm really down)
+How can you laugh when you know I'm down
+(How can you laugh) When you know I'm down.
+"
