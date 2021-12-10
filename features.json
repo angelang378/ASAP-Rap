@@ -1,0 +1,13 @@
+{
+    "emotion": {
+        "document": true
+    },
+    "sentiment": {
+        "document": true
+    },
+    "keywords": {
+        "limit": 30,
+        "sentiment": true,
+        "emotion": true
+    }
+}
