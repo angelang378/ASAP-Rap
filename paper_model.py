@@ -17,7 +17,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 def get_input_output(first_csv, second_csv=None):
     category_1 = pd.read_csv(first_csv)
     category_1.head()
-    category_1_x = category_1.iloc[:, 5:]
+    category_1_x = category_1.iloc[:, 5:17]
     category_1_y = pd.DataFrame(
         np.full(category_1.shape[0],
                 0), columns=['rank'])  # 0 for first category, 1 for second
@@ -27,12 +27,12 @@ def get_input_output(first_csv, second_csv=None):
     if second_csv is not None:
         category_2 = pd.read_csv(second_csv)
         category_2.head()
-        category_2_x = category_2.iloc[:, 5:]
+        category_2_x = category_2.iloc[:, 5:17]
         category_2_y = pd.DataFrame(np.full(category_2.shape[0], 1),
                                     columns=['rank'])
 
     if category_2 is None:
-        return category_1.iloc[:, 3], category_1.iloc[:, 5:]
+        return category_1.iloc[:, 3], category_1.iloc[:, 5:17]
     else:
         return pd.concat([category_1_x, category_2_x
                           ]), pd.concat([category_1_y, category_2_y])
@@ -65,10 +65,10 @@ class TestData(Dataset):
 
 # from Munkhdalai et al. 2020
 class BinaryClassification(nn.Module):
-    def __init__(self):
+    def __init__(self, num_input_features):
         super(BinaryClassification, self).__init__()
         # Number of input features is 12.
-        self.layer_1 = nn.Linear(12, 32)
+        self.layer_1 = nn.Linear(num_input_features, 32)
         self.layer_2 = nn.Linear(32, 16)
         self.layer_3 = nn.Linear(16, 8)
         self.layer_4 = nn.Linear(8, 32)
@@ -134,7 +134,7 @@ def train_model(x_path, y_path, user_1, user_2):
 
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
-    model = BinaryClassification()
+    model = BinaryClassification(x_train.shape[1])
     model.to(device)
 
     criterion = nn.BCEWithLogitsLoss()
@@ -214,7 +214,7 @@ def predict(data, mpath):
             torch.from_numpy(song_data.values))
 
         # Loading the saved model
-        model = BinaryClassification()
+        model = BinaryClassification(predict_tensor.shape[1])
         model.load_state_dict(torch.load(mpath))
         model.eval()
 

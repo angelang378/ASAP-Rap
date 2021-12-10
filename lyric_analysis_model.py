@@ -1,7 +1,5 @@
 import numpy as np
 import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
 import re
 
 import torch
@@ -11,13 +9,11 @@ from torch.utils.data import Dataset, DataLoader
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, classification_report
-
 
 def get_input_output(first_csv, second_csv=None):
     category_1 = pd.read_csv(first_csv)
     category_1.head()
-    category_1_x = category_1.iloc[:, 5:17]
+    category_1_x = category_1.iloc[:, 5:]
     category_1_y = pd.DataFrame(
         np.full(category_1.shape[0],
                 0), columns=['rank'])  # 0 for first category, 1 for second
@@ -27,12 +23,12 @@ def get_input_output(first_csv, second_csv=None):
     if second_csv is not None:
         category_2 = pd.read_csv(second_csv)
         category_2.head()
-        category_2_x = category_2.iloc[:, 5:17]
+        category_2_x = category_2.iloc[:, 5:]
         category_2_y = pd.DataFrame(np.full(category_2.shape[0], 1),
                                     columns=['rank'])
 
     if category_2 is None:
-        return category_1.iloc[:, 3], category_1.iloc[:, 5:17]
+        return category_1.iloc[:, 3], category_1.iloc[:, 5:]
     else:
         return pd.concat([category_1_x, category_2_x
                           ]), pd.concat([category_1_y, category_2_y])
@@ -63,24 +59,33 @@ class TestData(Dataset):
         return len(self.x_data)
 
 
+# from Munkhdalai et al. 2020
 class BinaryClassification(nn.Module):
     def __init__(self, num_input_features):
         super(BinaryClassification, self).__init__()
         # Number of input features is 12.
-        self.layer_1 = nn.Linear(num_input_features, 64)
-        self.layer_2 = nn.Linear(64, 64)
-        self.layer_out = nn.Linear(64, 1)
+        self.layer_1 = nn.Linear(num_input_features, 32)
+        self.layer_2 = nn.Linear(32, 16)
+        self.layer_3 = nn.Linear(16, 8)
+        self.layer_4 = nn.Linear(8, 32)
+        self.layer_out = nn.Linear(32, 1)
 
         self.relu = nn.ReLU()
         self.dropout = nn.Dropout(p=0.1)
-        self.batchnorm1 = nn.BatchNorm1d(64)
-        self.batchnorm2 = nn.BatchNorm1d(64)
+        self.batchnorm1 = nn.BatchNorm1d(32)
+        self.batchnorm2 = nn.BatchNorm1d(16)
+        self.batchnorm3 = nn.BatchNorm1d(8)
+        self.batchnorm4 = nn.BatchNorm1d(32)
 
     def forward(self, inputs):
         x = self.relu(self.layer_1(inputs))
         x = self.batchnorm1(x)
         x = self.relu(self.layer_2(x))
         x = self.batchnorm2(x)
+        x = self.relu(self.layer_3(x))
+        x = self.batchnorm3(x)
+        x = self.relu(self.layer_4(x))
+        x = self.batchnorm4(x)
         x = self.dropout(x)
         x = self.layer_out(x)
 
@@ -96,7 +101,6 @@ def binary_acc(y_pred, y_test):
 
     return acc
 
-
 def train_model(x_path, y_path, user_1, user_2):
     combined_x, combined_y = get_input_output(x_path, y_path)
     x_train, x_test, y_train, y_test = train_test_split(combined_x,
@@ -110,7 +114,7 @@ def train_model(x_path, y_path, user_1, user_2):
     y_train = y_train.to_numpy()
     y_test = y_test.to_numpy()
 
-    EPOCHS = 200
+    EPOCHS = 500
     BATCH_SIZE = 30
     LEARNING_RATE = 0.005
 
@@ -237,9 +241,9 @@ def main():
     train_model("data/vivian.csv", "data/william.csv", "Vivian", "William")
     # predict('data/beatles.csv', "trained_models/trained_model1.pt")
     # predict('data/vivian.csv', "trained_models/trained_model0.pt")
-    predict('data/william.csv', "trained_models/trained_model2.pt")
+    # predict('data/william.csv', "trained_models/trained_model4.pt")
+    predict('data/william.csv', "trained_models/trained_model7.pt")
     # print(get_models())
-
 
 if __name__ == "__main__":
     main()
