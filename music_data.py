@@ -4,6 +4,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 import requests
+import re
 
 load_dotenv()
 spotify_cid = os.getenv('SPOTIFY_CLIENT_ID')
@@ -12,14 +13,13 @@ musixmatch_auth = os.getenv('MUSIXMATCH_AUTH_CODE')
 
 client_credentials_manager = SpotifyClientCredentials(client_id=spotify_cid, client_secret=spotify_secret)
 sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
+all_genres = sp.recommendation_genre_seeds()["genres"]
 
 # Use Spotify API to get all the songs from a given playlist
-def get_playlist(creator, playlist_id):
+def get_playlist(playlist_id):
     playlist_features_list = ["artist","album","track_name","track_id","danceability","energy","key","loudness","mode","speechiness","instrumentalness","liveness","valence","tempo","duration_ms","time_signature"]
-    all_genres = sp.recommendation_genre_seeds()["genres"]
     playlist_df = pd.DataFrame(columns = playlist_features_list + all_genres)
-    
-    playlist = sp.user_playlist_tracks(creator, playlist_id)
+    playlist = sp.user_playlist_tracks(playlist_id=playlist_id)
     
     while playlist:
         for track in playlist['items']:
@@ -68,15 +68,25 @@ def get_lyrics(track, artist):
         return None
 
 # Get and save playlist data to csv
-beatles = get_playlist("andream4273","1Gf0v4DneJjq3adPSiNVe6")
-beatles["track_name"] = beatles["track_name"].str.replace(r'-[^-]+$', "", regex=True) # simplify song titles
-beatles['lyrics'] = beatles.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
-beatles.to_csv("data/beatles.csv")
+# beatles = get_playlist("andream4273","1Gf0v4DneJjq3adPSiNVe6")
+# beatles["track_name"] = beatles["track_name"].str.replace(r'-[^-]+$', "", regex=True) # simplify song titles
+# beatles['lyrics'] = beatles.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
+# beatles.to_csv("data/beatles.csv")
 
-vivian = get_playlist("Vivian", "4a6u0ZVG0FWYAJHVggnHAh")
-vivian['lyrics'] = vivian.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
-vivian.to_csv("data/vivian.csv")
+# vivian = get_playlist("Vivian", "4a6u0ZVG0FWYAJHVggnHAh")
+# vivian['lyrics'] = vivian.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
+# vivian.to_csv("data/vivianTEst.csv")
 
-william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
-william['lyrics'] = william.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
-william.to_csv("data/william.csv")
+
+# william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
+# william['lyrics'] = william.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
+# william.to_csv("data/william.csv")
+
+def save_playlist(spotify_url):
+    playlist_id = re.search('playlist\/(\w+)?', spotify_url).group(1)
+    playlist = get_playlist(playlist_id)
+    # playlist["track_name"] = playlist["track_name"].str.replace(r'-[^-]+$', "", regex=True) # for beatles songs only, simplify song titles
+    playlist['lyrics'] = playlist.apply(lambda track: get_lyrics(track['track_name'], track['artist']), axis=1)
+    filename = "data/" + playlist_id + ".csv"
+    playlist.to_csv(filename)
+    return filename
