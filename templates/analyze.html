@@ -37,7 +37,10 @@
 
     <script type="text/javascript">
         function loading(){
-            document.getElementById("loader_analyze").style.display = "block";     
+            if (document.getElementById('user1name').value != '' && document.getElementById('user1playlist').value != '' 
+                && document.getElementById('user2name').value != '' && document.getElementById('user2playlist').value != '' ){
+                    document.getElementById("loader_analyze").style.display = "block";  
+            }
         }
     </script>
 </head>
@@ -66,28 +69,28 @@
             <div class="form-group">
                 <label class="control-label" for="user1name">First Person</label>
                 <div>
-                    <input type="text" class="form-control" id="user1name" placeholder="Enter Name" name="user1name">
+                    <input type="text" class="form-control" id="user1name" placeholder="Enter Name" name="user1name" required>
                 </div>
                 <div class="row mt-3"></div>
                 <div>
-                    <input type="url" class="form-control" id="user1playlist" placeholder="Enter Spotify Playlist URL" name="user1playlist">
+                    <input type="url" class="form-control" id="user1playlist" placeholder="Enter Spotify Playlist URL" name="user1playlist" required>
                 </div>
             </div>
             <div class="row mt-3"></div>
             <div class="form-group">
                 <label class="control-label" for="user2name">Second Person</label>
                 <div>
-                    <input type="text" class="form-control" id="user2name" placeholder="Enter Name" name="user2name">
+                    <input type="text" class="form-control" id="user2name" placeholder="Enter Name" name="user2name" required>
                 </div>
                 <div class="row mt-3"></div>
                 <div>
-                    <input type="url" class="form-control" id="user2playlist" placeholder="Enter Spotify Playlist URL" name="user2playlist">
+                    <input type="url" class="form-control" id="user2playlist" placeholder="Enter Spotify Playlist URL" name="user2playlist" required>
                 </div>
             </div>
             <div class="row mt-3"></div>
             <div class="form-group">
                 <div class="text-center">
-                    <button type="submit" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Train Model</button>
+                    <button type="submit" class="btn btn-lg btn-secondary fw-bold border-white bg-white" onclick="loading();">Train Model</button>
                 </div>
             </div>
         </form>

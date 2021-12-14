@@ -13,21 +13,24 @@ def view_analyze_page():
     if request.method == 'POST':
         user1name=request.form['user1name']
         user2name=request.form['user2name']
-        print("getting user1playlist ")
         user1playlist = save_playlist(request.form['user1playlist'])
-        print("getting user2playlist ")
         user2playlist = save_playlist(request.form['user2playlist'])
-        print("training model")
         train_model(user1playlist, user2playlist, user1name, user2name)
-        print("trained")
-        return render_template('recommend.html',title="Recommend Music",
-            user1name=request.form['user1name'],
-            user1playlist=request.form['user1playlist'],
-            user2name=request.form['user2name'],
-            user2playlist=request.form['user2playlist'])
+        return view_recommend_page()
     else:
         return render_template("analyze.html", title="Analyze Taste")
 
 @app.route("/recommend", methods=['GET', 'POST'])
 def view_recommend_page():
-    return render_template("recommend.html", title="Recommend Music")
+    if request.method == 'POST':
+        data = save_playlist(request.form['recplaylist'])
+        mpath = "trained_models/" + request.form['model'] + ".pt"
+        output = predict(data, mpath)
+        return view_results_page(output)
+    else:
+        return render_template("recommend.html", title="Recommend Music", models=get_models())
+
+
+@app.route("/results")
+def view_results_page(output):
+    return render_template("results.html", title="Resulting Recommendations", output=output)
