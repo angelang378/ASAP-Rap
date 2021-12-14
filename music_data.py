@@ -4,6 +4,7 @@ import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials
 import pandas as pd
 import requests
+import re
 import json
 
 load_dotenv()
@@ -15,6 +16,8 @@ IBM_API_KEY = os.getenv('API_KEY')
 
 client_credentials_manager = SpotifyClientCredentials(client_id=spotify_cid, client_secret=spotify_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
+
+all_genres = sp.recommendation_genre_seeds()["genres"]
 
 with open('features.json') as f:
     features = json.load(f)
@@ -43,14 +46,13 @@ def calculate_sentiment(text):
 
 
 # Use Spotify API to get all the songs from a given playlist
-def get_playlist(creator, playlist_id):
+def get_playlist(playlist_id):
     playlist_features_list = ["artist", "album", "track_name", "track_id", "danceability", "energy", "key", "loudness",
                               "mode", "speechiness", "instrumentalness", "liveness", "valence", "tempo", "duration_ms",
                               "time_signature"]
-    all_genres = sp.recommendation_genre_seeds()["genres"]
     playlist_df = pd.DataFrame(columns=playlist_features_list + all_genres)
 
-    playlist = sp.user_playlist_tracks(creator, playlist_id)
+    playlist = sp.user_playlist_tracks(playlist_id=playlist_id)
 
     while playlist:
         for track in playlist['items']:
@@ -110,11 +112,19 @@ def get_lyrics_sentiment(track, artist):
 
 
 # Get and save playlist data to csv
-beatles = get_playlist("andream4273", "1Gf0v4DneJjq3adPSiNVe6")
-beatles.to_csv("data/beatles.csv")
+# beatles = get_playlist("andream4273", "1Gf0v4DneJjq3adPSiNVe6")
+# beatles.to_csv("data/beatles.csv")
 
-vivian = get_playlist("Vivian", "4a6u0ZVG0FWYAJHVggnHAh")
-vivian.to_csv("data/vivian.csv")
+# vivian = get_playlist("Vivian", "4a6u0ZVG0FWYAJHVggnHAh")
+# vivian.to_csv("data/vivian.csv")
 
-william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
-william.to_csv("data/william.csv")
+# william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
+# william.to_csv("data/william.csv")
+
+
+def save_playlist(spotify_url):
+    playlist_id = re.search('playlist\/(\w+)?', spotify_url).group(1)
+    playlist = get_playlist(playlist_id)
+    filename = "data/" + playlist_id + ".csv"
+    playlist.to_csv(filename)
+    return filename

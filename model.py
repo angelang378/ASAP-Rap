@@ -197,6 +197,7 @@ def get_models():
 def predict(data, mpath):
 
     with torch.no_grad():
+        
 
         # Retrieve song data to predict
         song_titles, song_data = get_input_output(data)
@@ -221,16 +222,21 @@ def predict(data, mpath):
         user_1, user_2 = get_users(mpath)
         names = [user_1, user_2]
         preds = np.where(prediction < 0, 0, 1)
+
         # predictions for each song title
+        songs = []
         for i in range(len(preds)):
             print("Song: ", song_titles[i], " | Prediction: ", names[preds[i,
                                                                            0]])
+            songs.append([song_titles[i], names[preds[i,0]]])
+
+        song_recs = pd.DataFrame(songs, columns = ['Song', 'User'])
 
         #total songs classified for each person
         print(names[0], " total: ", np.count_nonzero(preds == 0))
         print(names[1], " total: ", np.count_nonzero(preds == 1))
 
-        return prediction
+        return song_recs
 
 
 def main():

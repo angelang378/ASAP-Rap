@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Vivian Jiang, Rachel Lu, and Angela Ng">
+
+    <title>The Bartles</title>
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+
+    <script type="text/javascript">
+        function loading(){
+            if (document.getElementById('recplaylist').value != '' ){
+                document.getElementById("loader_rec").style.display = "block";     
+            }
+            
+        }
+
+    </script>
+</head>
+
+<body class="d-flex h-100 text-white bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+              <h3 class="float-md-start mb-0">The Bartles</h3>
+              <nav class="nav nav-masthead justify-content-center float-md-end">
+                    <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    <a class="nav-link" href="{{ url_for('view_analyze_page') }}">Analyze</a>
+                    <a class="nav-link active" aria-current="page" href="{{ url_for('view_recommend_page') }}">Recommend</a>
+                </nav>
+            </div>
+        </header>
+        
+
+        <main class="px-3 text-center">
+            <h1>Recommend Songs</h1>
+            <p class="lead"><em>let our model suggest songs from Spotify playlists</em></p>
+            <div id="loader_rec" class="loader"></div>
+        </main>
+
+        <form class="form" role="form" method="POST">
+            <div class="form-group">
+                <label class="control-label" for="model">Machine Learning Model</label>
+                <div>
+                    <select class="form-select" aria-label="Model Selection" name="model" required>
+                        {% for _, row in models.iterrows() %}
+                            <option value="{{row["model_name"]}}"">{{row["model_name"]}}: {{row["user_1"]}} vs. {{row["user_2"]}}</option>
+                        {% endfor %}
+                      </select>
+                </div>
+                <div class="row mt-3"></div>
+                <label class="control-label" for="recplaylist">Playlist to Recommend Songs From</label>
+                <div>
+                    <input type="url" class="form-control" id="recplaylist" placeholder="Enter Spotify Playlist URL" name="recplaylist" required>
+                </div>
+            </div>
+            <div class="row mt-3"></div>
+            <div class="form-group">
+                <div class="text-center">
+                    <button type="submit" class="btn btn-lg btn-secondary fw-bold border-white bg-white" onclick="loading();">Train Model</button>
+                </div>
+            </div>
+        </form>
+
+        <div class="row mt-3"></div>
+        <footer class="mt-auto text-white-50 text-center">
+            <p>created by Vivian Jiang, Rachel Lu, and Angela Ng for CS 4701</p>
+        </footer>
+    </div>
+
+
+
+</body>
+
+</html>
