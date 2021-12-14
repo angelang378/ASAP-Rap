@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import re
+import matplotlib.pyplot as plt
 
 import torch
 import torch.nn as nn
@@ -9,6 +10,7 @@ from torch.utils.data import Dataset, DataLoader
 
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
+
 
 def get_input_output(first_csv, second_csv=None):
     category_1 = pd.read_csv(first_csv)
@@ -101,7 +103,14 @@ def binary_acc(y_pred, y_test):
 
     return acc
 
-def train_model(x_path, y_path, user_1, user_2):
+
+def train_model(x_path,
+                y_path,
+                user_1,
+                user_2,
+                epochs=50,
+                learning_rate=0.001,
+                freq=10):
     combined_x, combined_y = get_input_output(x_path, y_path)
     x_train, x_test, y_train, y_test = train_test_split(combined_x,
                                                         combined_y,
@@ -114,9 +123,19 @@ def train_model(x_path, y_path, user_1, user_2):
     y_train = y_train.to_numpy()
     y_test = y_test.to_numpy()
 
-    EPOCHS = 500
+    EPOCHS = epochs
     BATCH_SIZE = 30
-    LEARNING_RATE = 0.005
+    LEARNING_RATE = learning_rate
+    FREQ = freq
+
+    err_tr = []
+    # use below when testing epochs
+    # print_list = [epochs]
+    # use below when testing lr, or in general
+    print_list = np.arange(1, EPOCHS + 1, FREQ)
+    if (EPOCHS not in print_list):
+        print_list = list(print_list)
+        print_list.append(EPOCHS)  #print last epoch results
 
     train_data = TrainData(torch.FloatTensor(x_train),
                            torch.FloatTensor(y_train))
@@ -155,7 +174,8 @@ def train_model(x_path, y_path, user_1, user_2):
 
             epoch_loss += loss.item()
             epoch_acc += acc.item()
-        if e % 20 == 0:
+        if e in print_list:
+            err_tr.append(epoch_loss / len(train_loader))
             print(
                 f'Epoch {e + 0:03}: | Loss: {epoch_loss / len(train_loader):.5f} | Acc: {epoch_acc / len(train_loader):.3f}'
             )
@@ -170,9 +190,13 @@ def train_model(x_path, y_path, user_1, user_2):
             y_pred_tag = torch.round(y_test_pred)
             y_pred_list.append(y_pred_tag.cpu().numpy())
 
-    y_pred_list = [a.squeeze().tolist() for a in y_pred_list]
+    # y_pred_list = [a.squeeze().tolist() for a in y_pred_list]
+    test_results = (np.asarray(y_pred_list).flatten() != y_test.flatten())
+    err_te = test_results.sum() / test_results.size
 
     save_data(model, user_1, user_2)
+
+    return err_tr, err_te
 
 
 def save_data(model, user_1, user_2):
@@ -205,6 +229,7 @@ def predict(data, mpath):
         # Retrieve song data to predict
         song_titles, song_data = get_input_output(data)
 
+        print(song_data.values)
         scaler = StandardScaler()
         predict_tensor = scaler.fit_transform(
             torch.from_numpy(song_data.values))
@@ -225,25 +250,89 @@ def predict(data, mpath):
         user_1, user_2 = get_users(mpath)
         names = [user_1, user_2]
         preds = np.where(prediction < 0, 0, 1)
+
         # predictions for each song title
+        songs = []
         for i in range(len(preds)):
             print("Song: ", song_titles[i], " | Prediction: ", names[preds[i,
                                                                            0]])
+            songs.append([song_titles[i], names[preds[i, 0]]])
+
+        song_recs = pd.DataFrame(songs, columns=['Song', 'User'])
 
         #total songs classified for each person
         print(names[0], " total: ", np.count_nonzero(preds == 0))
         print(names[1], " total: ", np.count_nonzero(preds == 1))
 
-        return prediction
+        return song_recs
+
+
+def generate_lr_graphs(err_tr, print_list):
+    plt.figure()
+    line_1, = plt.plot(print_list, err_tr[0], label="LR = 0.001")
+    line_2, = plt.plot(print_list, err_tr[1], label="LR = 0.003")
+    line_3, = plt.plot(print_list, err_tr[2], label="LR = 0.005")
+    line_4, = plt.plot(print_list, err_tr[3], label="LR = 0.007")
+    line_5, = plt.plot(print_list, err_tr[4], label="LR = 0.009")
+    plt.title("Model 3 Training Loss Over Epochs")
+    plt.legend(handles=[line_1, line_2, line_3, line_4, line_5])
+    plt.xlabel("# of epochs")
+    plt.ylabel("loss")
+    plt.show()
+
+
+def test_learning_rate(epochs=200, freq=20):
+    learning_rates = [0.001, 0.003, 0.005, 0.007, 0.009]
+    errs_tr = []
+    errs_te = []
+    print_list = np.arange(1, epochs + 1, freq)
+    if (epochs not in print_list):
+        print_list = list(print_list)
+        print_list.append(epochs)
+
+    for i in learning_rates:
+        err_tr, err_te = train_model("data/4a6u0ZVG0FWYAJHVggnHAh.csv",
+                                     "data/1ukuCLLRLSXE7WYWlbEq2n.csv",
+                                     "Vivian", "William", epochs, i, freq)
+        errs_tr.append(err_tr)
+        errs_te.append(err_te)
+
+    print(errs_te)
+    generate_lr_graphs(errs_tr, print_list)
+
+
+def generate_epoch_graphs(err_tr, err_te, print_list):
+    plt.figure()
+    line_1, = plt.plot(print_list, err_tr, label="Training error")
+    line_2, = plt.plot(print_list, err_te, label="Testing error")
+    plt.title("Model 3 Testing vs Training Loss Over Epochs")
+    plt.legend(handles=[line_1, line_2])
+    plt.xlabel("# of epochs")
+    plt.ylabel("loss")
+    plt.show()
+
+
+def test_epochs(learning_rate=0.001):
+    epochs = [1, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
+    errs_tr = []
+    errs_te = []
+    for i in epochs:
+        err_tr, err_te = train_model("data/4a6u0ZVG0FWYAJHVggnHAh.csv",
+                                     "data/1ukuCLLRLSXE7WYWlbEq2n.csv",
+                                     "Vivian", "William", i, learning_rate, i)
+        errs_tr.append(err_tr)
+        errs_te.append(err_te)
+
+    print(errs_te)
+    generate_epoch_graphs(errs_tr, errs_te, epochs)
 
 
 def main():
-    train_model("data/vivian.csv", "data/william.csv", "Vivian", "William")
-    # predict('data/beatles.csv', "trained_models/trained_model1.pt")
-    # predict('data/vivian.csv', "trained_models/trained_model0.pt")
-    # predict('data/william.csv', "trained_models/trained_model4.pt")
-    predict('data/william.csv', "trained_models/trained_model7.pt")
-    # print(get_models())
+    train_model("data/4a6u0ZVG0FWYAJHVggnHAh.csv",
+                "data/1ukuCLLRLSXE7WYWlbEq2n.csv", "Vivian", "William")
+    predict('data/1Gf0v4DneJjq3adPSiNVe6.csv',
+            "trained_models/trained_model17.pt")
+
 
 if __name__ == "__main__":
     main()
