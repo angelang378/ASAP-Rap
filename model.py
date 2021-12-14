@@ -184,7 +184,7 @@ def save_data(model, user_1, user_2):
 
 def get_users(mpath):
     m = get_models()
-    num = int(re.search("\d", mpath).group())
+    num = int(re.search("\d+", mpath).group())
     data = m.iloc[num, 1:]
     return data[0], data[1]
 
