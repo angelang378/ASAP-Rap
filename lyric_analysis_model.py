@@ -281,7 +281,7 @@ def generate_lr_graphs(err_tr, print_list):
     plt.show()
 
 
-def test_learning_rate(epochs=200, freq=20):
+def test_learning_rate(filename1, filename2, user1, user2, epochs=200, freq=20):
     learning_rates = [0.001, 0.003, 0.005, 0.007, 0.009]
     errs_tr = []
     errs_te = []
@@ -291,9 +291,7 @@ def test_learning_rate(epochs=200, freq=20):
         print_list.append(epochs)
 
     for i in learning_rates:
-        err_tr, err_te = train_model("data/4a6u0ZVG0FWYAJHVggnHAh.csv",
-                                     "data/1ukuCLLRLSXE7WYWlbEq2n.csv",
-                                     "Vivian", "William", epochs, i, freq)
+        err_tr, err_te = train_model(filename1, filename2, user1, user2, epochs, i, freq)
         errs_tr.append(err_tr)
         errs_te.append(err_te)
 
@@ -312,27 +310,14 @@ def generate_epoch_graphs(err_tr, err_te, print_list):
     plt.show()
 
 
-def test_epochs(learning_rate=0.001):
+def test_epochs(filename1, filename2, user1, user2, learning_rate=0.001):
     epochs = [1, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500]
     errs_tr = []
     errs_te = []
     for i in epochs:
-        err_tr, err_te = train_model("data/4a6u0ZVG0FWYAJHVggnHAh.csv",
-                                     "data/1ukuCLLRLSXE7WYWlbEq2n.csv",
-                                     "Vivian", "William", i, learning_rate, i)
+        err_tr, err_te = train_model(filename1, filename2, user1, user2, i, learning_rate, i)
         errs_tr.append(err_tr)
         errs_te.append(err_te)
 
     print(errs_te)
     generate_epoch_graphs(errs_tr, errs_te, epochs)
-
-
-def main():
-    train_model("data/4a6u0ZVG0FWYAJHVggnHAh.csv",
-                "data/1ukuCLLRLSXE7WYWlbEq2n.csv", "Vivian", "William")
-    predict('data/1Gf0v4DneJjq3adPSiNVe6.csv',
-            "trained_models/trained_model17.pt")
-
-
-if __name__ == "__main__":
-    main()

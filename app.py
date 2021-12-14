@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from music_data import *
-from model import *
+from artist_model import *
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ def view_analyze_page():
         user2name=request.form['user2name']
         user1playlist = save_playlist(request.form['user1playlist'])
         user2playlist = save_playlist(request.form['user2playlist'])
-        train_model(user1playlist, user2playlist, user1name, user2name)
+        train_model(user1playlist, user2playlist, user1name, user2name, epochs=50)
         return redirect(url_for('view_recommend_page'))
     else:
         return render_template("analyze.html", title="Analyze Taste")
