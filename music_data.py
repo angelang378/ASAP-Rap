@@ -110,18 +110,7 @@ def get_lyrics_sentiment(track, artist):
     except:
         return 0.5, 0.5, 0.5, 0.5, 0.5, 0 # if lyrics not returned, do neutral (?) default values
 
-
 # Get and save playlist data to csv
-# beatles = get_playlist("andream4273", "1Gf0v4DneJjq3adPSiNVe6")
-# beatles.to_csv("data/beatles.csv")
-
-# vivian = get_playlist("Vivian", "4a6u0ZVG0FWYAJHVggnHAh")
-# vivian.to_csv("data/vivian.csv")
-
-# william = get_playlist("William", "1ukuCLLRLSXE7WYWlbEq2n")
-# william.to_csv("data/william.csv")
-
-
 def save_playlist(spotify_url):
     playlist_id = re.search('playlist\/(\w+)?', spotify_url).group(1)
     playlist = get_playlist(playlist_id)
